@@ -1549,8 +1549,23 @@ void ViewDialog::populateLists()
 
 		// When region is unknown (non UN-geoscheme), insert item under "other" separator,
 		// otherwise insert item under respective region separator
-		QString itemName = (l->findItems(q_(cultureRegionIt.value()), Qt::MatchContains).empty()) ? q_("Other") : q_(cultureRegionIt.value());
-		l->insertItem(l->row(l->findItems(itemName, Qt::MatchContains).first()) + 1, item);
+		// SeparatorListWidgetItem adds "⸻ " prefix and " ⸻" suffix to text
+		QString translatedRegion = q_(cultureRegionIt.value());
+		QString separatorText = "⸻ " + translatedRegion + " ⸻";
+		QList<QListWidgetItem*> foundItems = l->findItems(separatorText, Qt::MatchExactly);
+		if (foundItems.empty())
+		{
+			foundItems = l->findItems("⸻ " + q_("Other") + " ⸻", Qt::MatchExactly);
+		}
+		if (!foundItems.empty())
+		{
+			l->insertItem(l->row(foundItems.first()) + 1, item);
+		}
+		else
+		{
+			// Fallback: append to end if no separator found
+			l->addItem(item);
+		}
 	}
 
 	ui->skyCultureCurrentTimeSpinBox->setMinimum(globalBeginTime);
