@@ -40,21 +40,25 @@
 
 [**紫微垣**](asterism:Purple Forbidden Enclosure)，天帝日常居住以及与近臣议事的地方。
 
+##### Supreme Palace Enclosure
+
+*Supreme Palace Enclosure* (Chinese: 太微垣, Pinyin: Tài Wēi Yuán) is the Heavenly Court where the Heavenly Emperor handles government affairs, mainly composed of various officials. The south gate is called the *Meridian Gate*.
+
+##### Heavenly Market Enclosure
+
+*Heavenly Market Enclosure* (Chinese: 天市垣, Pinyin: Tiān Shì Yuán) is the market in the sky.
+
 ## Constellations
-
-##### Purple Forbidden Enclosure
-
-[**紫微垣**](asterism:Purple Forbidden Enclosure)，天帝日常居住以及与近臣议事的地方。
 
 ##### Northern Pole
 
-[**北极**](constellation:P01)5星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)中心，为石氏紫微垣星。<br>
+[**北极**](constellation:P01)5星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)中心，为石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
 **北极**是中国星空文化中最重要的星座之一，是北天极的所在。<br>
-五颗星分别称为[**太子**](star:HIP75097)、[**帝**](star:HIP72607)、[**庶子**](star:HIP70692)、[**后宫**](star:HIP69112)、[**天枢**](star:HIP62572)或[**纽星**](star:HIP62572)。
+五颗星分别称为[**太子**](star:γ UMi)、[**帝**](star:β UMi)、[**庶子**](star:5 UMi)、[**后宫**](star:4 UMi)、[**天枢**](star:HIP62572)或[**纽星**](star:HIP62572)。
 
-由于岁差作用，[帝星](star:HIP72607)在公元前很长一段时间是距离北天极最近的亮星，也就是当时的北极星。<br>
+由于岁差作用，[帝星](star:β UMi)在公元前很长一段时间是距离北天极最近的亮星，也就是当时的北极星。<br>
 这段时期是星官体系形成的重要时代，因此该星具有崇高的地位，被视为天帝。<br>
-帝星周围的三星（[γ_UMi](star:HIP75097)、[4_UMi](star:HIP70692)、[3_UMi](star:HIP69112)）被视为天帝的子孙（**子属**），<br>
+帝星周围的三星（[γ_UMi](star:γ UMi)、[5_UMi](star:5 UMi)、[4_UMi](star:4 UMi)）被视为天帝的子孙（**子属**），<br>
 或辅佐天帝的**三公**（古代辅佐皇帝的三个最高官职）。
 
 从汉代开始，北天极逐渐远离帝星，靠近小星[HIP65595](star:HIP65595)。<br>
@@ -68,33 +72,36 @@
 此后几百年，涵盖隋、唐、宋、元等重要朝代，<br>
 一直到明代，[HIP62572](star:HIP62572)在中国都作为北极星被观测，被称为**天枢**或**纽星**。
 
-明代时，北天极远离[HIP62572](star:HIP62572)，靠近[α_UMi](star:HIP11767)，也就是当代的北极星。<br>
-但由于[α_UMi](star:HIP11767)作为[**勾陈**](constellation:P14)星官的最亮星，已经有了沿用千年的含义，<br>
+明代时，北天极远离[HIP62572](star:HIP62572)，靠近[α_UMi](star:α UMi)，也就是当代的北极星。<br>
+但由于[α_UMi](star:α UMi)作为[**勾陈**](constellation:P14)星官的最亮星，已经有了沿用千年的含义，<br>
 无法将其作为北极星官的一员。<br>
 因此，[HIP62572](star:HIP62572)继续保留其**北极**、**天枢**的名称，尽管已经不再是北极星。
 
 ##### Four Advisors
 
-[**四辅**](constellation:P02)4星，在[**北极**](constellation:P01)[**天枢星**](star:HIP62572)周围，环绕[**天枢**](star:HIP62572)分布，为甘氏紫微垣星。<br>
-代表4位辅政大臣，辅佐[**北极**](constellation:P01)。
+[**四辅**](constellation:P02)4星，在[**北极**](constellation:P01)[**天枢星**](star:HIP62572)周围，环绕[**天枢**](star:HIP62572)分布，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+代表4位辅政大臣，辅佐[**北极**](constellation:P01)。<br>
+“**四辅**机权，北权枢也。”
 
 由于*天枢星*经历过从[HIP65595](star:HIP65595)到[HIP62572](star:HIP62572)的位置变迁，四辅也要同样变化，<br>
 导致星图上这4星证认往往很困难，且不同星图间可能有很大差异。
 
 ##### Curved Array
 
-[**勾陈**](constellation:P14)6星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)中，形状像钩子一样排列，为石氏紫微垣星。<br>
-代表天帝的后宫，其中最亮的[α_UMi](star:HIP11767)代表正妃。
+[**勾陈**](constellation:P14)6星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)中，形状像钩子一样排列，为石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+代表天帝的后宫，其中最亮的[α_UMi](star:α UMi)代表正妃。
 
-汉代的勾陈（当时称为**后勾**）为4星（[α](star:HIP11767)、[δ](star:HIP85822)、[ε](star:HIP82080)、[ζ](star:HIP77055)）。<br>
+汉代的勾陈（当时称为**后勾**）为4星（[α](star:α UMi)、[δ](star:δ UMi)、[ε](star:ε UMi)、[ζ](star:ζ UMi)）。<br>
 后来，不晚于晋代时，增加了2星（[HIP16489](star:HIP16489)、[HIP4283](star:HIP4283)）。<br>
 由于新增的钩头两星过于黯淡，其形状在星图中经常变化。<br>
 从宋代以来，固定为[2_UMi](star:HIP5372)、[HIP112833](star:HIP112833)。<br>
-之后又由于[五帝内座](constellation:P17)的位置变化，元、明时，[HIP112833](star:HIP112833)替换为[HIP113116](star:HIP113116)。
+之后又由于[**五帝内座**](constellation:P17)的位置变化，元、明时，[HIP112833](star:HIP112833)替换为[HIP113116](star:HIP113116)。
 
 ##### Great Emperor of Heaven
 
-[**天皇大帝**](constellation:P16)1星，在[**勾陈**](constellation:P14)口中，为甘氏紫微垣星。<br>
+[**天皇大帝**](constellation:P16)1星，在[**勾陈**](constellation:P14)口中，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+“**天皇大帝**，秉万神图。”
+
 道教中，天皇大帝又称*勾陈大帝*，因其在[**勾陈**](constellation:P14)中。<br>
 其协助玉皇大帝执掌南北两极和天、地、人三才，总万星，<br>
 为普天星辰宿曜之帝，统御众星，<br>
@@ -102,100 +109,128 @@
 
 最初，**天皇大帝**对应[2_UMi](star:HIP5372)。<br>
 但随着[**勾陈**](constellation:P14)星官的变化，天皇大帝改为了[HIP115746](star:HIP115746)，一直到明末。<br>
-也有极少数作品将天皇大帝对应为了[勾陈](constellation:P14)的最亮星[α_UMi](star:HIP11767)，但并不是主流。
+也有极少数作品将天皇大帝对应为了[勾陈](constellation:P14)的最亮星[α_UMi](star:α UMi)，但并不是主流。
 
 ##### Six Jia
 
-[**六甲**](constellation:P15)6星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)内，[**华盖**](constellation:P18)、[**杠**](constellation:P19)左旁，为甘氏紫微垣星。<br>
+[**六甲**](constellation:P15)6星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)内，[**华盖**](constellation:P18)、[**杠**](constellation:P19)左旁，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
 六甲是与“甲”相配的6个干支，包括甲子、甲戌、甲申、甲午、甲辰、甲寅。<br>
 干支在中国作为重要的计时单位，也常用于计数、命名、占卜等。<br>
-六甲星官用于确定天上世界的时节，分掌阴阳，向人们授时，颁布政令推行道德教化。
+六甲星官用于确定天上世界的时节，分掌阴阳，向人们授时，颁布政令推行道德教化。<br>
+“**六甲**中候，出入有须。”
 
 ##### Interior Seats of the Five Emperors
 
-五帝内座5星，在*华盖*下、*杠*旁，为甘氏紫微垣星。
-五帝内座是五方天帝的座位。<br>
+[**五帝内座**](constellation:P17)5星，在[**华盖**](constellation:P18)下、[**杠**](constellation:P19)旁，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。
+**五帝内座**是五方天帝的座位。<br>
 五天帝包括青帝、赤帝、黄帝、白帝、黑帝，<br>
-分别对应东、南、中、西、北五个方位。
+分别对应东、南、中、西、北五个方位。<br>
+“**内座**设席。”
 
-##### Canopy of the Emperor
+##### Canopy
 
-华盖7星，在*天皇大帝*之上，*紫微垣*后门处，刚好盖住*天皇大帝*。是帝王所用的伞盖。
+[**华盖**](constellation:P18)7星，在[**天皇大帝**](constellation:P16)之上，[**紫微垣**](asterism:Purple Forbidden Enclosure)后门处，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+刚好遮蔽[**天皇大帝**](constellation:P16)，是帝王所用的伞盖。<br>
+“[**华盖**](constellation:P18)张光，掩翳[**帝**](constellation:P16)舡；玄橑周[**杠**](constellation:P19)，捶植距跌。”
 
-##### Canopy Support (Vassal of Canopy of the Emperor)
+##### Canopy Support (Vassal of Canopy)
 
-杠9星，在*华盖*之下，作为华盖的柄
+[**杠**](constellation:P19)9星，在[**华盖**](constellation:P18)之下，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+**杠**是[**华盖**](constellation:P18)的柄。<br>
+“[**华盖**](constellation:P18)张光，掩翳[**帝**](constellation:P16)舡；玄橑周[**杠**](constellation:P19)，捶植距跌。”
 
 ##### Celestial Pillar
 
-天柱5星，靠近*紫微左垣*，接近垣墙北端。是天宫中的柱子，用来张贴政令。常在月初、月中在此发布禁令，告示百官。
+[**天柱**](constellation:P12)5星，靠近[**紫微左垣**](constellation:P05)，接近垣墙北端，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+是天宫中的柱子，用来张贴政令。<br>
+常在月初、月中在此发布禁令，告示百官。<br>
+“**天柱**立政，朔望悬书。”
 
 ##### Maids-in-waiting
 
-御女4星，在*勾陈*北，宫内的侍女
+[**御女**](constellation:P11)4星，在[**勾陈**](constellation:P14)北，为巫咸氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星，是宫内的侍女。<br>
+“**女御**礼仪，威容步趋。”
 
 ##### Official of Royal Archives
 
-柱史1星，在*北极*东北,靠近*尚书*。负责记录宫中日常事务的史官。
+[**柱史**](constellation:P10)1星，在[**北极**](constellation:P01)东北，靠近[**尚书**](constellation:P08)，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+负责记录宫中日常事务的史官。<br>
+“**柱下史**记过，密移东厨。”
 
 ##### Female Protocol
 
-"女史1星，在*柱史*北。宫内负责漏刻计时的女官。
+[**女史**](constellation:P09)1星，原在[**柱史**](constellation:P10)北，后交替位置。为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+**女史**是宫内负责漏刻计时的女官。<br>
+“**女史**传漏，动记时。”
 
 ##### Royal Secretary
 
-尚书5星，在*紫微垣*东南角，垣南门内。负责文书奏章的官员，向天帝进言献策。
+[**尚书**](constellation:P08)5星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)东南角，垣南门内，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+负责文书奏章的官员，向天帝进言献策。<br>
+“**尚书**纳言，夙夜咨谋。”
 
 ##### Hidden Virtue
 
-阴德2星，在*紫微垣*宫门内，*尚书*西。指暗中行善的善举，掌管施惠百姓、赈济安抚之事。
+[**阴德**](constellation:P07)2星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)宫门内，[**尚书**](constellation:P08)西，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+**阴德**指暗中行善的善举，掌管施惠百姓、赈济安抚之事。<br>
+“**阴德**惟惠，周民赈抚。”
 
 ##### Chief Judge
 
-大理2星，在*紫微垣*宫门左星内,靠近*阴德*。主观审判刑罚的官员，用于占卜错误定刑的冤案。
+[**大理**](constellation:P13)2星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)宫门左星内,靠近[**阴德**](constellation:P07)，为巫咸氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+主管审判刑罚的官员，用于占卜错误定刑的冤案。<br>
+“**大理**奏事，南门左陬。”
 
 ##### Celestial Bed
 
-天床6星，在*紫微垣*宫门外。是天帝就寝休息的睡床。
+[**天床**](constellation:P25)6星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)宫门外，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+是天帝就寝休息的睡床。<br>
+“**天床**寝舍，解息燕休。”
 
 ##### Purple Forbidden Left Wall
 
-紫微左垣或紫微垣东蕃8星，紫微垣左侧或东侧的垣墙。
+[**紫微左垣**](constellation:P05)或**紫微垣东蕃**8星，是[**紫微垣**](asterism:Purple Forbidden Enclosure)左侧或东侧的垣墙，为石氏星。
 
 ##### Purple Forbidden Right Wall
 
-紫微右垣紫微垣西蕃7星，紫微垣右侧或西侧的垣墙。
+[**紫微右垣**](constellation:P06)或**紫微垣西蕃**7星，是[**紫微垣**](asterism:Purple Forbidden Enclosure)右侧或西侧的垣墙，为石氏星。
 
 ##### Celestial Great One
 
-天乙1星，在*紫微垣*宫门外，宫门右星南。天帝之神。掌管天道的运行、协调十二神将，并主宰战争与个人吉凶。
+[**天乙**](constellation:P03)1星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)宫门外，宫门右星南，为石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+天帝之神，掌管天道的运行、协调十二神将，并主宰战争与个人吉凶。
 
 ##### First Great One
 
-太乙1星，在*天乙*南，与*天乙*相近。掌管十六神，负责预知风雨、水旱、兵事、饥荒、瘟疫等自然灾害与社会动乱。
+[**太乙**](constellation:P04)1星，在[**天乙**](constellation:P03)南，与[**天乙**](constellation:P03)相近，为石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+掌管十六神，负责预知风雨、水旱、兵事、饥荒、瘟疫等自然灾害与社会动乱。
 
 ##### Inner Kitchen
 
 内厨2星，在*紫微垣*西南角外，负责后宫饮食的厨房。
+“**内厨**优宴，房诵说虞。”
 
 ##### Celestial Kitchen
 
 天厨6星，在*紫微垣*东北角外，负责国宴餐饮的厨房。
+“**天厨**咸馔，百宰若疏。”
 
 ##### Guest House
 
 传舍9星，在*紫微垣*外，*华盖*之上，靠近银河。是宾客住宿的地方。
+“**传舍**止客。”
 
 ##### Eight Kinds of Crops
 
-八谷8星，在*五车*北,*内阶*前。
-八种粮食作物，即稻、黍、大麦、小麦、大豆、小豆、粟、麻。
+[**八谷**](constellation:P23)8星，在[**五车**](constellation:19H)北，属甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+八种粮食作物，即稻、黍、大麦、小麦、大豆、小豆、粟、麻。<br>
 用于占卜农耕收获。
 
 ##### Inner Steps
 
 内阶6星，在*文昌*北，
 天帝上下行走的阶梯，连接*紫微垣*与*文昌*。
+“**内阶**朱户，显宠念虑。”
 
 ##### Administrative Center
 
@@ -208,7 +243,9 @@
 
 ##### Three Top Instructors
 
-三师3星，在*北斗*魁第一星（α UMa）西。三师为太保、太傅、太师，是负责国家军政的最高官员。
+三师3星，在*北斗*魁第一星（α UMa）西。三师为太保、太傅、太师，是负责国家军政的最高官员。<br>
+“**三公**星，七政齐同；<br>
+三公，犹今三公也；和阴阳，齐七政也。”
 
 ##### Northern Dipper
 
@@ -222,6 +259,7 @@
 ##### Judge for Nobility
 
 天理4星，在*北斗*斗魁4星中。是贵族的牢狱，也是执法的官员。
+“**天理**执平，首鞫魁头。”
 
 ##### Three Excellencies
 
@@ -231,7 +269,7 @@
 
 相1星，在*北斗*第四星南。即丞相，辅佐皇帝总理政务，是君主之下的最高行政长官，总领百官，掌握兵权。
 
-##### Guard of the Sun
+##### Solar Guardian
 
 太阳守1星，在*相*西南。负责守备警戒的大将。
 
@@ -253,11 +291,8 @@
 
 ##### Royals
 
-太尊1星，在*中台*北。代表皇亲国戚。
-
-##### Supreme Palace Enclosure
-
-*Supreme Palace Enclosure* (Chinese: 太微垣, Pinyin: Tài Wēi Yuán) is the Heavenly Court where the Heavenly Emperor handles government affairs, mainly composed of various officials. The south gate is called the *Meridian Gate*.
+太尊1星，在*中台*北。代表皇亲国戚。<br>
+“**太尊**一星，职比圣人。”
 
 ##### Supreme Palace Left Wall
 
@@ -303,21 +338,22 @@
 
 *Officer of Honour* (Chinese: 幸臣, Pinyin: Xìng Chén) is 1 star south of the *Crown Prince*, northeast of the *Seats of the Five Emperors*.
 
-##### Officers of the Imperial Guard
+##### Guard Officers
 
 *Officers of the Imperial Guard* (Chinese: 郎位, Pinyin: Láng Wèi) consists of 15 stars, northeast of the *Seats of the Five Emperors*.
 
-##### Captain of the Bodyguards
+##### Guard Captain
 
 *Captain of the Bodyguards* (Chinese: 郎将, Pinyin: Láng Jiàng) is 1 star northeast of the *Officers of the Imperial Guard*.
 
-##### Royal Guards
+##### Royal Guard
 
 *Royal Guards* (Chinese: 常陈, Pinyin: Cháng Chén) consists of 7 stars north of the *Seats of the Five Emperors*.
 
 ##### Emperor's Bodyguard
 
 *Emperor's Bodyguard* (Chinese: 虎贲, Pinyin: Hǔ Bēn) is 1 star south of the *Lower Step*.
+“**虎贲**四骑，室旄头。”
 
 ##### Three Steps
 
@@ -338,10 +374,6 @@
 ##### The Hall of Glory
 
 *The Hall of Glory* (Chinese: 明堂, Pinyin: Míng Táng) consists of 3 stars outside the southwest corner of the *Supreme Palace Enclosure*.
-
-##### Heavenly Market Enclosure
-
-*Heavenly Market Enclosure* (Chinese: 天市垣, Pinyin: Tiān Shì Yuán) is the market in the sky.
 
 ##### Heavenly Market Left Wall
 
@@ -382,6 +414,8 @@
 ##### Commodity Market
 
 *Commodity Market* (Chinese: 车肆, Pinyin: Chē Sì) consists of 2 stars inside the right star of the *Heavenly Market Enclosure* gate.
+“**车肆**二星，百贾肆区；<br>
+**车肆**者，列车服之贾，百品随类区别也。”
 
 ##### Dipper for Solids
 
@@ -394,14 +428,29 @@
 ##### Jewel Market
 
 *Jewel Market* (Chinese: 列肆, Pinyin: Liè Sì) consists of 2 stars in the *Heavenly Market Enclosure*, northwest of the *Dipper for Solids*.
+“**列肆**货贩，金玉玑珠。”
 
 ##### Textile Ruler
 
-*Textile Ruler* (Chinese: 帛度, Pinyin: Bó Dù) consists of 2 stars northeast of the *Patriarchal Clan Stars*.
+[**帛度**](constellation:H08)2星，在[**宗星**](constellation:H07)东北，[**屠肆**](constellation:H09)南，为巫咸氏中官，属[**天市垣**](asterism:Heavenly Market Enclosure)。<br>
+“帛”泛指丝织品，“度”指长度单位或测量工具，<br>
+因此“帛度”的字面含义是“测量布帛的工具”，<br>
+引申为从事布匹买卖的店铺。
+
+**帛度**的核心职能是掌管度量衡的公平标准。<br>
+星光明亮则尺量公平、商人不欺诈，星光明暗则反之。<br>
+后来星占家将帛度的含义进一步扩展，使<br>
+其代表一切计量活动、商业标准化和市场规范。
+
+由于丝绸贸易主要由女性从事，<br>
+一些传统甚至用该星官占卜女性在市场上的购物之事。
+
+“帛度卖习，与平者俱。”
 
 ##### Butcher's Shops
 
 *Butcher's Shops* (Chinese: 屠肆, Pinyin: Tú Sì) consists of 2 stars north of the *Textile Ruler*.
+“**屠肆**烹煞盛馔，宾娱楼星，监市斗，食毒夫。”
 
 ##### Celestial Discipline
 
@@ -481,17 +530,20 @@
 
 *Right Conductor* (Chinese: 右摄提, Pinyin: Yòu Shè Tí) consists of 3 stars, directly south of the handle of the *Northern Dipper*. The left and right *Conductors* sandwiching the *Great Horn*
 
-##### Executions
+##### Executioner
 
 *Executions* (Chinese: 折威, Pinyin: Zhé Wēi) consists of 7 stars south of the *Neck Mansion*.
+“**折威**断狱，弃诸市都。”
 
-##### Trials
+##### Interrogator
 
 *Trials* (Chinese: 顿顽, Pinyin: Dùn Wán) consists of 2 stars southeast of the *Executions*.
+“**顿顽**捕制，察伺狱囚。”
 
 ##### Gate of Yang
 
 *Gate of Yang* (Chinese: 阳门, Pinyin: Yáng Mén) consists of 2 stars north of the *Arsenal*.
+“**阳门**戍远，剑戟楯矛。”
 
 ##### Root
 
@@ -524,8 +576,9 @@
 ##### Celestial Spokes
 
 *Celestial Spokes* (Chinese: 天辐, Pinyin: Tiān Fú) consists of 2 stars, diagonally lined west of the *Room Mansion*.
+“**天辐**陈驾，被轩鸾旗。”
 
-##### Imperial Guards
+##### Cavalry Guard
 
 *Imperial Guards* (Chinese: 骑官, Pinyin: Qí Guān) consists of 27 stars south of the *Root Mansion*.
 
@@ -548,10 +601,12 @@
 ##### Door Bolt
 
 *Door Bolt* (Chinese: 键闭, Pinyin: Jiàn Bì) is 1 star northeast of the *Room Mansion*.
+“**键闭**司察，心腹口喉。”
 
 ##### Punishment
 
 *Punishment* (Chinese: 罚, Pinyin: Fá) consists of 3 stars west of the *Eastern Door*, lined north-south.
+“**罚星**受金，罚赎市租。”
 
 ##### Eastern Door
 
@@ -565,9 +620,11 @@
 
 *Solar Star* (Chinese: 日, Pinyin: Rì) is 1 star in the middle path of the *Room Mansion*.
 
-#####  Retinue (South)
+#####  Witch Doctor
 
-*Retinue* (Chinese: 从官, Pinyin: Cóng Guān) consists of 2 stars south of the *Room Mansion* stars.
+[**从官**](constellation:04H)2星，在[**房**](constellation:04A)西南，[**积卒**](constellation:05B)西北。为巫咸星，属[**房宿**](constellation:04A)。<br>
+是治疗疾病的巫医，负责祝祷等事务。<br>
+“**从官**二星，主疾病医。”
 
 ##### Heart
 
@@ -608,6 +665,7 @@
 ##### Chaff
 
 *Chaff* (Chinese: 糠, Pinyin: Kāng) is 1 star in front of the *Winnowing Basket Mansion*'s tongue, northwest of the *Pestle*.
+“**箕**主簸扬，**糠**给大猪。”
 
 ##### Outer Pestle
 
@@ -628,30 +686,36 @@
 ##### Celestial Keyhole
 
 *Celestial Keyhole* (Chinese: 天籥, Pinyin: Tiān Yuè) consists of 8 stars west of the second star of the *Southern Dipper*'s handle.
+“**天籥**祀记，稽问莫疑。”
 
 ##### Peasant
 
 *Peasant* (Chinese: 农丈人, Pinyin: Nóng Zhàng Rén) is 1 star southwest of the *Southern Dipper*.
+“先**农丈人**，执**斗**与**箕**。”
 
 ##### Dog
 
 *Dog* (Chinese: 狗, Pinyin: Gǒu) consists of 2 stars.
+“**狗**主守内，夹门伏跗。”
 
 ##### Celestial Cock
 
 *Celestial Cock* (Chinese: 天鸡, Pinyin: Tiān Jī) consists of 2 stars north of the *Territory of Dog*, west of the *Ox*.
+“**鸡**鸣司旦，审夜察时。”
 
 ##### Territory of Dog
 
 Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southeast of the *Establishment Stars*.
+“**狗国**，鲜卑、乌丸、沃沮。”
 
 ##### River Turtle
 
 *River Turtle* (Chinese: 鳖, Pinyin: Biē) consists of 14 stars south of the *Dipper*.
 
-##### Celestial Spring
+##### Celestial Abyss
 
 *Celestial Spring* (Chinese: 天渊, Pinyin: Tiān Yuān) consists of 10 stars southeast of the *River Turtle*, between the *River Turtle* and the *Nine Water Wells*.
+“**天渊**灌溉，盈满渊区。”
 
 ##### Ox
 
@@ -660,6 +724,7 @@ Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southe
 ##### Celestial Drumstick
 
 *Celestial Drumstick* (Chinese: 天桴, Pinyin: Tiān Fú) consists of 4 stars lined horizontally north of the *Ox*.
+“**天桴**应度，节漏省时；谓应漏刻时节也。”
 
 ##### Drum at the River
 
@@ -672,6 +737,7 @@ Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southe
 ##### Left Flag
 
 *Left Flag* (Chinese: 左旗, Pinyin: Zuǒ Qí) consists of 9 stars beside the left of the *Drum at the River*.
+“**左旗**幽谷，阻险隐逃。”
 
 ##### Clepsydra Terrace
 
@@ -688,10 +754,12 @@ Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southe
 ##### Network of Dykes
 
 *Network of Dykes* (Chinese: 罗堰, Pinyin: Luó Yàn) consists of 3 stars east of the *Ox*.
+“**罗堰**紫壅，激内注渠。”
 
 ##### Celestial Farmland (South)
 
 *Celestial Farmland* (Chinese: 天田, Pinyin: Tiān Tián) consists of 9 stars south of the *Ox*.
+“**天田**本农，耕器犁鉏。”
 
 ##### Nine Water Wells
 
@@ -708,6 +776,7 @@ Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southe
 ##### Rotten Gourd
 
 *Rotten Gourd* (Chinese: 败瓜, Pinyin: Bài Guā) consists of 5 stars beside the *Good Gourd*.
+“**败瓜**熟烂，遗种畜葅。”
 
 ##### Good Gourd
 
@@ -720,14 +789,17 @@ Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southe
 ##### Xi Zhong
 
 *Xi Zhong* (Chinese: 奚仲, Pinyin: Xī Zhòng) consists of 4 stars, shaped like the *Railings* constellation, north of the *Celestial Ford*.
+“**奚仲**弥轮，路軨优绔。”
 
 ##### Basket for Mulberry Leaves
 
 Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 stars north of the Celestial Ford.
+“**扶筐**采叶，翊养玄羞。”
 
 ##### Twelve States
 
 *Twelve States* (Chinese: 十二国, Pinyin: Shí èr Guó) consists of 16 stars.
+“齐赵诸国，应天列宿，土地九州；其星有变，各为其国。”
 
 ##### Emptiness
 
@@ -735,27 +807,56 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Deified Judge of Life
 
-*Deified Judge of Life* (Chinese: 司命, Pinyin: Sī Mìng) consists of 2 stars north of the *Emptiness*.
+[**司命**](constellation:11B)2星，原在[**虚**](constellation:11A)北，北宋皇祐年间改为[**虚**](constellation:11A)东。<br>
+为甘氏中官，属[**虚宿**](constellation:11A)。<br>
+它的职责是执掌刑罚、检举过失、扫除不祥之事。<br>
+在星占中，**司命**与[**鬼宿**](constellation:23A)配合，共同负责“执刑行罚”，<br>
+同时也是天命转移和国家延续的关键象征。
+
+在“四司”4个星官中，[**司命**](constellation:11B)掌刑罚，[**司禄**](constellation:11C)掌福寿，[**司危**](constellation:11D)戒骄奢，[**司非**](constellation:11E)祛偏私，各司其职。<br>
+它们共同构成了天上维护天命与人间秩序的管理体系。<br>
+“四司续功，桑麻襄陆。”
 
 ##### Deified Judge of Rank
 
-*Deified Judge of Rank* (Chinese: 司禄, Pinyin: Sī Lù) consists of 2 stars north of the *Deified Judge of Life*.
+[**司禄**](constellation:11C)2星，在[**司命**](constellation:11B)北，为甘氏中官，属[**虚宿**](constellation:11A)。<br>
+“禄”即福禄与俸禄。<br>
+**司禄**主管着人间的寿命延续与品德增长，是祈求福寿绵长的吉星。
+
+在“四司”4个星官中，[**司命**](constellation:11B)掌刑罚，[**司禄**](constellation:11C)掌福寿，[**司危**](constellation:11D)戒骄奢，[**司非**](constellation:11E)祛偏私，各司其职。<br>
+它们共同构成了天上维护天命与人间秩序的管理体系。<br>
+“四司续功，桑麻襄陆。”
 
 ##### Deified Judge of Disaster and Good Fortune
 
-*Deified Judge of Disaster and Good Fortune* (Chinese: 司危, Pinyin: Sī Wēi) consists of 2 stars north of the *Deified Judge of Rank*.
+[**司危**](constellation:11D)2星，在[**司禄**](constellation:11C)北，为甘氏中官，属[**虚宿**](constellation:11A)。<br>
+“危”指骄奢淫逸、放纵失德的行为。<br>
+**司危**的职责是警示和惩戒那些沉迷享乐、失去敬畏的统治者，<br>
+提醒他们收敛私欲，否则将导致国运衰落、民心离散。
+
+在“四司”4个星官中，[**司命**](constellation:11B)掌刑罚，[**司禄**](constellation:11C)掌福寿，[**司危**](constellation:11D)戒骄奢，[**司非**](constellation:11E)祛偏私，各司其职。<br>
+它们共同构成了天上维护天命与人间秩序的管理体系。<br>
+“四司续功，桑麻襄陆。”
 
 ##### Deified Judge of Right and Wrong
 
-*Deified Judge of Right and Wrong* (Chinese: 司非, Pinyin: Sī Fēi) consists of 2 stars north of the *Deified Judge of Disaster and Good Fortune*.
+[**司非**](constellation:11E)2星，在[**司危**](constellation:11D)北，为甘氏中官，属[**虚宿**](constellation:11A)。<br>
+“非”指过失与不公。<br>
+司非星的职责是祛除偏私、纠正不公，确保赏罚公允。
+
+在“四司”4个星官中，[**司命**](constellation:11B)掌刑罚，[**司禄**](constellation:11C)掌福寿，[**司危**](constellation:11D)戒骄奢，[**司非**](constellation:11E)祛偏私，各司其职。<br>
+它们共同构成了天上维护天命与人间秩序的管理体系。<br>
+“四司续功，桑麻襄陆。”
 
 ##### Crying
 
 *Crying* (Chinese: 哭, Pinyin: Kū) consists of 2 stars south of the *Emptiness*.
+“[**哭**](constellation:11F)[**泣**](constellation:11G)悲凉，[**坟墓**](constellation:12B)倚庐。”
 
 ##### Weeping
 
 *Weeping* (Chinese: 泣, Pinyin: Qì) consists of 2 stars east of the *Crying*.
+“[**哭**](constellation:11F)[**泣**](constellation:11G)悲凉，[**坟墓**](constellation:12B)倚庐。”
 
 ##### Celestial Ramparts
 
@@ -768,6 +869,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Jade Ornament on Ladies' Wear
 
 *Jade Ornament on Ladies' Wear* (Chinese: 离瑜, Pinyin: Lí Yú) consists of 3 stars, lined north-south southeast of *Qin State* and *Dai State*.
+“**离瑜**玩饰，并见舅姑。”
 
 ##### Rooftop
 
@@ -776,42 +878,59 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Tomb (Vassal of Rooftop)
 
 *Tomb* (Chinese: 坟墓, Pinyin: Fén Mù) consists of 4 stars south of the *Rooftop*.
+“**哭****泣**悲凉，**坟墓**倚庐。”
 
 ##### Humans
 
 *Humans Stars* (Chinese: 人星, Pinyin: Rén Xīng) consists of 5 stars southeast of the *Big Yard for Chariots*, north of the *Emptiness*.
+“**人星**优游，乃尔宁诸。”
 
 ##### Pestle
 
 *Pestle* (Chinese: 杵, Pinyin: Chǔ) consists of 3 stars east of the *Humans Stars*, beside the milky way.
+“**杵****臼**充舂，主给养厨。”
 
 ##### Mortar
 
 *Mortar* (Chinese: 臼, Pinyin: Jiù) consists of 4 stars east of the *Humans Stars*, under the *Pestle* stars.
+“**杵****臼**充舂，主给养厨。”
 
 ##### Big Yard for Chariots
 
 *Big Yard for Chariots* (Chinese: 车府, Pinyin: Chē Fǔ) consists of 7 stars east of the *Celestial Ford*, near the milky way, lined east-west.
+“**车府**撰御。”
 
 ##### Zaofu
 
 *Zaofu* (Chinese: 造父, Pinyin: Zào Fù) consists of 5 stars south of the *Celestial Hook*, in the milky way.
+“**造父**洗马，辔勒御镳。”
 
 ##### Celestial Hook
 
-*Celestial Hook* (Chinese: 天钩, Pinyin: Tiān Gōu) consists of 9 stars north of *Zaofu*.
+[**天钩**](constellation:12G)9星，原在[**造父**](constellation:12H)西，唐代开始改为[**造父**](constellation:12H)北。<br>
+为巫咸氏中官，属[**危宿**](constellation:12A)。因形状弯曲如钩状而得名。<br>
+**天钩**职能与“珍异”有关。当天子按照德行来赏赐诸侯时，<br>
+**天钩**便会呈现出弯曲或平直等不同的形态作为回应。<br>
+这颗星象征着来自帝王的特殊恩赏与珍奇之物。
+
+此外，**天钩**星还与道路和车马交通有关。<br>
+**天钩**的形状变得过于平直，则可能是地震的预兆。<br>
+“**钩星**戒道，传路宣与。”
 
 ##### Roofing
 
 *Roofing* (Chinese: 盖屋, Pinyin: Gài Wū) consists of 2 stars south of the *Rooftop*.
+“危盖屋室，柱梁侏儒。”
 
-##### Temple
+##### Tomb and Temple
 
 *Temple* (Chinese: 虚梁, Pinyin: Xū Liáng) consists of 4 stars south of the *Rooftop*.
+“**虚梁**宫室，屋室谨祷。”
 
 ##### Celestial Money
 
 *Celestial Money* (Chinese: 天钱, Pinyin: Tiān Qián) consists of 10 stars northwest of the *North Gate of the Military Camp*.
+“**天钱**藏府，聚众谈夸。”
 
 ##### Encampment
 
@@ -827,11 +946,16 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Thunder and Lightning
 
-*Thunder and Lightning* (Chinese: 雷电, Pinyin: Léi Diàn) consists of 6 stars southwest of the *Encampment*.
+[**雷电**](constellation:13C)6星，在[**营室**](constellation:13A)西南，为甘氏外官，属[**室宿**](constellation:13A)。<br>
+雷电发出震动天地的巨大声响，那声音连绵不绝、隆隆翻滚，使万物都为之震撼摇动。<br>
+“**雷电**震音，殷殷动摇。”
 
 ##### Official for Materials Supply
 
-*Official for Materials Supply* (Chinese: 土公吏, Pinyin: Tǔ Gōng Lì) consists of 2 stars southwest of the *Encampment*.
+[**土公吏**](constellation:13D)2星，在[**营室**](constellation:13A)西南，为甘氏外官，属[**室宿**](constellation:13A)。<br>
+与[**土公**](constellation:14F)类似，负责土木营建的官员，督察工程中的过失与不当之处。<br>
+**土公吏**也管理屏、厕，负责物资的储备调配。<br>
+“**土公吏**司屏郎设储。”
 
 ##### Palace Guard
 
@@ -844,18 +968,21 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Axe
 
 *Axe* (Chinese: 𫓧钺, Pinyin: Fū Yuè) consists of 3 stars east of the *North Gate of the Military Camp*.
+“**鈇锧**拒难，斩伐奸谋。”
 
-##### North Gate of the Military Camp
+##### Gate of the Northern Military Camp
 
 *North Gate of the Military Camp* (Chinese: 北落师门, Pinyin: Běi Luò Shī Mén) is 1 star southwest of the *Palace Guard*.
 
 ##### Materials for Making Tents
 
 *Materials for Making Tents* (Chinese: 天纲, Pinyin: Tiān Gāng) is 1 star southwest of the *North Gate of the Military Camp*.
+“**天纲**武帐，宫府置卫。”
 
 ##### Net for Catching Birds
 
 *Net for Catching Birds* (Chinese: 八魁, Pinyin: Bā Kuí) consists of 9 stars southeast of the *North Gate of the Military Camp*.
+“**八魁**陷阱，栈门揭翘。”
 
 ##### Wall
 
@@ -864,22 +991,32 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Celestial Stable
 
 *Celestial Stable* (Chinese: 天厩, Pinyin: Tiān Jiù) consists of 10 stars north of the *Wall*, near *Wang Liang*.
+“**天厩**置驿，逐漏驰鹜。”
 
 ##### Official for Earthworks and Buildings
 
-*Official for Earthworks and Buildings* (Chinese: 土公, Pinyin: Tǔ Gōng) consists of 2 stars south of the *Wall*.
+[**土公**](constellation:14F)2星，在[**壁**](constellation:14A)南，为甘氏外官，属[**壁宿**](constellation:14A)。<br>
+与[**土公吏**](constellation:13D)类似，主管土木营造和农业起土之官。<br>
+职责包括主持修筑宫室城郭、整治耕地沟渠，<br>
+同时负责提前储备物资，并督察事务中的过失。<br>
+“**土公**，主豫储。”
 
 ##### Thunderbolt
 
-[**霹雳**](constellation:霹雳)5星在[*土公*](constellation:土公)西南，[*云雨*](constellation:云雨)北。
+[**霹雳**](constellation:14B)5星在[**土公**](constellation:14F)西南，[**云雨**](constellation:14C)北。为甘氏外官，属[**壁宿**](constellation:14A)。<br>
+“霹雳”是强烈的雷电现象，代表阳气大盛，能击碎万物。<br>
+“霹雳旧堑捽。”
 
 ##### Cloud and Rain
 
-*Cloud and Rain* (Chinese: 云雨, Pinyin: Yún Yǔ) consists of 4 stars south of the *Thunderbolt*, east of the *Thunder and Lightning*.
+[**云雨**](constellation:14C)4星，在[**霹雳**](constellation:14B)南，为甘氏外官，属[**壁宿**](constellation:14A)。<br>
+**云雨**适时兴发、调和有序，草木因善美之雨润泽而生长繁盛。<br>
+“云雨兴和，休祁茂孳。”
 
 ##### Sickle
 
 *Sickle* (Chinese: 𫓧锧, Pinyin: Fū Zhì) consists of 5 stars southwest of the *Square Celestial Granary*.
+“**𫓧锧**锉钩后有饶。”
 
 ##### Legs
 
@@ -895,11 +1032,34 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Wang Liang
 
-*Wang Liang* (Chinese: 王良, Pinyin: Wáng Liáng) consists of 5 stars in the river north of the *Legs*.
+[**王良**](constellation:15H)5星，含**天驷**4星，在[**奎**](constellation:15A)北银河中，为石氏中官，属[**奎宿**](constellation:15A)。<br>
+王良的星象是一幅完整的御车图景。<br>
+五颗星中四星为**天驷**，象征四匹天马；<br>
+旁侧[β Cas](star:β Cas)一星即**王良**，是驾驭天马的御者。<br>
+王良的前方还有一颗名为[**策**](constellation:15I)的星，是王良手中的马鞭。<br>
+
+**王良**星官的名字来源于春秋时期晋国一位著名的善御者（驾车人）——王良。<br>
+王良曾为晋国大夫赵简子的车夫，《左传》中记载为“邮无恤”，杜预注称“邮无恤即王良”。<br>
+在《孟子》《淮南子》等典籍中，王良的形象逐渐被神圣化，<br>
+从一位技艺高超的御者升华为通晓“道”的圣人。<br>
+至汉代，其形象已融入星象体系，成为天帝的御者。
+
+《史记·天官书》最早记载了**王良**作为星官的名称：<br>
+“汉中四星，曰**天驷**。旁一星曰**王良**。<br>
+**王良**策马，车骑满野。”<br>
+在更早的体系中，**天驷**4星与**王良**1星原本可能是两个独立的星官，<br>
+至《石氏星经》才被正式合并为统一的**王良**星官。<br>
+《晋书·天文志》载其为“天子奉车御官也”。
+
+占星中，王良的星象变化与车骑、兵事、津梁密切相关。<br>
+当**王良**、[**策**](constellation:15I)星出现异常时，往往预示大规模的车骑调动或战事。
 
 ##### Whip
 
-*Whip* (Chinese: 策, Pinyin: Cè) is 1 star north of *Wang Liang*.
+[**策**](constellation:15I)1星，在[**王良**](constellation:15H)右前方，**天驷**后，为甘氏中官，属[**奎宿**](constellation:15A)。<br>
+“策”即马鞭，作动词时可解释为“鞭打”或“驱赶”。<br>
+该星官的设立显然与[**王良**](constellation:15H)和**天驷**相关。<br>
+“策执御右，螣蛇先驱。”
 
 ##### Southern Military Gate
 
@@ -907,19 +1067,20 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Outer Fence
 
-[**外屏**](constellation:15B)7星在[**奎**](constellation:15A)南。为石氏外官，属[**奎宿**](constellation:15A)。
-
-**外屏**是用于遮挡**天溷**(constellation:15C)（厕所兼猪圈）的屏障。
+[**外屏**](constellation:15B)7星在[**奎**](constellation:15A)南。为石氏外官，属[**奎宿**](constellation:15A)。<br>
+**外屏**是用于遮挡[**天溷**](constellation:15C)（厕所兼猪圈）的屏障。<br>
+“**屏**蔽拥幢，安**溷**莫睹。”
 
 ##### Celestial Pigsty
 
 [**天溷**](constellation:15C)7星在[**外屏**](constellation:15B)南。为甘氏外官，属[**奎宿**](constellation:15A)。<br>
 **天溷**是天上的猪圈和厕所。<br>
-“溷”为厕所与猪圈相连的建筑形式，此类结构在古代为积肥所需。
+“溷”为厕所与猪圈相连的建筑形式，此类结构在古代为积肥所需。<br>
+“**天溷**作，杼厕粪丘。”
 
 ##### Master of Constructions
 
-[**土司空**](constellation:15B)1星在[**奎**](constellation:15A)南。为石氏外官，属[**奎宿**](constellation:15A)。<br>
+[**土司空**](constellation:15D)1星在[**奎**](constellation:15A)南。为石氏外官，属[**奎宿**](constellation:15A)。<br>
 **土司空**是司职土地与农事的官员。<br>
 因其与农业有关，该星官被用于占卜谷物的丰盈与国民的富足。
 
@@ -946,6 +1107,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Ricks of Grain
 
 *Ricks of Grain* (Chinese: 天庾, Pinyin: Tiān Yǔ) consists of 3 stars southeast of the *Square Celestial Granary*.
+“**天庾**积谷，草茂身拊。”
 
 ##### Stomach
 
@@ -1007,11 +1169,13 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Celestial Yin Force
 
 *Celestial Yin Force* (Chinese: 天阴, Pinyin: Tiān Yīn) consists of 5 stars west of the *Net*'s handle.
+“**天阴**羽猎，**附耳**密谋。”
 
 ##### Hay and Straw
 
 [**刍藁**](constellation:18H)6星在[**天苑**](constellation:18I)西，为甘氏外官，属[**昴宿**](constellation:18A)。<br>
-生草为“刍”，稻稗为“藁”，**刍藁**指饲养家畜的草料。
+生草为“刍”，稻稗为“藁”，**刍藁**指饲养家畜的草料。<br>
+“**刍藁**甸服，纳轾总输。”
 
 又名“天积”，是天子的藏府。<br>
 与西汉《史记·天官书》（唐都星官体系）所载“廥积”星有直接继承关系。
@@ -1034,7 +1198,9 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Feudal Kings
 
-*Feudal Kings* (Chinese: 诸王, Pinyin: Zhū Wáng) consists of 6 stars south of the *Five Chariots*.
+[**诸王**](constellation:19E)6星，在[**五车**](constellation:19H)南，为甘氏中官，属[**毕宿**](constellation:19A)。<br>
+象征着王室的宗亲与藩王，负责监察天下诸侯的存亡兴衰，以维护王室的屏藩。<br>
+它的星光也被认为是诸侯是否服从中央的体现。
 
 ##### Celestial High Terrace
 
@@ -1047,21 +1213,79 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Five Chariots
 
-*Five Chariots* (Chinese: 五车, Pinyin: Wǔ Chē) consists of 5 stars northeast of the *Net*.
+[**五车**](constellation:19H)5星在[**毕宿**](constellation:19A)东北，为石氏中官，属[**毕宿**](constellation:19A)。<br>
+**五车**实际上包含两部分：5颗主星，以及呈鼎足状排列的3组**柱**星，每组3颗，共计14颗星。<br>
+它有许多别名，如“天库”、“天仓”；也常与[**天五潢**](constellation:19L)、[**咸池**](constellation:19M)通用。<br>
+[**咸池**](constellation:19M)在神话中是太阳沐浴的地方，在天上则象征着蓄养鱼类的池沼。<br>
+[**天潢**](constellation:19L)被看作是连接天上与人间的渡口和桥梁。
+
+**五车**通常被视为五方天帝停放车驾的场所；<br>
+或指代《周礼》中记载的五种兵车，是天子武备的象征。<br>
+与[**天街**](constellation:19C)一样，**五车**在古代被用于战争的占卜。
+
+由于其5星明亮，因此可以代指很多其他与数字“五”相关的文化事物，<br>
+如农事上的“五谷”、天文上的“五行”等。<br>
+根据不同含义，5颗星有不同的名称：
+
+| 恒星 | 常用名 | 神名 | 分野 | 五谷 |五行 |
+|---------|-------|-------|-------|-------|---------|
+| <notr>[ι_Aur](star:ι Aur)</notr> | <notr>**卿/乡**</notr> | <notr>丰隆</notr> | <notr>韩魏</notr> | <notr>大豆</notr> | <notr>荧惑（火星） |
+| <notr>[α_Aur](star:α Aur)</notr> | <notr>**天库**</notr> | <notr>令尉</notr> | <notr>秦雍</notr> | <notr>稻</notr> | <notr>太白（金星） |
+| <notr>[β_Aur](star:β Aur)</notr> | <notr>**天狱**</notr> | <notr>风伯</notr> | <notr>幽燕赵</notr> | <notr>麻</notr> | <notr>辰星（水星） |
+| <notr>[θ_Aur](star:θ Aur)</notr> | <notr>**天仓**</notr> | <notr>雨师</notr> | <notr>徐鲁卫</notr> | <notr>粟</notr> | <notr>岁星（木星） |
+| <notr>[β_Tau](star:β Tau)</notr> | <notr>**司空**</notr> | <notr>雷公</notr> | <notr>荆楚</notr> | <notr>麦</notr> | <notr>填星（土星） |
 
 ##### Northwestern Pillar
 
+**柱**星分三组，即[**西北柱**](constellation:19I)、[**东北柱**](constellation:19J)、[**东南柱**](constellation:19K)，每组各3星，共9星。<br>
+为石氏中官，属[**毕宿**](constellation:19A)。<br>
+它们被视为古代[战车](constellation:19H)上插军旗的旗杆，其显现或隐没直接关联着天下的兵戈与车马。<br>
+如果一柱不见，天下三分之一的战车会出动；<br>
+二柱不见，三分之二的战车会出动；<br>
+三柱都不见，则预示着天子将亲自领兵出征。<br>
+反之，**三柱**星光明亮且位置稳定，则象征五谷丰登，国泰民安。<br>
+如果**柱**星偏离正常位置，则可能引发洪水、粮价飞涨等灾祸。
+
 ##### Northwestern Pillar
+
+**柱**星分三组，即[**西北柱**](constellation:19I)、[**东北柱**](constellation:19J)、[**东南柱**](constellation:19K)，每组各3星。<br>
+为石氏中官，属[**毕宿**](constellation:19A)。<br>
+它们被视为古代战车上插军旗的旗杆，其显现或隐没直接关联着天下的兵戈与车马。<br>
+如果一柱不见，天下三分之一的战车会出动；<br>
+二柱不见，三分之二的战车会出动；<br>
+三柱都不见，则预示着天子将亲自领兵出征。<br>
+反之，**三柱**星光明亮且位置稳定，则象征五谷丰登，国泰民安。<br>
+如果**柱**星偏离正常位置，则可能引发洪水、粮价飞涨等灾祸。
 
 ##### Southeastern Pillar
 
+**柱**星分三组，即[**西北柱**](constellation:19I)、[**东北柱**](constellation:19J)、[**东南柱**](constellation:19K)，每组各3星。<br>
+为石氏中官，属[**毕宿**](constellation:19A)。<br>
+它们被视为古代战车上插军旗的旗杆，其显现或隐没直接关联着天下的兵戈与车马。<br>
+如果一柱不见，天下三分之一的战车会出动；<br>
+二柱不见，三分之二的战车会出动；<br>
+三柱都不见，则预示着天子将亲自领兵出征。<br>
+反之，**三柱**星光明亮且位置稳定，则象征五谷丰登，国泰民安。<br>
+如果**柱**星偏离正常位置，则可能引发洪水、粮价飞涨等灾祸。
+
 ##### Celestial Pier
 
-*Celestial Pier* (Chinese: 天潢, Pinyin: Tiān Huáng) consists of 5 stars in the *Five Chariots*.
+[**天潢**](constellation:19L)在[**五车**](constellation:19H)中，为甘氏中官，属[**毕宿**](constellation:19A)。<br>
+它被看作是连接天上与人间的渡口和桥梁，用于“渡神人，通四方”。<br>
+其星光明亮预示着天子长寿，百姓安康而无疾病灾祸。<br>
+“**天潢**济渡，渐池濯高。”
+
+**天潢**最初指[**五车**](constellation:19H)5星，在《史记·天官书》中称作“天五潢”。
 
 ##### Pool of Harmony
 
-*Pool of Harmony* (Chinese: 咸池, Pinyin: Xián Chí) consists of 3 stars northwest of the *Celestial Pier*.
+[**咸池**](constellation:19M)3星，在[**天潢**](constellation:19L)西北，为甘氏中官，属[**毕宿**](constellation:19A)。<br>
+它在神话中是太阳沐浴的地方，在天上则象征着蓄养鱼类的池沼，也是天子的鱼池。<br>
+它的星象变化也被认为与农事、兵灾和旱涝有关<br>
+“**咸池**陂泽，鹍鸡雁鸟。”
+
+**咸池**、[**天五潢**](constellation:19L)都曾是[**五车**](constellation:19H)的别名，<br>
+在含义与功能上和[**五车**](constellation:19H)星官紧密相连，都被认为是“五帝车舍”。
 
 ##### Celestial Pass
 
@@ -1071,15 +1295,17 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**天节**](constellation:19D)8星在[**毕**](constellation:19A)、[**附耳**](constellation:19B)下，为甘氏外官之一，属[**毕宿**](constellation:19A)，处于西方战场中。<br>
 **天节**象征使臣所持之节，是外交所用的信物。<br>
-星占中，**天节**用于占卜使臣是否忠诚。
+星占中，**天节**用于占卜使臣是否忠诚。<br>
+“**天节**奉使，专对无疑。”
 
-##### Interpreters of Nine Dialects
+##### Interpreters of the Nine Provinces
 
 [**九州殊口**](constellation:19G)9星在[**天节**](constellation:19D)下，为甘氏外官之一，属[**毕宿**](constellation:19A)，处于西方战场中。<br>
 **九州殊口**的字面含义是“各地说不同的方言或语言”。<br>
-作为星官，**九州殊口**指翻译官，了解各地风俗。
+作为星官，**九州殊口**指翻译官，了解各地风俗。<br>
+“**九州殊口**重译辞。”
 
-##### Banner of Three Stars
+##### Banner of the Three Stars
 
 [**参旗**](constellation:19O)9星在[**参**](constellation:21A)西，为石氏外官之一，属[**毕宿**](constellation:19A)，处于西方战场中。<br>
 中国星官中，弯曲排列的几星相连往往被称作“旗”。<br>
@@ -1095,7 +1321,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 [**九斿**](constellation:19P)9星在[**玉井**](constellation:21C)西南，为甘氏外官之一，属[**毕宿**](constellation:19A)，处于西方战场中。<br>
 **九斿**指悬挂九条垂饰的旌旗，象征天子之旗。<br>
 旗面绘有龙纹，是天子直属军队用以指挥进退的军旗。<br>
-**九斿**星象征天子之兵旗，用于占卜兵事，统领九州别邦。
+**九斿**星象征天子之兵旗，用于占卜兵事，统领九州别邦。<br>
+“**九游**威旗，色盛兵兴。”
 
 该星官在西汉的唐都星官体系中已经出现，《史记·天官书》载：<br>
 “（[**参宿**](constellation:21A)）其西有句曲九星，三处罗：一曰[**天旗**](constellation:19O)，二曰[**天苑**](constellation:18I)，三曰[**九游**](constellation:19P)。”
@@ -1104,7 +1331,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**天园**](constellation:19Q)13星在[**天苑**](constellation:18I)南，为甘氏外官，属[**毕宿**](constellation:19A)。<br>
 **天园**是天子专属的植物园，是广泛收集各地植物进行栽培的皇家大型园林。<br>
-其规模远逊于作为皇家牧场的[**天苑**](constellation:18I)。
+其规模远逊于作为皇家牧场的[**天苑**](constellation:18I)。<br>
+“**天园**草实，菜茹畜储。”
 
 **天园**中几个勾曲的暗星为“枥槽”，用于占卜马、牛、羊是否安好。
 
@@ -1114,7 +1342,9 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Deity in Charge of Monsters
 
-*Deity in Charge of Monsters* (Chinese: 司怪, Pinyin: Sī Guài) consists of 4 stars in front of the *Well* and the *Battle Axe*.
+[**司怪**](constellation:20B)4星，在[**钺**](constellation:22B)前，为甘氏中官，属[**觜宿**](constellation:20A)。<br>
+负责监测天象，预报鸟兽草木等世间万物的怪异现象。<br>
+若**司怪**星象有异，则预示着宫廷或天下将出现怪物或妖异之事。
 
 ##### Seat Flags
 
@@ -1130,13 +1360,15 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 (**参宿**)(constellation:21A)，二十八宿之一，西方白虎第七宿。<br>
 **参**包括7星。
 
-##### Send Armed Forces To Suppress (Vassal of Three Stars)
+##### Smiting (Vassal of Three Stars)
 
 *Send Armed Forces To Suppress* (Chinese: 伐, Pinyin: Fá) consists of 3 small stars in the center of the *Three Stars*.
 
 ##### Jade Well
 
-**玉井** (Chinese: 玉井, Pinyin: Yù Jǐng) consists of 4 stars under the left foot of the *Three Stars* (β Ori).
+[**玉井**](constellation:21C)4星，在[参左足](star:β Ori)下，为石氏外官，属[**参宿**](constellation:21A)。<br>
+**玉井**是主管水浆、提供饮水的“水官”，也被赋予了与军事和厨房相关的职能，如“主军敌”和“主粥厨”。<br>
+其星象的明暗直接关系到人间的旱涝与农业收成。
 
 ##### Screen
 
@@ -1147,7 +1379,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Military Well
 
 [**军井**](constellation:21E)4星在[**玉井**](constellation:21C)东南，为甘氏外官，属[**参宿**](constellation:21A)。<br>
-**军井**在西方战场是军营中的水井，供行军之用。
+**军井**在西方战场是军营中的水井，供行军之用。<br>
+“**军井**给水，师用不竭。”
 
 ##### Celestial Toilet
 
@@ -1246,12 +1479,14 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**四渎**](constellation:22K)4星，在[**东井**](constellation:22A)南辕东南，为甘氏外官，属[**井宿**](constellation:22A)。<br>
 这四颗星分别对应人间的四条大河：长江、黄河、淮河、济河，统称为“四渎”。<br>
-这四条河吸纳百川之水，东流入海。
+这四条河吸纳百川之水，东流入海。<br>
+“**四渎**受输，涤源注海。”
 
 ##### Official for Irrigation
 
 [**水府**](constellation:22I)4星，[**井宿**](constellation:22A)西南，为甘氏外官，属[**井宿**](constellation:22A)。<br>
-**水府**主要掌管堤防、沟渠、陂塘和道路桥涵的修筑与维护，是负责水利建设的星官。
+**水府**主要掌管堤防、沟渠、陂塘和道路桥涵的修筑与维护，是负责水利建设的星官。<br>
+“**水府**堤防，开道激满。”
 
 ##### Palace Gate
 
@@ -1260,7 +1495,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 天子宫殿前有两座对峙的高台，中间空缺出一条道路通往宫门，<br>
 就叫做“双阙”，诸侯的宫殿前则只能建“两观”。<br>
 **阙丘**就像宫门外竖立的两座高台，是天子宫殿的影壁，用来标识皇权的威严。<br>
-它还是一个“灭除之官”，负责清除那些危害国家、违背礼法的奸邪之人。
+它还是一个“灭除之官”，负责清除那些危害国家、违背礼法的奸邪之人。<br>
+“**阙丘**双塾，外屏罘罳。”
 
 该星官的设立显然与[**南河**](constellation:22C)、[**北河**](constellation:22D)“天之门阙”的含义相关。<br>
 因为[**天狼**](constellation:22R)这颗主杀伐的灾星就在[**南河**](constellation:22C)南边，<br>
@@ -1313,18 +1549,21 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Grandfather
 
 [**丈人**](constellation:22P)2星，在[**军市**](constellation:22L)西南，为甘氏外官，属[**井宿**](constellation:22A)。<br>
-[**丈人**](constellation:22P)、[**子**](constellation:22O)、[**孙**](constellation:22N)三者相依排列，象征着长辈与晚辈之间的扶持关系。
+[**丈人**](constellation:22P)、[**子**](constellation:22O)、[**孙**](constellation:22N)三者相依排列，象征着长辈与晚辈之间的扶持关系。<br>
+“[**丈人**](constellation:22P)杖行，[**子**](constellation:22O)[**孙**](constellation:22N)扶持。”
 
 ##### Son
 
 [**子**](constellation:22O)2星，在[**丈人**](constellation:22P)东，为甘氏外官，属[**井宿**](constellation:22A)。<br>
-[**丈人**](constellation:22P)、[**子**](constellation:22O)、[**孙**](constellation:22N)三者相依排列，象征着长辈与晚辈之间的扶持关系。
+[**丈人**](constellation:22P)、[**子**](constellation:22O)、[**孙**](constellation:22N)三者相依排列，象征着长辈与晚辈之间的扶持关系。<br>
+“[**丈人**](constellation:22P)杖行，[**子**](constellation:22O)[**孙**](constellation:22N)扶持。”
 
 ##### Grandson
 
 [**孙**](constellation:22N)2星，在[**子**](constellation:22O)东，为甘氏外官，属[**井宿**](constellation:22A)。<br>
 **孙星**侍立于[**祖父**](constellation:22P)、[**子**](constellation:22O)身侧，以示孝慈。<br>
-三者相依排列，象征着长辈与晚辈之间的扶持关系。
+三者相依排列，象征着长辈与晚辈之间的扶持关系。<br>
+“[**丈人**](constellation:22P)杖行，[**子**](constellation:22O)[**孙**](constellation:22N)扶持。”
 
 ##### Old Man
 
@@ -1378,7 +1617,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**天记**](constellation:23F)1星，在[**外厨**](constellation:23E)南，为甘氏外官，属[**鬼宿**](constellation:23A)。<br>
 **天记**负责记录禽兽的年龄，确保在烹宰时不杀害幼崽、不捕杀怀孕的母兽，<br>
-从而让禽兽得以繁衍生息，因此这颗星被安置在[**外厨**](constellation:23E)的门户位置。
+从而让禽兽得以繁衍生息，因此这颗星被安置在[**外厨**](constellation:23E)的门户位置。<br>
+“**纪**别少齿，胎夭不屠。”
 
 它的设立与[**柳宿**](constellation:24A)的厨房意象直接相关：<br>
 柳宿作为天上卿相大臣的厨房，主管上食、调和滋味，<br>
@@ -1388,7 +1628,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**天狗**](constellation:23D)7星，在[**天狼**](constellation:22R)东北，为甘氏外官，属[**鬼宿**](constellation:23A)。<br>
 **天狗**的设立可能与[**阙丘**](constellation:22Q)有关，因**天狗**在[**阙丘**](constellation:22Q)门外，其职责是“守财”与“守贼”，<br>
-形象如守护财产的猛犬，每当外敌或盗贼出现时便发出吠叫以示警告。
+形象如守护财产的猛犬，每当外敌或盗贼出现时便发出吠叫以示警告。<br>
+“野狗向吠，雌雄咸嗥。”
 
 它与[**天狼**](constellation:22R)、[**弧矢**](constellation:22S)等星官共同构成了一幅有趣的星象图景：<br>
 [**天狼**](constellation:22R)来犯，人们设下[**军市**](constellation:22L)（陷阱）并以[**野鸡**](constellation:22M)为诱饵，<br>
@@ -1398,7 +1639,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**天社**](constellation:23G)6星，在[**弧矢**](constellation:22S)南，为甘氏外官，属[**鬼宿**](constellation:23A)。<br>
 **天社**是天上的祭祀土地神的土地庙。相传共工之子句龙，因能平治水土，成为天上的星官后被奉为社星而受祀。<br>
-**天社**和[**老人**](constellation:22T)都主管着人间祈祷祭祀之事。
+**天社**和[**老人**](constellation:22T)都主管着人间祈祷祭祀之事。<br>
+“[**老人**](constellation:22T)**天社**，理落祷祀。”
 
 ##### Willow
 
@@ -1449,7 +1691,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Celestial Premier
 
 [**天相**](constellation:25D)3星，在[**七星**大星](star:α Hya)北，[**酒旗**](constellation:24B)南，为巫咸氏中官，属[**星宿**](constellation:25A)。<br>
-**天相**是天上的丞相之象，取人间丞相辅助君王之意。
+**天相**是天上的丞相之象，取人间丞相辅助君王之意。<br>
+“**天相**爵服，彩色显光。”
 
 该星官的设立可能与[**星宿**](constellation:25A)的“员官”含义有关。
 
@@ -1479,7 +1722,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Celestial Temple
 
 [**天庙**](constellation:26B)14星，在[**张**](constellation:26A)南，为甘氏外官，属[**张宿**](constellation:26A)。<br>
-**天庙**是天上天子之祖庙的象征，对应人间帝王祭祀祖先的宗庙。
+**天庙**是天上天子之祖庙的象征，对应人间帝王祭祀祖先的宗庙。<br>
+“**天庙**祭祀，示民不怠。”
 
 该星官的设立可能与[**张宿**](constellation:26A)有关，**张宿**是天府，<br>
 主管帝王的珠玉、宝物以及宗庙祭祀所用的器物，<br>
@@ -1502,7 +1746,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Dong'ou
 
 [**东瓯**](constellation:27B)5星，在[**翼**](constellation:27A)南，为甘氏外官，属[**翼宿**](constellation:27A)。<br>
-**东瓯**象征古代东南方的蛮夷之国，位于今浙江省南部。
+**东瓯**象征古代东南方的蛮夷之国，位于今浙江省南部。<br>
+“康居穿骨，越裳**东瓯**。”
 
 **东瓯**与[**青丘**](constellation:28G)同为南方蛮夷，但**东瓯**更具体地指向东南沿海的东越民族，<br>
 而[**青丘**](constellation:28G)则是一个更广义的南方蛮夷统称。<br>
@@ -1551,13 +1796,15 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 [**军门**](constellation:28E)2星，在[**青丘**](constellation:28G)西，[**土司空**](constellation:28F)北，为巫咸氏外官，属[**轸宿**](constellation:28A)。<br>
 **军门**是天子六军之门，主管军营哨候，设有豹尾旗和威旗作为标志。<br>
 作为天子军队在天上的门户，**军门**星官象征着帝王对军队的统率与出征的天象依据。<br>
-它与[**青丘**](constellation:28G)（代表南方蛮夷之国）、[**土司空**](constellation:28F)等星官相邻，共同构成了一组与边疆事务相关的星群。
+它与[**青丘**](constellation:28G)（代表南方蛮夷之国）、[**土司空**](constellation:28F)等星官相邻，共同构成了一组与边疆事务相关的星群。<br>
+“**军门**营候，虎尾威旗。”
 
 ##### Master of Constructions (South)
 
 [**土司空**](constellation:28F)4星，在[**青丘**](constellation:28G)西，[**军门**](constellation:28E)南，为巫咸氏外官，属[**轸宿**](constellation:28A)。<br>
 **土司空**为天上掌管土木工程之官，主管疆界土地，<br>
-又称司徒，主管九土之界域及各地风土民情。
+又称“司徒”，主管九土之界域及各地风土民情。<br>
+“**土司空**，主界域，族神，土粪。”
 
 ##### Green Hill
 
@@ -1570,7 +1817,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### House for Musical Instruments
 
 [**器府**](constellation:28H)32星，在[**轸**](constellation:28A)南，为甘氏外官，属[**轸宿**](constellation:28A)。<br>
-**器府**是天上收藏乐器的府库，主掌钟磬、管弦、丝竹等所有乐器的保管与使用。
+**器府**是天上收藏乐器的府库，主掌钟磬、管弦、丝竹等所有乐器的保管与使用。<br>
+“**器府**掌故，管弦丝竹。”
 
 该星官的设立与[**翼宿**](constellation:27A)相关，二者同为天上的乐府，为奏乐的机构<br>
 [**翼宿**](constellation:27A)负责音乐表演与宴享娱乐，而**器府**则是专门收藏乐器的乐器库，掌管关于乐器的旧制与礼仪。

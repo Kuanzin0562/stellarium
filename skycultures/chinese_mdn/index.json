@@ -123,7 +123,7 @@
       "id": "CON chinese_mdn P19",
       "lines": [[25110, 23265, 20776, 19461, 14417, 9727, 9763, 7650, 8016]],
       "lines1": [[19461, 14844, 13055, 10309, 9568, 9727, 9763, 7650, 8016]],
-      "common_name": {"english": "Canopy Support (Vassal of Canopy of the Emperor)", "native": "杠(附华盖)", "pronounce": "Gàng", "IPA": "kɑŋ˥˩"}
+      "common_name": {"english": "Canopy Support (Vassal of Canopy)", "native": "杠(附华盖)", "pronounce": "Gàng", "IPA": "kɑŋ˥˩"}
     },
     {
       "id": "CON chinese_mdn P20",
@@ -184,7 +184,7 @@
     {
       "id": "CON chinese_mdn P31",
       "lines": [[57399, 57399]],
-      "common_name": {"english": "Guard of the Sun", "native": "太阳守", "pronounce": "Tài Yáng Shǒu", "IPA": "tʰaɪ˥˩.jɑŋ˧˥.ʂoʊ˨˩˦"}
+      "common_name": {"english": "Solar Guardian", "native": "太阳守", "pronounce": "Tài Yáng Shǒu", "IPA": "tʰaɪ˥˩.jɑŋ˧˥.ʂoʊ˨˩˦", "byname": "Guard of the Sun"}
     },
     {
       "id": "CON chinese_mdn P32",
@@ -285,7 +285,7 @@
     {
       "id": "CON chinese_mdn S12",
       "lines": [[63125, 63125]],
-      "common_name": {"english": "Captain of the Bodyguards", "native": "郎将", "pronounce": "Láng Jiàng", "IPA": "lɑŋ˧˥.t͡ɕjɑŋ˥˩"}
+      "common_name": {"english": "Guard Captain", "native": "郎将", "pronounce": "Láng Jiàng", "IPA": "lɑŋ˧˥.t͡ɕjɑŋ˥˩"}
     },
     {
       "id": "CON chinese_mdn S13",
@@ -295,13 +295,13 @@
     {
       "id": "CON chinese_mdn S14",
       "lines": [[59856, 58369, 58460, 58654, 57670, 56997, 56410]],
-      "common_name": {"english": "Royal Guards", "native": "常陈", "pronounce": "Cháng Chén", "IPA": "t͡ʂʰɑŋ˧˥.t͡ʂʰən˧˥"}
+      "common_name": {"english": "Royal Guard", "native": "常陈", "pronounce": "Cháng Chén", "IPA": "t͡ʂʰɑŋ˧˥.t͡ʂʰən˧˥"}
     },
     {
       "id": "CON chinese_mdn S15",
       "lines": [[60742, 60197, 60170, 60066, 59847], [61071, 60904, 60746, 60697, 60742], [60697, 60514, 60351, 60327], [60197, 60514, 60525, 60941], [60746, 60525, 60599, 60351, 60170], [60904, 60941], [60066, 60327]],
       "lines1": [[60742, 60197, 60170, 60066, 59847, 60327, 60599, 60941, 61071, 60904, 60746, 60697, 60742], [60697, 60197], [60746, 60514, 60170], [60904, 60525, 60351, 60066]],
-      "common_name": {"english": "Officers of the Imperial Guard", "native": "郎位", "pronounce": "Láng Wèi", "IPA": "lɑŋ˧˥.weɪ˥˩"}
+      "common_name": {"english": "Guard Officers", "native": "郎位", "pronounce": "Láng Wèi", "IPA": "lɑŋ˧˥.weɪ˥˩"}
     },
     {
       "id": "CON chinese_mdn S16",
@@ -326,17 +326,17 @@
     {
       "id": "CON chinese_mdn S20",
       "lines": [[44127, 44471]],
-      "common_name": {"native": "", "comment": "上台"}
+      "common_name": {"english": "Upper Step", "native": "上台", "pronounce": "Shàng Tái", "IPA": "ʂɑŋ˥˩.tʰaɪ˧˥"}
     },
     {
       "id": "CON chinese_mdn S21",
       "lines": [[50372, 50801]],
-      "common_name": {"native": "", "comment": "中台"}
+      "common_name": {"english": "Middle Step", "native": "中台", "pronounce": "Zhōng Tái", "IPA": "t͡ʂʊŋ˥.tʰaɪ˧˥"}
     },
     {
       "id": "CON chinese_mdn S22",
       "lines": [[55219, 55203]],
-      "common_name": {"native": "", "comment": "下台"}
+      "common_name": {"english": "Lower Step", "native": "下台", "pronounce": "Xià Tái", "IPA": "ɕja˥˩.tʰaɪ˧˥"}
     },
     {
       "id": "CON chinese_mdn S23",
@@ -590,7 +590,7 @@
     },
     {
       "id": "CON chinese_mdn 04A",
-      "lines": [[78820, 78401, 78265, 78104]],
+      "lines": [[78104, 78265, 78401, 78820, 78933]],
       "common_name": {"english": "Room", "native": "【房】", "pronounce": "Fáng", "IPA": "fɑŋ˧˥", "byname": "Dragon Belly, Celestial Quadriga, Celestial Government Office"}
     },
     {
@@ -640,7 +640,7 @@
     },
     {
       "id": "CON chinese_mdn 06A",
-      "lines": [[82396, 82514, 82729, 84143, 86228, 87073, 86670, 85927], [86670, 85696]],
+      "lines": [[82396, 82514, 82729, 84143, 86228, 87073, 86670, 85927], [86670, 85696], [82514, 82545]],
       "common_name": {"english": "Tail", "native": "【尾】", "pronounce": "Wěi", "IPA": "weɪ˨˩˦", "byname": "Dragon Tail", "byname": "Imperial Harem"}
     },
     {
@@ -700,7 +700,7 @@
     },
     {
       "id": "CON chinese_mdn 08D",
-      "lines": [[94114, 93825, 93174, 92989, 91918, 91901, 91875, 91989, 92226, 92608, 93074, 93542, 94005, 94160, 94114]],
+      "lines": [[94114, 93825, 93174, 92989, 91918, 91901, 91875, 91989, 92226, 92953, 93470, 93542, 94005, 94160, 94114]],
       "common_name": {"english": "River Turtle", "native": "鳖", "pronounce": "Biē", "IPA": "pjɛ˥"}
     },
     {
@@ -882,7 +882,7 @@
     },
     {
       "id": "CON chinese_mdn 12A",
-      "lines": [[109074, 109427, 107315]],
+      "lines": [[109074, 109427, 107315], [109427, 110672]],
       "common_name": {"english": "Rooftop", "native": "【危】", "pronounce": "Wēi", "IPA": "weɪ˥"}
     },
     {
@@ -922,7 +922,7 @@
     },
     {
       "id": "CON chinese_mdn 12I",
-      "lines": [[110532, 111170, 111710, 111965]],
+      "lines": [[110023, 110532, 111170, 111710]],
       "common_name": {"english": "Tomb and Temple", "native": "虚梁", "pronounce": "Xū Liáng", "IPA": "ɕy˥.ljɑŋ˧˥", "byname": "lit. Empty Beam"}
     },
     {
@@ -979,7 +979,7 @@
     },
     {
       "id": "CON chinese_mdn 13I",
-      "lines": [[115990, 117301, 117863, 118243, 114924, 114162, 113501, 111674, 111169, 113288, 113919, 114570, 115022, 115152, 116584, 116805, 116631], [111169, 110538], [111169, 109521], [111169, 110609], [111169, 111022], [111169, 113327]],
+      "lines": [[115990, 117301, 117863, 118243, 114924, 114162, 113501, 112761, 113288, 113919, 114570, 115022, 116584, 116805, 116631], [111169, 112761], [111169, 111674], [111169, 110538], [111169, 109521], [111169, 110609], [111169, 111022], [111169, 113327]],
       "common_name": {"english": "Flying Serpent", "native": "螣蛇", "pronounce": "Téng Shé", "IPA": "tʰɤŋ˧˥.ʂɤ˧˥"}
     },
     {
@@ -1105,7 +1105,7 @@
     {
       "id": "CON chinese_mdn 17B",
       "lines1": [[14135, 15457, 13954, 12828, 10324, 11484, 12093, 12706, 12387, 12530, 11791, 11046, 10826]],
-      "lines": [[12387, 12706, 14135, 15457, 13954, 12828, 10324, 11484, 12093, 12387, 12530, 11791, 11046, 10826]],
+      "lines": [[12387, 12706, 14135, 14915, 13954, 12828, 11249, 11484, 12093, 12387, 12530, 11791, 11046, 10826]],
       "common_name": {"english": "Circular Celestial Granary", "native": "天囷", "pronounce": "Tiān Qūn", "IPA": "tʰjɛn˥.t͡ɕʰyn˥"}
     },
     {
@@ -1180,7 +1180,7 @@
     },
     {
       "id": "CON chinese_mdn 19A",
-      "lines": [[20889, 20648, 20455, 20205], [21421, 20894, 20713, 20205, 18724]],
+      "lines": [[20889, 20648, 20455, 20205], [21421, 20894, 20713, 20205, 18724], [21421, 21683]],
       "common_name": {"english": "Net", "native": "【毕】", "pronounce": "Bì", "IPA": "pi˥˩", "byname": "Hunting Chariot"}
     },
     {
@@ -1216,7 +1216,7 @@
     {
       "id": "CON chinese_mdn 19H",
       "lines": [[23015, 24608, 28360, 28380, 25428]],
-      "common_name": {"english": "Five Chariots", "native": "五车", "pronounce": "Wǔ Chē", "IPA": "wu˨˩˩.t͡ʂʰɤ˥", "byname": "Five Celestial Piers, Hall of the Five Emperors' Chariots"}
+      "common_name": {"english": "Five Chariots", "native": "五车", "pronounce": "Wǔ Chē", "IPA": "wu˨˩˩.t͡ʂʰɤ˥", "byname": "Five Celestial Piers, Hall of the Five Emperors' Chariots, Celestial Arsenal, Celestial Granary"}
     },
     {
       "id": "CON chinese_mdn 19I",
@@ -1231,7 +1231,7 @@
     {
       "id": "CON chinese_mdn 19K",
       "lines": [[26712, 25984, 26536]],
-      "common_name": {"english": "Southeasterb Pillar", "native": "东南柱", "pronounce": "Dōng Nán Zhù", "IPA": "tʊŋ˥.nan˧˥.t͡ʂu˥˩", "byname": "Three Springs"}
+      "common_name": {"english": "Southeastern Pillar", "native": "东南柱", "pronounce": "Dōng Nán Zhù", "IPA": "tʊŋ˥.nan˧˥.t͡ʂu˥˩", "byname": "Three Springs"}
     },
     {
       "id": "CON chinese_mdn 19L",
@@ -1315,7 +1315,7 @@
     },
     {
       "id": "CON chinese_mdn 22A",
-      "lines": [[30343, 30883, 31681, 32362], [32246, 32921, 34088, 35350], [30883, 32921], [31681, 34088]],
+      "lines": [[30343, 30883, 31681, 32362], [32246, 32921, 34088, 35350], [30883, 32921], [31681, 34088], [30343, 29655]],
       "common_name": {"english": "Well", "native": "【井】", "pronounce": "Jǐng", "IPA": "t͡ɕiŋ˨˩˦", "byname": "Eastern Well"}
     },
     {
@@ -1510,7 +1510,7 @@
     },
     {
       "id": "CON chinese_mdn 28A",
-      "lines": [[59316, 59803, 60965, 61359, 59316]],
+      "lines": [[59316, 59803, 60965, 61359, 59316], [59803, 60189], [60965, 61174], [59316, 59199]],
       "common_name": {"english": "Chariot", "native": "【轸】", "pronounce": "Zhěn", "IPA": "t͡ʂən˨˩˦", "byname": "lit. Chariot's Rear Crossbeam"}
     },
     {
@@ -1550,106 +1550,6 @@
       "lines": [[54360, 55133, 56319, 57443, 58177, 59607, 60463, 60855], [54811, 55528, 56000, 57013, 58803, 59232, 59785, 60591], [54746, 56573, 57371, 57803, 59229, 59654], [54840, 55849, 57179, 58453, 59196, 60823], [55425, 56480, 59449, 60710]],
       "lines1": [[54173, 55588, 55756, 57165, 58057, 59607, 60463, 60855], [55130, 55763, 56319, 56391, 57443, 59232, 59785, 60591], [54360, 55667, 56000, 57013, 57803, 59654], [54811, 55528, 56573, 57322, 59196, 60823], [54746, 56497, 59449, 60710]],
       "common_name": {"english": "House for Musical Instruments", "native": "器府", "pronounce": "Qì Fǔ", "IPA": "t͡ɕʰi˥˩.fʋ̩˨˩˦"}
-    },
-    {
-      "id1": "CON chinese_mdn N01",
-      "lines": [[51232, "5350358584482202880", 54463, 56606, 56561, 57363]],
-      "common_name": {"english": "Sea and Mountain", "native": "海山", "pronounce": "Hǎi Shān", "IPA": "xaɪ˨˩˩.ʂan˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N04",
-      "lines": [[62322, 61585], [62322, 61199], [62322, 63613]],
-      "common_name": {"english": "Bee", "native": "蜜蜂", "pronounce": "Mì Fēng", "IPA": "mi˥˩.fɤŋ˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N05",
-      "lines": [[74946, 77952, 82273, 74946]],
-      "common_name": {"english": "Triangle", "native": "三角形", "pronounce": "Sān Jiǎo Xíng", "IPA": "san˥.t͡ɕjɑʊ˨˩˩.ɕiŋ˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N06",
-      "lines": [[84969, 84979, 81852, 81065, 70638], [81852, 80047, 69896], [81852, 72370, 70248]],
-      "common_name": {"english": "Exotic Bird", "native": "异雀", "pronounce": "Yì Què", "IPA": "ji˥˩.t͡ɕʰɥɛ˥˩"}
-    },
-    {
-      "id1": "CON chinese_mdn N07",
-      "lines": [[102395, 99240, 93015, 92609, 90797, 88866, 86929, 91792, 98495, 105858, 100751]],
-      "common_name": {"english": "Peafowl", "native": "孔雀", "pronounce": "Kǒng Què", "IPA": "kʰʊŋ˨˩˩.t͡ɕʰɥɛ˥˩"}
-    },
-    {
-      "id1": "CON chinese_mdn N08",
-      "lines": [[97816, 100184, 103673, 105319, 106978, 108431, 108870, 104085, 102333, 102950, 103260]],
-      "common_name": {"english": "Persia", "native": "波斯", "pronounce": "Bō Sī", "IPA": "po˥.sɹ̩˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N09",
-      "lines": [[2021, 110078, 107089, 104043, 112405, 115836, 92824]],
-      "common_name": {"english": "Snake's Tail", "native": "蛇尾", "pronounce": "Shé Wěi", "IPA": "ʂɤ˧˥.weɪ˨˩˦"}
-    },
-    {
-      "id1": "CON chinese_mdn N10",
-      "lines": [[12876, 12394, 11001, 8928]],
-      "common_name": {"english": "Snake's Abdomen", "native": "蛇腹", "pronounce": "Shé Fù", "IPA": "ʂɤ˧˥.fʋ̩˥˩"}
-    },
-    {
-      "id1": "CON chinese_mdn N11",
-      "lines": [[9236, 17440]],
-      "common_name": {"english": "Snake's Head", "native": "蛇首", "pronounce": "Shé Shǒu", "IPA": "ʂɤ˧˥.ʂoʊ˨˩˦"}
-    },
-    {
-      "id1": "CON chinese_mdn N12",
-      "lines": [[110130, 110838, 118092, 2484, 3330, 1599, 118322]],
-      "common_name": {"english": "Bird's Beak", "native": "鸟喙", "pronounce": "Niǎo Huì", "IPA": "njɑʊ˨˩˩.xweɪ˥˩"}
-    },
-    {
-      "id1": "CON chinese_mdn N13",
-      "lines": [[109268, 112122, 112623, 112374, 114996, 113638, 112122, 114421], [112122, 114131], [112122, 111043, 109908], [112122, 112203, 110936]],
-      "common_name": {"english": "Crane", "native": "鹤", "pronounce": "Hè", "IPA": "xɤ˥˩"}
-    },
-    {
-      "id1": "CON chinese_mdn N14",
-      "lines": [[116231, 116389, 116602, 765, 2072, 2081, 3245, 2472, 5165, 6867]],
-      "common_name": {"english": "Firebird", "native": "火鸟", "pronounce": "Huǒ Niǎo", "IPA": "xwo˨˩˩.njɑʊ˨˩˦"}
-    },
-    {
-      "id1": "CON chinese_mdn N15",
-      "lines": [[7588, 5348, 3405]],
-      "common_name": {"english": "Crooked Running Water", "native": "水委", "pronounce": "Shuǐ Weǐ", "IPA": "ʂweɪ˨˩˩.weɪ˨˩˦"}
-    },
-    {
-      "id1": "CON chinese_mdn N16",
-      "lines": [[17678, 13244]],
-      "common_name": {"english": "White Patched Nearby", "native": "附白", "pronounce": "Fù Bái", "IPA": "fʋ̩˥˩.paɪ˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N17",
-      "lines": [[24372, 19780], [24372, 23467]],
-      "common_name": {"english": "White Patches Attached", "native": "夹白", "pronounce": "Jiā Bái", "IPA": "t͡ɕja˥.paɪ˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N18",
-      "lines": [[19893, 21281, 26069, 27100, 29134]],
-      "common_name": {"english": "Goldfish", "native": "金鱼", "pronounce": "Jīn Yú", "IPA": "t͡ɕin˥.y˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N19",
-      "lines": [[41037, 45556, 46974, 47854, 48002]],
-      "common_name": {"english": "Sea Rock", "native": "海石", "pronounce": "Hǎi Shí", "IPA": "xaɪ˨˩˩.ʂɻ̍˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N20",
-      "lines": [[44382, 39794, 34481], [44382, 41312], [44382, 40817], [39794, 35228], [39794, 37504]],
-      "common_name": {"english": "Flying Fish", "native": "飞鱼", "pronounce": "Fēi Yú", "IPA": "feɪ˥.y˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N21",
-      "lines": [[50371, 51576, 52419, 50099, 45238]],
-      "common_name": {"english": "Southern Boat", "native": "南船", "pronounce": "Nán Chuán", "IPA": "nan˧˥.t͡ʂʰwan˧˥"}
-    },
-    {
-      "id1": "CON chinese_mdn N22",
-      "lines": [[60000, 58484, 51839, 52633, 46928, 46107, 43012, 40888, 36982]],
-      "common_name": {"english": "Little Dipper", "native": "小斗", "pronounce": "Xiǎo Dǒu", "IPA": "ɕjɑʊ˨˩˩.toʊ˨˩˦"}
     },
     {
       "id": "CON chinese_mdn D01",
@@ -1863,33 +1763,9 @@
     },
     {
       "id": "CON chinese_mdn 001",
-      "lines": [[78820, 78933]],
-      "common_name": {"native": ""}
-    },
-    {
-      "id": "CON chinese_mdn 002",
-      "lines": [[82514, 82545]],
-      "common_name": {"native": ""}
-    },
-    {
-      "id": "CON chinese_mdn 003",
-      "lines": [[109427, 110672]],
-      "common_name": {"native": ""}
-    },
-    {
-      "id": "CON chinese_mdn 004",
-      "lines": [[21421, 21683]],
-      "common_name": {"native": ""}
-    },
-    {
-      "id": "CON chinese_mdn 005",
-      "lines": [[30343, 29655]],
-      "common_name": {"native": ""}
-    },
-    {
-      "id": "CON chinese_mdn 006",
-      "lines": [[59803, 60189], [60965, 61174], [59316, 59199]],
-      "common_name": {"native": ""}
+      "lines": [[]],
+      "label_positions": [[]],
+      "common_name": {"english": "Empty Constellation","native": "空星官用于占位"}
     }
   ],
   "edges_type": "own",
@@ -3537,13 +3413,13 @@
     "HIP  54027": [{"native": "灵台增十四", "references": [4]}],
     "HIP  54049": [{"native": "灵台增十五", "references": [4]}],
     "HIP  54336": [{"native": "灵台增十六", "references": [4]}],
-    "HIP  53954": [{"native": "少微一", "references": [3]},
+    "HIP  53954": [{"native": "处士 少微一", "references": [3]},
                    {"native": "少微距南第一星", "references": [1,3,7]}],
-    "HIP  53417": [{"native": "少微二", "references": [2,3]},
+    "HIP  53417": [{"native": "博士 少微二", "references": [2,3]},
                    {"native": "少微南第二星", "references": [7]}],
-    "HIP  52959": [{"native": "少微三", "references": [3]},
+    "HIP  52959": [{"native": "议士 少微三", "references": [3]},
                    {"native": "少微北第二星", "references": [7]}],
-    "HIP  52638": [{"native": "少微四", "references": [3]},
+    "HIP  52638": [{"native": "大夫 少微四", "references": [3]},
                    {"native": "少微北第一星", "references": [7]}],
     "HIP  52882": [{"native": "少微增一", "references": [9]}],
     "HIP  53195": [{"native": "少微增二", "references": [9]}],
@@ -4978,8 +4854,8 @@
     "HIP  94160": [{"native": "鳖四", "references": [9]}],
     "HIP  94005": [{"native": "鳖五", "references": [9]}],
     "HIP  93542": [{"native": "鳖六", "references": [9]}],
-    "HIP  93074": [{"native": "鳖七", "references": [9]}],
-    "HIP  92608": [{"native": "鳖八", "references": [9]}],
+    "HIP  93470": [{"native": "鳖七", "references": [9]}],
+    "HIP  92953": [{"native": "鳖八", "references": [9]}],
     "HIP  92226": [{"native": "鳖九", "references": [9]}],
     "HIP  91989": [{"native": "鳖十", "references": [9]}],
     "HIP  91875": [{"native": "鳖十一", "references": [9]}],
@@ -5794,19 +5670,19 @@
     "HIP 109592": [{"native": "造父三", "references": [3]}],
     "HIP 107259": [{"native": "造父四", "references": [7]}],
     "HIP 107418": [{"native": "造父五", "references": [7]}],
-    "HIP 110532": [{"native": "虚梁一", "references": [9]},
+    "HIP 110023": [{"native": "虚梁一", "references": [9]},
                    {"native": "虚梁西第一星", "references": [9]}],
-    "HIP 111170": [{"native": "虚梁二", "references": [9]},
+    "HIP 110532": [{"native": "虚梁二", "references": [9]},
                    {"native": "虚梁西第二星", "references": [9]}],
-    "HIP 111710": [{"native": "虚梁三", "references": [2,9]},
+    "HIP 111170": [{"native": "虚梁三", "references": [2,9]},
                    {"native": "虚梁距东第二星", "references": [9]}],
-    "HIP 111965": [{"native": "虚梁四", "references": [9]},
+    "HIP 111710": [{"native": "虚梁四", "references": [9]},
                    {"native": "虚梁东第一星", "references": [9]}],
     "HIP 109442": [{"native": "虚梁增一", "references": [9]}],
     "HIP 109466": [{"native": "虚梁增二", "references": [9]}],
     "HIP 109647": [{"native": "虚梁增三", "references": [9]}],
-    "HIP 110023": [{"native": "虚梁增四", "references": [9]}],
-    "HIP 110578": [{"native": "虚梁增五", "references": [9]}],
+    "HIP 110578": [{"native": "虚梁增四", "references": [9]}],
+    "HIP 111965": [{"native": "虚梁增五", "references": [9]}],
     "HIP 112078": [{"native": "虚梁增六", "references": [9]}],
     "HIP 112559": [{"native": "虚梁增七", "references": [9]}],
     "HIP 113184": [{"native": "虚梁增八", "references": [9]}],
@@ -6016,28 +5892,49 @@
     "HIP 113860": [{"native": "天纲增五", "references": [7]}],
     "HIP 113447": [{"native": "天纲增六", "references": [7]}],
     "HIP 111169": [{"native": "螣蛇一", "references": [2,3]},
-                   {"native": "距星", "references": [1,3]}],
-    "HIP 113327": [{"native": "螣蛇二", "references": [3]}],
-    "HIP 111022": [{"native": "螣蛇三", "references": [3]}],
-    "HIP 110609": [{"native": "螣蛇四", "references": [3]}],
-    "HIP 109521": [{"native": "螣蛇五", "references": [3]}],
-    "HIP 110538": [{"native": "螣蛇六", "references": [3]}],
-    "HIP 111674": [{"native": "螣蛇七", "references": [3]}],
-    "HIP 113501": [{"native": "螣蛇八", "references": [4]}],
-    "HIP 114162": [{"native": "螣蛇九", "references": [4]}],
-    "HIP 114924": [{"native": "螣蛇十", "references": [4]}],
-    "HIP 118243": [{"native": "螣蛇十一", "references": [7]}],
-    "HIP 117863": [{"native": "螣蛇十二", "references": [2,4]}],
-    "HIP 117301": [{"native": "螣蛇十三", "references": [2,4]}],
-    "HIP 115990": [{"native": "螣蛇十四", "references": [2,4]}],
-    "HIP 113288": [{"native": "螣蛇十五", "references": [3]}],
-    "HIP 113919": [{"native": "螣蛇十六", "references": [2,3]}],
-    "HIP 114570": [{"native": "螣蛇十七", "references": [2,3]}],
-    "HIP 115022": [{"native": "螣蛇十八", "references": [2,3]}],
-    "HIP 115152": [{"native": "螣蛇十九", "references": [4]}],
-    "HIP 116584": [{"native": "螣蛇二十", "references": [3]}],
-    "HIP 116805": [{"native": "螣蛇二十一", "references": [2,3]}],
-    "HIP 116631": [{"native": "螣蛇二十二", "references": [2,3]}],
+                   {"native": "螣蛇距头部中大星", "references": [1,3]}],
+    "HIP 113327": [{"native": "螣蛇二", "references": [3]},
+                   {"native": "螣蛇头部东南星", "references": [9]}],
+    "HIP 111022": [{"native": "螣蛇三", "references": [3]},
+                   {"native": "螣蛇头部南星", "references": [5,9]}],
+    "HIP 110609": [{"native": "螣蛇四", "references": [3]},
+                   {"native": "螣蛇头部西南星", "references": [9]}],
+    "HIP 109521": [{"native": "螣蛇五", "references": [3]},
+                   {"native": "螣蛇头部西星", "references": [9]}],
+    "HIP 110538": [{"native": "螣蛇六", "references": [3]},
+                   {"native": "螣蛇头部西北星", "references": [9]}],
+    "HIP 111674": [{"native": "螣蛇七", "references": [3]},
+                   {"native": "螣蛇头部东北星", "references": [9]}],
+    "HIP 113501": [{"native": "螣蛇八", "references": [4]},
+                   {"native": "螣蛇北尾第七星", "references": [9]}],
+    "HIP 114162": [{"native": "螣蛇九", "references": [4]},
+                   {"native": "螣蛇北尾第六星", "references": [9]}],
+    "HIP 114924": [{"native": "螣蛇十", "references": [4]},
+                   {"native": "螣蛇北尾第五星", "references": [9]}],
+    "HIP 118243": [{"native": "螣蛇十一", "references": [7]},
+                   {"native": "螣蛇北尾第四星", "references": [9]}],
+    "HIP 117863": [{"native": "螣蛇十二", "references": [2,4]},
+                   {"native": "螣蛇北尾第三星", "references": [9]}],
+    "HIP 117301": [{"native": "螣蛇十三", "references": [2,4]},
+                   {"native": "螣蛇北尾第二星", "references": [9]}],
+    "HIP 115990": [{"native": "螣蛇十四", "references": [2,4]},
+                   {"native": "螣蛇北尾第一星", "references": [9]}],
+    "HIP 112761": [{"native": "螣蛇十五", "references": [9]},
+                   {"native": "螣蛇头部东星", "references": [9]}],
+    "HIP 113288": [{"native": "螣蛇十六", "references": [9]},
+                   {"native": "螣蛇南尾第七星", "references": [9]}],
+    "HIP 113919": [{"native": "螣蛇十七", "references": [9]},
+                   {"native": "螣蛇南尾第六星", "references": [9]}],
+    "HIP 114570": [{"native": "螣蛇十八", "references": [9]},
+                   {"native": "螣蛇南尾第五星", "references": [9]}],
+    "HIP 115022": [{"native": "螣蛇十九", "references": [9]},
+                   {"native": "螣蛇南尾第四星", "references": [9]}],
+    "HIP 116584": [{"native": "螣蛇二十", "references": [3]},
+                   {"native": "螣蛇南尾第三星", "references": [9]}],
+    "HIP 116805": [{"native": "螣蛇二十一", "references": [2,3]},
+                   {"native": "螣蛇南尾第二星", "references": [9]}],
+    "HIP 116631": [{"native": "螣蛇二十二", "references": [2,3]},
+                   {"native": "螣蛇南尾第一星", "references": [9]}],
     "HIP    950": [{"native": "八魁一", "references": [4]},
                    {"native": "八魁距东南星", "references": [4,8]}],
     "HIP   1288": [{"native": "八魁二", "references": [4]},
@@ -7413,20 +7310,37 @@
     "HIP  18859": [{"native": "九州殊口增十九", "references": [7]}],
     "HIP  18993": [{"native": "九州殊口增二十", "references": [7]}],
     "HIP  23015": [{"native": "五车卿星 五车一", "references": [2,3]},
-                   {"native": "灵隆", "references": [7]},
+                   {"native": "乡", "references": [9]},
+                   {"native": "丰隆/灵隆", "references": [7]},
+                   {"native": "韩魏", "references": [9]},
+                   {"native": "荧惑", "references": [9]},
+                   {"native": "大豆", "references": [9]},
                    {"native": "五车距西南星", "references": [4,5,7]}],
     "HIP  24608": [{"native": "五车天库 五车二", "references": [2,3]},
                    {"native": "令尉", "references": [7]},
+                   {"native": "毕", "references": [9]},
+                   {"native": "秦", "references": [9]},
+                   {"native": "太白", "references": [9]},
+                   {"native": "稻", "references": [9]},
                    {"native": "五车西北大星", "references": [5,7]}],
     "HIP  28360": [{"native": "五车天狱 五车三", "references": [2,3]},
-                   {"native": "雷公", "references": [7]},
+                   {"native": "风伯", "references": [9]},
+                   {"native": "燕赵", "references": [9]},
+                   {"native": "辰星", "references": [9]},
+                   {"native": "麻", "references": [9]},
                    {"native": "五车东北星", "references": [5,7]}],
     "HIP  28380": [{"native": "五车天仓 五车四", "references": [2,3]},
-                   {"native": "风伯", "references": [7]},
+                   {"native": "雨师", "references": [9]},
+                   {"native": "卫鲁", "references": [9]},
+                   {"native": "岁星", "references": [9]},
+                   {"native": "粟", "references": [9]},
                    {"native": "五车东星", "references": [7]},
                    {"native": "五车东中星", "references": [5]}],
     "HIP  25428": [{"native": "五车司空 五车五", "references": [2,3]},
-                   {"native": "雨师", "references": [7]},
+                   {"native": "雷公", "references": [9]},
+                   {"native": "楚", "references": [9]},
+                   {"native": "镇星", "references": [9]},
+                   {"native": "麦", "references": [9]},
                    {"native": "五车南星", "references": [7]},
                    {"native": "五车东南星", "references": [5]}],
     "HIP  21928": [{"native": "五车增一", "references": [2,7]}],
