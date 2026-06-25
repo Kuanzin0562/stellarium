@@ -19,6 +19,7 @@
         "latest_update": "3C8.26, 2025-8-26",
         "update_search_lists": false,
         "show_names": true,
+        "export_data": false,
         "default_icon": "cross",
         "coordinate_system": "equatorial_cn",
         "degrees_per_circle_x": 365.25,
