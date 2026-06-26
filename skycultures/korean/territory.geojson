@@ -4,10 +4,11 @@
   "features": [
     { 
     	"type": "Feature", 
+    	"comment": "This map shows only the approximate territory of the historical Joseon dynasty. For the period after 1910 (Japanese colonial rule) and the post‑1945 division into North and South, please adjust according to their sensitivity.",
     	"properties": { 
 				"name": "Korea", 
 				"beginTime": 1395,
-				"endTime": 1953
+				"endTime": 1910
     	}, 
     	"geometry": { 
 			"type": "MultiPolygon", 
@@ -19,10 +20,11 @@
    },
    { 
     "type": "Feature", 
+    "comment": "Assess its sensitivity and modify the begin and end times accordingly",
     "properties": { 
 	"name": "South Korea", 
-	"beginTime": 1953,
-	"endTime": 9146,
+	"beginTime": 1910,
+	"endTime": 1910,
 	"ISO3166-1-Alpha-3": "KOR", 
 	"ISO3166-1-Alpha-2": "KR" 
     }, 
@@ -32,10 +34,11 @@
    },
    { 
     "type": "Feature", 
+    "comment": "Assess its sensitivity and modify the begin and end times accordingly",
     "properties": { 
 	"name": "North Korea", 
-	"beginTime": 1953,
-	"endTime": 9146,
+	"beginTime": 1910,
+	"endTime": 1910,
 	"ISO3166-1-Alpha-3": "PRK", 
 	"ISO3166-1-Alpha-2": "KP" 
     }, 

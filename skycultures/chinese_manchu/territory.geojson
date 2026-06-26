@@ -3,6 +3,7 @@
 	"features": [
 		{
 			"type": "Feature", 
+			"comment": "The Manchu sphere of influence has changed enormously since the Qing dynasty. Due to policy influences, many people from other ethnic groups were later classified as Manchu. Without established criteria, it is nearly impossible to clearly delineate the modern Manchu cultural area, so we currently provide only the pre‑1911 range. This work will require experts familiar with ethnic distributions.",
 			"properties": {
 				"name": "Chinese_Manchu(中国满族)",
 				"beginTime": 1635,
@@ -48,7 +49,7 @@
 			"properties": {
 				"name": "Chinese_Manchu(中国满族)",
 				"beginTime": 1861,
-				"endTime": 9146,
+				"endTime": 1911,
 				"ISO3166-1-Alpha-3": "CHN", 
 				"ISO3166-1-Alpha-2": "CN" 
 			}, 
@@ -104,7 +105,7 @@
 			"properties": {
 				"name": "Aihui(瑷珲)",
 				"beginTime": 1901,
-				"endTime": 9146,
+				"endTime": 1911,
 				"ISO3166-1-Alpha-3": "CHN", 
 				"ISO3166-1-Alpha-2": "CN" 
 			}, 
@@ -118,7 +119,7 @@
 			"properties": {
 				"name": "Chengde(承德)",
 				"beginTime": 1700,
-				"endTime": 9146,
+				"endTime": 1911,
 				"ISO3166-1-Alpha-3": "CHN", 
 				"ISO3166-1-Alpha-2": "CN" 
 			}, 

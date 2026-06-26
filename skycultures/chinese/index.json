@@ -5,7 +5,7 @@
   "fallback_to_international_names": false,
   "beginTime": 1752,
   "endTime": 9146,
-"constellations": [
+  "constellations": [
     {
       "id": "CON chinese 001",
       "lines": [[20889, 20648, 20455, 20205], [21421, 20885, 20713, 20205, 18724], [21421, 21683]],
