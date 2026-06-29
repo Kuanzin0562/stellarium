@@ -153,7 +153,7 @@
             {"name": "下台北星", "mansion": "翼", "x": 3.7, "y": 54.3, "id_star": "ν_UMa", "HIP": [55219]},
             {"name": "?下台南星+", "mansion": "翼", "x": 3.7, "y": 55.9, "id_star": "ξ_UMa", "HIP": [55203], "color": "ff5555"},
             {"name": "灵台上星", "mansion": "翼", "x": 0.6, "y": 80.5, "id_star": "χ_Leo", "HIP": [54182]},
-            {"name": "灵台中星", "mansion": "张", "x": 16.0, "y": 81.8, "id_star": "59_Leo", "HIP": [53824]},
+            {"name": "灵台中星", "mansion": "张", "x": 16.0, "y": 81.8, "id_star": "59_Leo", "HIP": [53824], "note": "杨伯顺认为证认星为56_Leo。"},
             {"name": "灵台下星", "mansion": "张", "x": 17.1, "y": 83.9, "id_star": "58_Leo", "HIP": [53807]},
             {"name": "明堂东星", "mansion": "翼", "x": 9.1, "y": 89.0, "id_star": "υ_Leo", "HIP": [56647]},
             {"name": "明堂中星", "mansion": "翼", "x": 7.2, "y": 90.1},
