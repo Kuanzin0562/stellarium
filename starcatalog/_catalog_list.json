@@ -1,0 +1,26 @@
+{
+    "description": "Custom star catalog list configuration. Files are loaded in order.",
+    "files": [
+        "_catalog_list.json",
+        "陈卓星表(石氏)数据.json",
+        "陈卓星表(甘氏)数据.json",
+        "陈卓星表(巫咸氏)数据.json",
+        "三家星表.json",
+        "景祐星表数据1034.json",
+        "皇祐星表数据1052.json",
+        "增广考异星表（含崇宁星表）数据1106.json",
+        "天文汇钞星表数据.json",
+        "大统通占星表数据.json",
+        "七政推步星表数据.json",
+        "周天星位经纬宿度考.json",
+        "崇祯历书星表数据(黄道汉字编号)1628.json",
+        "崇祯历书星表数据(赤道汉字编号)1628.json",
+        "灵台仪象志星表数据(星名简化版)1673.json",
+        "灵台仪象志星表数据(黄道座标修正版)1672.json",
+        "灵台仪象志星表数据(赤道版汉字编号)1673.json",
+        "仪象考成星表数据(汉字编号)1744.json",
+        "日本天文琼统星表数据1690.json",
+        "观津星表.json",
+        "English titles/Tianwen_Huichao_(14th_century).json"
+    ]
+}

@@ -57,6 +57,8 @@
 #include <QSortFilterProxyModel>
 #include <QStringListModel>
 #include <QFileDialog>
+#include <QDesktopServices>
+#include <QUrl>
 #include <QDir>
 #include <QSet>
 #include <QDialog>
@@ -555,6 +557,8 @@ void SearchDialog::createDialogContent()
 	connect(ui->loadSelectedButton, SIGNAL(clicked()), this, SLOT(on_loadSelectedButton_clicked()));
 	connect(ui->selectAllButton, SIGNAL(clicked()), this, SLOT(selectAllFiles()));
 	connect(ui->deselectAllButton, SIGNAL(clicked()), this, SLOT(deselectAllFiles()));
+	connect(ui->refreshCatalogListButton, SIGNAL(clicked()), this, SLOT(loadStarCatalogFiles()));
+	connect(ui->starCatalogListView, SIGNAL(doubleClicked(const QModelIndex&)), this, SLOT(on_starCatalogListView_doubleClicked(const QModelIndex&)));
 	connect(ui->clearCoordinateButton, SIGNAL(clicked()), this, SLOT(on_clearCoordinateButton_clicked()));
 
 	ui->labelCoordData->setFixedWidth(80);
@@ -1808,27 +1812,101 @@ void SearchDialog::loadStarCatalogFiles()
 	QString appPath = QCoreApplication::applicationDirPath();
 
 	// 尝试不同的starcatalog路径
-	QStringList starCatalogPaths;
+	QString starCatalogBasePath;
 	// 正式发行版：exe与starcatalog在同一目录
-	starCatalogPaths << appPath + "/starcatalog";
+	if (QDir(appPath + "/starcatalog").exists()) {
+		starCatalogBasePath = appPath + "/starcatalog";
+	}
 	// 调试版路径
-	starCatalogPaths << appPath + "/../../../../starcatalog";
+	else if (QDir(appPath + "/../../../../starcatalog").exists()) {
+		starCatalogBasePath = appPath + "/../../../../starcatalog";
+	}
+	else {
+		// 未找到starcatalog目录
+		starCatalogModel->setStringList(jsonFiles);
+		ui->starCatalogListView->clearSelection();
+		return;
+	}
 
-	// 遍历所有可能的路径
-	for (const QString& path : starCatalogPaths) {
-		QDir dir(path);
-		if (dir.exists()) {
-			// 查找所有JSON文件
-			QStringList filters;  
-			filters << "*.json";
-			dir.setNameFilters(filters);
-			QFileInfoList fileInfoList = dir.entryInfoList(QDir::Files, QDir::Name);
+	// 检查配置文件是否存在
+	QString configFilePath = starCatalogBasePath + "/_catalog_list.json";
+	QFile configFile(configFilePath);
 
-			for (const QFileInfo& fileInfo : fileInfoList) {
-				// 使用相对路径
-				QString relativePath = "starcatalog/" + fileInfo.fileName();
-				jsonFiles << relativePath;
+	if (configFile.exists())
+	{
+		// 读取配置文件
+		if (configFile.open(QIODevice::ReadOnly | QIODevice::Text))
+		{
+			QByteArray jsonData = configFile.readAll();
+			configFile.close();
+
+			QJsonParseError parseError;
+			QJsonDocument jsonDoc = QJsonDocument::fromJson(jsonData, &parseError);
+
+			if (parseError.error == QJsonParseError::NoError && jsonDoc.isObject())
+			{
+				QJsonObject jsonObj = jsonDoc.object();
+				if (jsonObj.contains("files") && jsonObj["files"].isArray())
+				{
+					QJsonArray filesArray = jsonObj["files"].toArray();
+					for (const QJsonValue& fileValue : filesArray)
+					{
+						if (fileValue.isString())
+						{
+							QString filePath = fileValue.toString();
+
+							// 解析路径：处理 ".." 和多级路径
+							QStringList pathParts;
+							QStringList parts = filePath.split('/');
+							for (const QString& part : parts)
+							{
+								if (part == "..")
+								{
+									// 向上返回一级目录
+									if (!pathParts.isEmpty())
+										pathParts.removeLast();
+								}
+								else if (!part.isEmpty())
+								{
+									pathParts.append(part);
+								}
+							}
+
+							// 重建路径
+							QString resolvedPath = pathParts.join('/');
+
+							// 检查文件是否存在（相对于starcatalog目录）
+							QString fullPath = starCatalogBasePath + "/" + resolvedPath;
+							if (QFileInfo(fullPath).exists() && resolvedPath.endsWith(".json", Qt::CaseInsensitive))
+							{
+								jsonFiles.append("starcatalog/" + resolvedPath);
+							}
+						}
+					}
+				}
 			}
+			else
+			{
+				qWarning() << "Failed to parse _catalog_list.json:" << parseError.errorString();
+			}
+		}
+	}
+
+	// 如果配置文件不存在或解析失败，使用原有的遍历方式
+	if (jsonFiles.isEmpty())
+	{
+		QDir dir(starCatalogBasePath);
+		QStringList filters;
+		filters << "*.json";
+		dir.setNameFilters(filters);
+		QFileInfoList fileInfoList = dir.entryInfoList(QDir::Files, QDir::Name);
+
+		for (const QFileInfo& fileInfo : fileInfoList)
+		{
+			// 跳过配置文件本身
+			if (fileInfo.fileName() == "_catalog_list.json")
+				continue;
+			jsonFiles.append("starcatalog/" + fileInfo.fileName());
 		}
 	}
 
@@ -1890,6 +1968,30 @@ void SearchDialog::loadSelectedFiles()
 		} else {
 			qWarning() << "File not found:" << relativePath;
 		}
+	}
+}
+
+void SearchDialog::on_starCatalogListView_doubleClicked(const QModelIndex& index)
+{
+	QString relativePath = index.data().toString();
+
+	QString appPath = QCoreApplication::applicationDirPath();
+	QStringList possiblePaths;
+	possiblePaths << appPath + "/" + relativePath;
+	possiblePaths << appPath + "/../../../../" + relativePath;
+
+	QString filePath;
+	for (const QString& path : possiblePaths) {
+		if (QFile::exists(path)) {
+			filePath = path;
+			break;
+		}
+	}
+
+	if (!filePath.isEmpty()) {
+		QDesktopServices::openUrl(QUrl::fromLocalFile(filePath));
+	} else {
+		qWarning() << "File not found:" << relativePath;
 	}
 }
 
@@ -2179,7 +2281,16 @@ void SearchDialog::importCoordinate(const QString& filepath)
 				double x = -1, y = -1;
 				QString mansion = starObj.value("mansion").toString();
 				x = starObj.value("x").toDouble();
-				y = starObj.value("y").toDouble();
+				if (starObj.contains("y")) {
+					y = starObj.value("y").toDouble();
+				}
+				else if (starObj.contains("io_degree")) {
+					double ioDegree = starObj.value("io_degree").toDouble();
+					y = degreesPerCircleY / 4  - ioDegree;
+				}
+				else {
+					continue;
+				}
 
 				if (mansion.isEmpty() || x == -1 || y == -1) {
 					qWarning() << "Skipping star with missing mansion:" << name;

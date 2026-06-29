@@ -306,6 +306,7 @@ private slots:
 	void loadStarCatalogFiles();  // Added by Kwantsin
 	void selectAllFiles();  // Added by Kwantsin
 	void deselectAllFiles();  // Added by Kwantsin
+	void on_starCatalogListView_doubleClicked(const QModelIndex&);  // Added by Kwantsin
 	void loadSelectedFiles();  // Added by Kwantsin
 	void importCoordinate(const QString& filepath);
 	Vec3f hexColorToVec3f(const QString& hexColor, bool* success);
