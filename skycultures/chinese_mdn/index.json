@@ -1558,7 +1558,7 @@
     },
     {
       "id": "CON chinese_mdn D02",
-      "lines": [[74824, 73129, 71908, 74946, 76440, 77952, 74824]],
+      "lines": [[74824, 71908, 74946, 77952, 74824]],
       "common_name": {"english": "Gate Drum","native": "门鼓","pronounce": "Mén Gǔ","ipa": "mən˧˥.ku˨˩˦"}
     },
     {
@@ -1639,7 +1639,7 @@
     {
       "id": "CON chinese_mdn D18",
       "lines": [[34481, 35228]],
-      "common_name": {"english": "Cloud Ruins","native": "云墟","pronounce": "Yún Xū","ipa": "yn˧˥.ɕy˥"}
+      "common_name": {"english": "Cloud Ruins","native": "云关","pronounce": "Yún Guān","ipa": "yn˧˥.kwan˥"}
     },
     {
       "id": "CON chinese_mdn D19",
@@ -9197,10 +9197,8 @@
                    {"native": "水门二 丙", "references": [4]}],
     "HIP  71908": [{"native": "门鼓一"}],
     "HIP  74946": [{"native": "门鼓二"}],
-    "HIP  76440": [{"native": "门鼓三"}],
-    "HIP  77952": [{"native": "门鼓四"}],
-    "HIP  74824": [{"native": "门鼓五"}],
-    "HIP  73129": [{"native": "门鼓六"}],
+    "HIP  77952": [{"native": "门鼓三"}],
+    "HIP  74824": [{"native": "门鼓四"}],
     "HIP  63003": [{"native": "门旗一 甲"}],
     "HIP  63005": [{"native": "门旗一 乙"}],
     "HIP  63007": [{"native": "门旗二"}],
@@ -9411,8 +9409,8 @@
     "HIP 107843": [{"native": "溟渊四"}],
     "HIP 111196": [{"native": "溟渊五"}],
     "HIP 115836": [{"native": "溟渊六"}],
-    "HIP 104382": [{"native": "溟渊七"}],
-    "HIP 104382": [{"native": "南极星", "references": [7]}],
+    "HIP 104382": [{"native": "溟渊七"},
+                   {"native": "南极星", "references": [7]}],
     "HIP  92824": [{"native": "溟渊八"}],
     "HIP 117689": [{"native": "溟渊九"}],
     "HIP    814": [{"native": "溟渊十"}],

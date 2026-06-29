@@ -207,17 +207,20 @@
 
 ##### Inner Kitchen
 
-内厨2星，在*紫微垣*西南角外，负责后宫饮食的厨房。
+[**内厨**](constellation:P26)2星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)西南角外，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+负责后宫饮食的厨房。<br>
 “**内厨**优宴，房诵说虞。”
 
 ##### Celestial Kitchen
 
-天厨6星，在*紫微垣*东北角外，负责国宴餐饮的厨房。
+[**天厨**](constellation:P22)6星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)东北角外，为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+是负责国宴餐饮的厨房。
 “**天厨**咸馔，百宰若疏。”
 
 ##### Guest House
 
-传舍9星，在*紫微垣*外，*华盖*之上，靠近银河。是宾客住宿的地方。
+[**传舍**](constellation:P20)9星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)外，[**华盖**](constellation:P18)之上，靠近银河。<br>
+为甘氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星，是宾客住宿的地方。<br>
 “**传舍**止客。”
 
 ##### Eight Kinds of Crops
@@ -228,14 +231,36 @@
 
 ##### Inner Steps
 
-内阶6星，在*文昌*北，
-天帝上下行走的阶梯，连接*紫微垣*与*文昌*。
+[**内阶**](constellation:P21)6星，在[**文昌**](constellation:P27)北，属石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+天帝上下行走的阶梯，连接[**紫微垣**](asterism:Purple Forbidden Enclosure)与[**文昌**](constellation:P27)。<br>
 “**内阶**朱户，显宠念虑。”
 
 ##### Administrative Center
 
-文昌6星，在*北斗*魁前，*紫微垣*西，如半月形，像一个筐，有“斗魁戴筐”之称。是六个政府部门或官员的统称。包括上将、次将、贵相、司命、司中、司禄，掌管文教礼乐、赏罚官员、添加俸禄、加官进爵等方面。
-该星官有6星或7星两种说法，最初的7星为大熊座ο、τ、23、υ、φ、θ、15。在中国后世流传的版本中，以6星为主流。唐代时，由于星图绘制不精确，星座整体逆时针旋转导致对应星也出现变化，改为23、υ、φ、θ、15、HIP 44504/18 UMa 共6星。不过旧版本仍有流传，*象林*星图中绘制的*文昌*星官就是早期未变化的旧版本。
+[**文昌**](constellation:P27)6星，在[**北斗**](constellation:P37)魁前，[**紫微垣**](asterism:Purple Forbidden Enclosure)西，属石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
+如半月形，像一个筐，有“斗魁戴筐”之称。<br>
+是六个政府部门或官员的统称。<br>
+掌管文教礼乐、赏罚官员、添加俸禄、加官进爵等方面。
+
+该星官有6星或7星两种说法，最初的7星为大熊座[ο](star:ο UMa)、[τ](star:τ UMa)、[23](star:23 UMa)、[υ](star:υ UMa)、[φ](star:φ UMa)、[θ](star:θ UMa)、[15](star:15 UMa)。<br>
+在中国后世流传的版本中，以6星为主流。<br>
+唐代时，由于星图绘制不精确，星座整体逆时针旋转导致对应星也出现变化，<br>
+改为[23](star:23 UMa)、[υ](star:υ UMa)、[φ](star:φ UMa)、[θ](star:θ UMa)、[15](star:15 UMa)、[HIP 44504](star:HIP44504)/[18](star:18 UMa) UMa 共6星，<br>
+不过旧版本仍有流传。
+
+**文昌**六星各有职能，但不同文献给出的命名不同：
+
+| 序号 | 《黄帝占》<br>星名 | 《黄帝占》<br>职责 | 《天文志》<br>星名<br>（班固） | 《春秋纬》<br>职责 | 陈卓<br>星名 | 陈卓<br>职责 | 《晋书·天文志》<br>星名<br>（李淳风） | 《晋书·天文志》<br>职责<br>（李淳风） |
+|---|--------|--------|--------|--------|--------|--------|--------|--------|
+| 1 | **上将** | 建威武 | - | 招威 | **上将** | 大将军 | **上将** | 大将军，建威武 |
+| 2 | **次将** | 临左右 | - | 辅主 | **次将** | 尚书 | **次将** | 尚书，正左右 |
+| 3 | **贵相** | 主文理 | - | 宣德 | **贵相** | 太常 | **贵相** | 太常，理文绪 |
+| 4 | **司命** | 主赏功进贤 | - | 进官 | **司中** | 司隶 | **司禄**、**司中** | 司隶，赏功进 |
+| 5 | **司中** | 主司过诘咎 | **司禄** | 灭咎 | **司怪** | 太史 | **司命**、**司怪** | 太史，主灭咎 |
+| 6 | **司禄** | 佐理宝 | **司命** | 赏善 | **大理** | 廷尉 | **司寇** | 大理，佐理宝 |
+
+对于第七星的命名，陆绩《浑天图》给出了线索：<br>
+“**文昌**中有一星在**司禄**内，名为**主禄**，统名为七星。”
 
 ##### Celestial Prison
 
@@ -291,7 +316,7 @@
 
 ##### Royals
 
-太尊1星，在*中台*北。代表皇亲国戚。<br>
+[**太尊**](constellation:P29)1星，在[**中台**](constellation:S21)北，巫咸氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星，代表皇亲国戚。<br>
 “**太尊**一星，职比圣人。”
 
 ##### Supreme Palace Left Wall
@@ -705,7 +730,9 @@
 
 ##### Territory of Dog
 
-Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southeast of the *Establishment Stars*.
+[**狗国**](constellation:08H)4星，在[**建星**](constellation:08B)东南，为甘氏外官，属[**斗宿**](constellation:08A)。<br>
+狗的过度，象征东北方的蛮夷部族。<br>
+**狗国**星不完整时，天下会发生大规模的盗贼之乱。<br>
 “**狗国**，鲜卑、乌丸、沃沮。”
 
 ##### River Turtle
@@ -758,8 +785,9 @@ Territory of Dog (Chinese: 狗国, Pinyin: Gǒu Guó) consists of 4 stars southe
 
 ##### Celestial Farmland (South)
 
-*Celestial Farmland* (Chinese: 天田, Pinyin: Tiān Tián) consists of 9 stars south of the *Ox*.
-“**天田**本农，耕器犁鉏。”
+[**天田**](constellation:09B)9星，在[**牵牛**](constellationL09A)南，为甘氏外官，属[**牛宿**](constellationL09A)。<br>
+是国都周边的田地。
+“**天田**本农，耕器犁锄。”
 
 ##### Nine Water Wells
 
@@ -850,17 +878,20 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Crying
 
-*Crying* (Chinese: 哭, Pinyin: Kū) consists of 2 stars south of the *Emptiness*.
+[**哭**](constellation:11F)2星，在[**虚**](constellation:11A)南，为甘氏外官，属[**虚宿**](constellation:11A)。<br>
+[**哭**](constellation:11F)、[**泣**](constellation:11G)星官靠近[**坟墓**](constellation:12B)，用于占卜哭泣死丧之事。<br>
 “[**哭**](constellation:11F)[**泣**](constellation:11G)悲凉，[**坟墓**](constellation:12B)倚庐。”
 
 ##### Weeping
 
-*Weeping* (Chinese: 泣, Pinyin: Qì) consists of 2 stars east of the *Crying*.
+[**泣**](constellation:11G)2星，在[**哭星**](constellation:11F)东，为甘氏外官，属[**虚宿**](constellation:11A)。<br>
+[**哭**](constellation:11F)、[**泣**](constellation:11G)星官靠近[**坟墓**](constellation:12B)，用于占卜哭泣死丧之事。<br>
 “[**哭**](constellation:11F)[**泣**](constellation:11G)悲凉，[**坟墓**](constellation:12B)倚庐。”
 
 ##### Celestial Ramparts
 
 *Celestial Ramparts* (Chinese: 天垒城, Pinyin: Tiān Lěi Chéng) consists of 12 stars south of the *Crying* and *Weeping*.
+“天垒主北夷，丁零匈奴。”
 
 ##### Decayed Mortar
 
@@ -919,12 +950,15 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Roofing
 
-*Roofing* (Chinese: 盖屋, Pinyin: Gài Wū) consists of 2 stars south of the *Rooftop*.
+[**盖屋**](constellation:12K)2星，在[**危**](constellation:12A)南，为甘氏外官，属[**危宿**](constellation:12A)。<br>
+**盖屋**是营造宫室的官员。因为[**危宿**](constellation:12A)象征屋梁，<br>
+又有“盖屋”的星占含义，因此在[**危宿**](constellation:12A)旁设置**盖屋**星官。<br>
 “危盖屋室，柱梁侏儒。”
 
 ##### Tomb and Temple
 
-*Temple* (Chinese: 虚梁, Pinyin: Xū Liáng) consists of 4 stars south of the *Rooftop*.
+[**虚梁**](constellation:12I)4星，在[**危**](constellation:12A)南，为巫咸氏外官，属[**危宿**](constellation:12A)。<br>
+为陵园以及其中的寝庙，因为不是活人居住的宫室，因此称为**虚梁**。<br>
 “**虚梁**宫室，屋室谨祷。”
 
 ##### Celestial Money
@@ -981,7 +1015,11 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Net for Catching Birds
 
-*Net for Catching Birds* (Chinese: 八魁, Pinyin: Bā Kuí) consists of 9 stars southeast of the *North Gate of the Military Camp*.
+[**八魁**](constellation:13J)9星，在[**北落师门**](constellation:13G)东南，为甘氏外官，属[**室宿**](constellation:13A)。<br>
+**八魁**是用来捕兽的陷阱和机关，将伪装用的树枝、草席等覆于其上。<br>
+陷阱的警戒标志要高高翘起、醒目可见，以此警示人们不要踩踏上去。<br>
+在北方战场中，**八魁**也是用来迷惑敌人的陷阱。<br>
+星占中，**八魁**的明暗变化也关联着农耕、狩猎与边防的兴衰。<br>
 “**八魁**陷阱，栈门揭翘。”
 
 ##### Wall
@@ -1016,6 +1054,11 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 ##### Sickle
 
 *Sickle* (Chinese: 𫓧锧, Pinyin: Fū Zhì) consists of 5 stars southwest of the *Square Celestial Granary*.
+[**𫓧锧**](constellation:14E)5星，在[**天仓**](constellation:16D)西南，为甘氏外官，属[**壁宿**](constellation:14A)。<br>
+“𫓧”是斧头，“锧”是古代斩刑时垫在犯人脖子下面的砧板（木椹）。<br>
+鈇锧合在一起，就是铡刀或斧砧一类工具。<br>
+**𫓧锧**作用是铡切干草秸秆，用来喂养牛马，<br>
+铡出来的草料丰足充裕，之后便有充足的饲料供应。<br>
 “**𫓧锧**锉钩后有饶。”
 
 ##### Legs
@@ -1046,7 +1089,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 《史记·天官书》最早记载了**王良**作为星官的名称：<br>
 “汉中四星，曰**天驷**。旁一星曰**王良**。<br>
-**王良**策马，车骑满野。”<br>
+[**王良**](constellation:15H)[**策**](constellation:15I)马，车骑满野。”<br>
 在更早的体系中，**天驷**4星与**王良**1星原本可能是两个独立的星官，<br>
 至《石氏星经》才被正式合并为统一的**王良**星官。<br>
 《晋书·天文志》载其为“天子奉车御官也”。
@@ -1059,7 +1102,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 [**策**](constellation:15I)1星，在[**王良**](constellation:15H)右前方，**天驷**后，为甘氏中官，属[**奎宿**](constellation:15A)。<br>
 “策”即马鞭，作动词时可解释为“鞭打”或“驱赶”。<br>
 该星官的设立显然与[**王良**](constellation:15H)和**天驷**相关。<br>
-“策执御右，螣蛇先驱。”
+“**策**执御右，**螣蛇**先驱。”
 
 ##### Southern Military Gate
 
@@ -1069,7 +1112,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 [**外屏**](constellation:15B)7星在[**奎**](constellation:15A)南。为石氏外官，属[**奎宿**](constellation:15A)。<br>
 **外屏**是用于遮挡[**天溷**](constellation:15C)（厕所兼猪圈）的屏障。<br>
-“**屏**蔽拥幢，安**溷**莫睹。”
+“**屏**蔽拥幢，安[**溷**](constellation:15C)莫睹。”
 
 ##### Celestial Pigsty
 
@@ -1106,7 +1149,8 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Ricks of Grain
 
-*Ricks of Grain* (Chinese: 天庾, Pinyin: Tiān Yǔ) consists of 3 stars southeast of the *Square Celestial Granary*.
+[**天庾**](constellation:16E)3星，在[**天仓**](constellation:16D)东南，为甘氏外官，属[**娄宿**](constellation:16A)。<br>
+在屋中囤积谷物称为“仓”，露天堆积则成为“庾”。**天庾**为露天的堆谷场。<br>
 “**天庾**积谷，草茂身拊。”
 
 ##### Stomach
@@ -1825,171 +1869,224 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Water Gate
 
-[**水门**](constellation:D01)2星，在[**南门**](constellation:01J)南，观津氏近南极星。<br>
+[**水门**](constellation:D01)2星，在[**南门**](constellation:01J)、[**库楼**](constellation:01H)之下，观津氏近南极星。<br>
+二明星东西并立，银河横向穿过，如同百川入海的大门。<br>
+此星实为上古时[**南门**](constellation:01J)星位，因为岁差，中原已不可见，仅东南沿海世代相传。<br>
+在东南沿海地区，[**水门**](constellation:D01)出现在海天相接的地平线，<br>
+就像水上的大门，因此称为“水门”，又称为**水平星**、**流平星**。
+[**水门**](constellation:D01)和[**南门**](constellation:01J)，为阴阳两界之门，归墟的入口之一。<br>
 
 ##### Gate Drum
 
-[**门鼓**](constellation:D02)6星，在[**水门**](constellation:D01)东，观津氏近南极星。<br>
+[**门鼓**](constellation:D02)4星，在[**水门**](constellation:D01)东南，观津氏近南极星。<br>
+四星排列成方形，如同悬挂的鼓。<br>
+象征魂至[**水门**](constellation:D01)时先闻鼓声，以辨善恶。
 
 ##### Gate Banner
 
-[**门旗**](constellation:D03)9星，观津氏近南极星。<br>
+[**门旗**](constellation:D03)9星，在[**水门**](constellation:D01)西南，观津氏近南极星。<br>
+九星曲列如随风招展的旗帜。为[**水门**](constellation:D01)的标志。
 
 ##### Southern Hanging Lantern
 
-[**南挂**](constellation:D04)4星，观津氏近南极星。<br>
+[**南挂**](constellation:D04)4星，在[**水门**](constellation:D01)、[**门旗**](constellation:D03)西，观津氏近南极星。<br>
+为上古时期[**库楼**](constellation:01H)西南四星的所在<br>
+四星围成中空的菱形，如灯笼悬挂。<br>
+一名**灯笼星**、**灯笼骨星**，象征为渡海者照明的灯笼。
 
 ##### Ship Bureau
 
-[**舶司**](constellation:D05)8星，会舞合节氏近南极星。<br>
+[**舶司**](constellation:D05)8星，在[**南挂**](constellation:D04)下，会舞合节氏近南极星。<br>
+职掌远洋船舶登记之事。
 
 ##### Meeting Market of Souls
 
 [**会市**](constellation:D06)11星，会舞合节氏近南极星。<br>
+群星环列如集市，为灵魂暂聚之处，百货皆备。
 
 ##### Tranquil Pond
 
-[**晏池**](constellation:D07)1星，会舞合节氏近南极星。<br>
+[**晏池**](constellation:D07)1星，在[**会市**](constellation:D06)中，会舞合节氏近南极星。<br>
+一星明净如水，象征灵魂洗尘忘忧之处。
 
 ##### Cereal Path
 
-[**粢道**](constellation:D08)6星，会舞合节氏近南极星。<br>
+[**粢道**](constellation:D08)6星，在[**天稷**](constellation:25E)东，会舞合节氏近南极星。<br>
+自[**天稷**](constellation:25E)分别通向[**会市**](constellation:D06)、[**盈桥**](constellation:D09)，<br>
+粢为祭米，象征灵魂行于祭祀之道。
 
 ##### Full Bridge
 
-[**盈桥**](constellation:D09)8星，会舞合节氏近南极星。<br>
+[**盈桥**](constellation:D09)8星，在[**化津**](constellation:D13)旁，银河岸，会舞合节氏近南极星。<br>
+八星如桥，为渡海前最后一道桥梁，过桥即入[**绝南**](constellation:D40)之境。
 
 ##### Ferry Assistant
 
 [**济丞**](constellation:D10)1星，观津氏近南极星。<br>
+为[**化津**](constellation:D13)的佐官，掌理魂簿名籍。
 
 ##### Mooring Stone
 
 [**定舟**](constellation:D11)1星，观津氏近南极星。<br>
+为系船用的石桩、缆桩，象征灵魂在此系泊安息。<br>
+用于占卜远洋航行的顺利与否。
 
 ##### Sea Cape
 
 [**海岐**](constellation:D12)4星，会舞合节氏近南极星。<br>
+四明星簇如海中突起的岬角，为渡海途中暂泊避风之处。
 
 ##### Transformation Ferry
 
 [**化津**](constellation:D13)6星，观津氏近南极星。<br>
+为百川化育之渡口，灵魂在此舍身登舟。
 
 ##### Ocean Source
 
-[**海宗**](constellation:D14)1星，会舞合节氏近南极星。<br>
+[**海宗**](constellation:D14)1星，在[**老人星**](star:α Car)下，会舞合节氏近南极星。<br>
+为溟极水脉之源头，深海、百川之所宗。
 
 ##### Reception Hall
 
 [**承堂**](constellation:D15)9星，会舞合节氏近南极星。<br>
+群星环列如厅堂，中有[**承白**](constellation:D16)一簇，灵魂渡后在此暂憩、验牒。
 
 ##### Received Whiteness
 
 [**承白**](constellation:D16)1星，会舞合节氏近南极星。<br>
+白光淡积如纱，承接天光。
 
 ##### Seat of Spirits
 
 [**灵座**](constellation:D17)1星，会舞合节氏近南极星。<br>
+为判官之座，灵魂登座录名。
 
 ##### Cloud Ruins
 
-[**云墟**](constellation:D18)2星，观津氏近南极星。<br>
+[**云关**](constellation:D18)2星，观津氏近南极星。<br>
 
 ##### Straw Dog
 
 [**刍狗**](constellation:D19)6星，观津氏近南极星。<br>
+取《老子》“天地不仁，以万物为刍狗”之意，<br>
+象征万物自然生灭、终归溟极。
 
 ##### Dark Palace
 
 [**幽宫**](constellation:D20)5星，会舞合节氏近南极星。<br>
+为无灵之物（草木禽兽金石等）幽闭归藏之处。
 
 ##### Minister of Spirit Affairs
 
 [**司令大夫**](constellation:D21)4星，会舞合节氏近南极星。<br>
+如官员列坐，掌管无灵物类的簿籍，一星管一类：草木、禽兽、虫鱼、金石。
 
 ##### Altar Platform
 
 [**祝台**](constellation:D22)10星，会舞合节氏近南极星。<br>
+群星列如祭坛，无灵之物在此受最后之祭，祭毕散入归墟。
 
 ##### Piled Pearls
 
 [**积珠**](constellation:D23)7星，会舞合节氏近南极星。<br>
+如珠玉堆积，象征微物之精华——羽毛、鳞甲、贝齿等——积聚于此。
 
 ##### Accumulated Whiteness
 
 [**积白**](constellation:D24)1星，会舞合节氏近南极星。<br>
+白光淡积如霜雪。
 
 ##### Fishing Rock
 
 [**钓矶**](constellation:D25)1星，观津氏近南极星。<br>
+海中岸石突出，隐逸垂钓之处。
 
 ##### Crooked Running Water
 
 [**水委**](constellation:D26)3星，近南极星。<br>
+水流委积之处，即归墟之口。
 
 ##### Jade Shore
 
 [**瑶浦**](constellation:D27)8星，会舞合节氏近南极星。<br>
+八星散如珠玉之浦。
 
 ##### Gatherer
 
 [**采人**](constellation:D28)1星，会舞合节氏近南极星。<br>
+如人采珠，收罗微物之役。
 
 ##### Bright Gem
 
 [**珞明**](constellation:D29)1星，会舞合节氏近南极星。<br>
+瑶浦中最亮之星，象征微物亦有光华。
 
 ##### Sinking River
 
 [**沉河**](constellation:D30)10星，会舞合节氏近南极星。<br>
+十星曲流如九曲，为众水沉潜之河，通向归墟。
 
 ##### Stone Reef
 
 [**石塘**](constellation:D31)7星，观津氏近南极星。<br>
+七星散碎如礁石，象征南海万里石塘。
 
 ##### Serpentine Path
 
 [**委蛇**](constellation:D32)8星，会舞合节氏近南极星。<br>
+蜿蜒如蛇行，为[**沉河**](constellation:D30)之支脉，水流曲折入[**溟渊**](constellation:D42)。
 
 ##### Celestial Balance
 
 [**天衡**](constellation:D33)10星，观津氏近南极星。<br>
+东西两大星最明，南北相直如衡。<br>
+一名**水平星**、**引幡**。为南天牵星定方位之要星。
 
 ##### Gazing Homeward Terrace
 
 [**望乡**](constellation:D34)1星，观津氏近南极星。<br>
+孤星明润如人登高远眺，象征远人怀乡。
 
 ##### Ferry Boat
 
 [**渡舟**](constellation:D35)6星，观津氏近南极星。<br>
+载魂渡海之舟，又为载人归乡之舟。
 
 ##### Returning Swallow
 
 [**归燕**](constellation:D36)7星，观津氏近南极星。<br>
+群星散布如燕群展翅，取燕归巢、人归乡之意。
 
 ##### Wind Banner
 
 [**风旌**](constellation:D37)9星，观津氏近南极星。<br>
+风吹动旌旗，为海上风信之占，动则风至，静则无风。
 
 ##### Mirror of Tranquil Seas
 
 [**海镜**](constellation:D38)6星，观津氏近南极星。<br>
+六星圆列如镜。象征海面平如明镜，波澜不兴。
 
 ##### Fishing Light
 
 [**渔火**](constellation:D39)1星，观津氏近南极星。<br>
+孤星一点如渔灯，象征海上渔火。
 
 ##### Southernmost Verge
 
 [**绝南**](constellation:D40)12星，会舞合节氏近南极星。<br>
+为中原星官所未至的最南天界。
 
 ##### Cuttlefish
 
 [**鲗**](constellation:D41)9星，会舞合节氏近南极星。<br>
+九星形如海中乌鲗（墨鱼）。
 
 ##### Abyssal Deep
 
 [**溟渊**](constellation:D42)13星，观津氏近南极星。<br>
+贴近南天极，低伏海面，星极暗弱。<br>
+为南天极之渊心，万物终极消融之所。
 
 ## References
 
