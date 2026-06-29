@@ -35,6 +35,7 @@
 #include "StelCore.hpp"
 #include "StelPainter.hpp"
 #include "Planet.hpp"
+#include "SolarSystem.hpp"
 #include "StelUtils.hpp"
 #include "precession.h"
 
@@ -1929,13 +1930,63 @@ QString ConstellationMgr::getChineseLunarMansionCoordinate(Vec3d eqNow) const
 	// Get mansion name
 	const QList<StelObject::CulturalName> names = lunarSystem->getNames();
 	QString mansionName = scMgr->createCulturalLabel(names.at(mansion), scMgr->getScreenLabelStyle(), QString());
+
+	// Calculate ecliptic entry degree and ecliptic latitude
+	static SolarSystem *solSys=GETSTELMODULE(SolarSystem);
+	double eclObl = solSys->getEarth()->getRotObliquity(core->getJDE());
+
+	double lambdaObj, betaObj;
+	StelUtils::equToEcl(ra, dec, eclObl, &lambdaObj, &betaObj);
+	const double lambdaDeg = StelUtils::fmodpos(lambdaObj * M_180_PI, 360.);
+	const double betaDeg = betaObj * M_180_PI;
+
+	// Pre-calculate ecliptic longitude for all defining stars
+	QVector<double> mansionEclLongitudes;
+	for (int i = 0; i < linkStars.length(); ++i)
+	{
+		Vec3d starPos = starMgr->searchHP(linkStars.at(i))->getEquinoxEquatorialPos(core);
+		double raStar, decStar;
+		StelUtils::rectToSphe(&raStar, &decStar, starPos);
+		double lambdaStar, betaStar;
+		StelUtils::equToEcl(raStar, decStar, eclObl, &lambdaStar, &betaStar);
+		mansionEclLongitudes.append(StelUtils::fmodpos(lambdaStar * M_180_PI, 360.));
+	}
+
+	// Find ecliptic mansion: search which mansion the object belongs to in ecliptic coordinates
+	int eclMansion = 0;
+	while (eclMansion < mansionEclLongitudes.length() - 1)
+	{
+		int nextIdx = StelUtils::imod(eclMansion + 1, mansionEclLongitudes.length());
+		double lngNxtMansion = StelUtils::fmodpos(mansionEclLongitudes.at(nextIdx) - mansionEclLongitudes.at(0), 360.);
+		double lngInMansions = StelUtils::fmodpos(lambdaDeg - mansionEclLongitudes.at(0), 360.);
+		if (lngNxtMansion > lngInMansions)
+			break;
+		++eclMansion;
+	}
+
+	// Calculate ecliptic entry degree using ecliptic mansion's defining star
+	double eclEntryDegree = StelUtils::fmodpos(lambdaDeg - mansionEclLongitudes.at(eclMansion), 360.);
 	
-	// Format: "宿名 入宿度分数, 去极度分数, (宿名 十进制入宿度, 十进制去极度)"
-	return QString("%1 %2, %3, (%1 %4°, %5°)").arg(mansionName,
+	// If this star is the defining star (entry degree ≈ 0), show entry degree from previous mansion
+	if (eclEntryDegree < 0.01)  // Less than 0.01 degree considered as exactly at defining star
+	{
+		int prevMansion = StelUtils::imod(eclMansion - 1, mansionEclLongitudes.length());
+		eclEntryDegree = StelUtils::fmodpos(lambdaDeg - mansionEclLongitudes.at(prevMansion), 360.);
+		eclMansion = prevMansion;
+	}
+
+	// Get ecliptic mansion name
+	QString eclMansionName = scMgr->createCulturalLabel(names.at(eclMansion), scMgr->getScreenLabelStyle(), QString());
+
+	// Format: "宿名 入宿度分数, 去极度分数, (宿名 十进制入宿度, 十进制去极度), 黄道入宿度 XX.XX°(宿名)"
+	return QString("%1 %2, %3, (%1 %4°, %5°), 黄道入宿度 %6°(%7), 黄纬 %8°").arg(mansionName,
 		entryDegreeFraction,
 		polarDistanceFraction,
 		QString::number(entryDegreeChinese, 'f', 2),
-		QString::number(polarDistanceChinese, 'f', 2));
+		QString::number(polarDistanceChinese, 'f', 2),
+		QString::number(eclEntryDegree, 'f', 2),
+		eclMansionName,
+		QString::number(betaDeg, 'f', 2));
 }
 
 StelObjectP ConstellationMgr::searchByNameI18n(const QString& nameI18n) const
