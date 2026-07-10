@@ -189,16 +189,40 @@
 
 ##### Purple Forbidden Left Wall
 
-[**紫微左垣**](constellation:P05)或**紫微垣东蕃**8星，是[**紫微垣**](asterism:Purple Forbidden Enclosure)左侧或东侧的垣墙，为石氏星。
+[**紫微左垣**](constellation:P05)或**紫微垣东蕃**8星，是[**紫微垣**](asterism:Purple Forbidden Enclosure)左侧或东侧的垣墙，为石氏星。<br>
+垣墙每颗星有各自的名字：
+
+| 序号 | 《天文要录》<br>唐代 | 《步天歌》<br>宋代开始流行 |
+|---|--------|--------|
+| 1 | **灵台** | **左枢** |
+| 2 | **庆门** | **上宰** |
+| 3 | **泮星** | **少宰** |
+| 4 | **开蕃** | **上弼** |
+| 5 | **龙登** | **少弼** |
+| 6 | **敢星** | **上卫** |
+| 7 | **光伯** | **少卫** |
+| 8 | **顺光** | **少丞** |
 
 ##### Purple Forbidden Right Wall
 
-[**紫微右垣**](constellation:P06)或**紫微垣西蕃**7星，是[**紫微垣**](asterism:Purple Forbidden Enclosure)右侧或西侧的垣墙，为石氏星。
+[**紫微右垣**](constellation:P06)或**紫微垣西蕃**7星，是[**紫微垣**](asterism:Purple Forbidden Enclosure)右侧或西侧的垣墙，为石氏星。<br>
+垣墙每颗星有各自的名字：
+
+| 序号 | 《天文要录》<br>唐代 | 《步天歌》<br>宋代开始流行 |
+|---|--------|--------|
+| 1 | **守门** | **右枢** |
+| 2 | **梓明** | **少尉** |
+| 3 | **奸星** | **上辅** |
+| 4 | **直门** | **少辅** |
+| 5 | **紫光** | **上卫** |
+| 6 | **铜陵** | **少卫** |
+| 7 | **信龟** | **上丞** |
 
 ##### Celestial Great One
 
 [**天乙**](constellation:P03)1星，在[**紫微垣**](asterism:Purple Forbidden Enclosure)宫门外，宫门右星南，为石氏[**紫微垣**](asterism:Purple Forbidden Enclosure)星。<br>
-天帝之神，掌管天道的运行、协调十二神将，并主宰战争与个人吉凶。
+天帝之神，掌管天道的运行、协调十二神将，<br>
+并主宰战争与个人吉凶。
 
 ##### First Great One
 
@@ -690,7 +714,7 @@
 ##### Chaff
 
 *Chaff* (Chinese: 糠, Pinyin: Kāng) is 1 star in front of the *Winnowing Basket Mansion*'s tongue, northwest of the *Pestle*.
-“**箕**主簸扬，**糠**给大猪。”
+“**箕**主簸扬，**糠**给犬猪。”
 
 ##### Outer Pestle
 
@@ -1082,14 +1106,15 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 王良的前方还有一颗名为[**策**](constellation:15I)的星，是王良手中的马鞭。<br>
 
 **王良**星官的名字来源于春秋时期晋国一位著名的善御者（驾车人）——王良。<br>
-王良曾为晋国大夫赵简子的车夫，《左传》中记载为“邮无恤”，杜预注称“邮无恤即王良”。<br>
+王良曾为晋国大夫赵简子（？-前458年/前475年）的车夫，<br>
+《左传》中记载为“邮无恤”，杜预注称“邮无恤即王良”。<br>
 在《孟子》《淮南子》等典籍中，王良的形象逐渐被神圣化，<br>
 从一位技艺高超的御者升华为通晓“道”的圣人。<br>
 至汉代，其形象已融入星象体系，成为天帝的御者。
 
 《史记·天官书》最早记载了**王良**作为星官的名称：<br>
 “汉中四星，曰**天驷**。旁一星曰**王良**。<br>
-[**王良**](constellation:15H)[**策**](constellation:15I)马，车骑满野。”<br>
+[**王良](constellation:15H)[策**](constellation:15I)马，车骑满野。”<br>
 在更早的体系中，**天驷**4星与**王良**1星原本可能是两个独立的星官，<br>
 至《石氏星经》才被正式合并为统一的**王良**星官。<br>
 《晋书·天文志》载其为“天子奉车御官也”。

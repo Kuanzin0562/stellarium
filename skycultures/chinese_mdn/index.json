@@ -700,7 +700,8 @@
     },
     {
       "id": "CON chinese_mdn 08D",
-      "lines": [[94114, 93825, 93174, 92989, 91918, 91901, 91875, 91989, 92226, 92953, 93470, 93542, 94005, 94160, 94114]],
+      "lines": [[94114, 93825, 93174, 92989, 91918, 91901, 91875, 91989, 92226, 92608, 93074, 93542, 94005, 94160, 94114]],
+      "lines1": [[94114, 93825, 93174, 92989, 91918, 91901, 91875, 91989, 92226, 92953, 93470, 93542, 94005, 94160, 94114]],
       "common_name": {"english": "River Turtle", "native": "鳖", "pronounce": "Biē", "IPA": "pjɛ˥"}
     },
     {
@@ -1486,7 +1487,7 @@
     },
     {
       "id": "CON chinese_mdn 26A",
-      "lines": [[48356, 49841, 51069, 49321, 48356, 47452], [51069, 52085]],
+      "lines": [[48356, 49841, 51069, 48615, 48356, 47452], [51069, 52085]],
       "common_name": {"english": "Extended Net", "native": "【张】", "pronounce": "Zhāng", "IPA": "t͡ʂɑŋ˥", "byname": "Bird's Crop, Heavenly Treasury, Kitchen"}
     },
     {
@@ -4854,8 +4855,8 @@
     "HIP  94160": [{"native": "鳖四", "references": [9]}],
     "HIP  94005": [{"native": "鳖五", "references": [9]}],
     "HIP  93542": [{"native": "鳖六", "references": [9]}],
-    "HIP  93470": [{"native": "鳖七", "references": [9]}],
-    "HIP  92953": [{"native": "鳖八", "references": [9]}],
+    "HIP  93074": [{"native": "鳖七", "references": [9]}],
+    "HIP  92608": [{"native": "鳖八", "references": [9]}],
     "HIP  92226": [{"native": "鳖九", "references": [9]}],
     "HIP  91989": [{"native": "鳖十", "references": [9]}],
     "HIP  91875": [{"native": "鳖十一", "references": [9]}],
@@ -9070,7 +9071,7 @@
                    {"native": "距星", "references": [1,3]}],
     "HIP  49841": [{"native": "张宿二", "references": [2,3]}],
     "HIP  51069": [{"native": "张宿三", "references": [2,3]}],
-    "HIP  49321": [{"native": "张宿四", "references": [2,9]}],
+    "HIP  48615": [{"native": "张宿四", "references": [2,3]}],
     "HIP  47452": [{"native": "张宿五", "references": [2,3]}],
     "HIP  52085": [{"native": "张宿六", "references": [2,3]}],
     "HIP  46026": [{"native": "天庙一", "references": [9]},
