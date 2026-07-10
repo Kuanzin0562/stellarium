@@ -1,7 +1,7 @@
 {
   "id": "test_western",
   "region": "World",
-  "classification": ["single"],
+  "classification": ["traditional"],
   "fallback_to_international_names": false,
   "asterisms": [
     {
@@ -53,6 +53,11 @@
       "id": "AST test_western RHA",
       "is_ray_helper": true,
       "lines": [[59774, 11767, 746, 677]]
+    },
+    {
+      "id": "AST test_western RHB",
+      "is_ray_helper": true,
+      "lines": [[60718, 2021]]
     },
     {
       "id": "AST test_western GDi",
@@ -351,8 +356,8 @@
     },
     {
       "id": "AST test_western TPT",
-      "common_name": {"english": "The Three Patriarchs", "references": [29]},
-      "lines": [[10064, 8796, 10670, 10064]]
+      "common_name": {"english": "The Three Patriarchs", "references": [2]},
+      "lines": [[82273, 74946, 77952, 82273]]
     },
     {
       "id": "AST test_western NFy",
@@ -369,7 +374,7 @@
       "common_name": {"native": "Honores Friderici", "english": "Frederick's Glory"},
       "lines": [[116805, 116584, 117221, 116805, 116631]]
     },
-{
+    {
       "id": "AST test_western QuM",
       "common_name": {"native": "Quadrans Muralis", "english": "Mural quadrant", "references": [57]},
       "lines": [[78286, 78542, "1597549683164587008", 77738, 76651, 73909, 72508, 73100, 74083, 76594, 78286], [76594, 76957, 76311, 76376, 77272, 76651, 75788, 75587, 75043, 74083]]
@@ -467,22 +472,8 @@
   ],
   "constellations": [
     {
-      "id": "CON test_western Aql",
-      "lines": [[98036, 97649, 97278], [97649, 95501, 97804], [99473, 97804], [95501, 93747, 93244], [95501, 93805]],
-      "image": {
-        "file": "illustrations/aquila.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [163, 232], "hip": 97649},
-          {"pos": [385, 131], "hip": 93244},
-          {"pos": [397, 397], "hip": 93805}
-        ]
-      },
-      "common_name": {"english": "Eagle", "native": "Aquila", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western And",
-      "lines": [[677, 3092, 5447], [9640, 5447, 4436, 3881]],
+      "id": "CON modern_iau And",
+      "lines": [[677, 3092, 5447, 9640], [113726, 116631, 116805, 116584], [116631, 2912, 3092], [2912, 5447, 4436, 3881, 5434, 7607], [3092, 3031, 3693, 4463]],
       "image": {
         "file": "illustrations/andromeda.png",
         "size": [512, 512],
@@ -492,727 +483,11 @@
           {"pos": [224, 428], "hip": 9640}
         ]
       },
-      "common_name": {"native": "Andromeda", "english": "Andromeda", "byname": "Chained Maiden", "context": "IAU constellation name"}
+      "common_name": {"native": "Andromeda", "english": "Andromeda", "byname": "安德洛墨达：被链条拴住的女神", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Scl",
-      "lines": [[116231, 4577, 115102, 116231]],
-      "image": {
-        "file": "illustrations/sculptor.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [231, 39], "hip": 115102},
-          {"pos": [240, 106], "hip": 116231},
-          {"pos": [32, 174], "hip": 4577}
-        ]
-      },
-      "common_name": {"english": "Sculptor", "native": "Sculptor", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Ara",
-      "lines": [[88714, 85792, 83081, 82363, 85727, 85267, 85258, 88714]],
-      "image": {
-        "file": "illustrations/ara.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [98, 70], "hip": 83081},
-          {"pos": [191, 93], "hip": 85727},
-          {"pos": [107, 249], "hip": 88714}
-        ]
-      },
-      "common_name": {"english": "Altar", "native": "Ara", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Lib",
-      "lines": [[77853, 76333, 74785, 72622, 73714, 76333]],
-      "image": {
-        "file": "illustrations/libra.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [41, 27], "hip": 74785},
-          {"pos": [58, 170], "hip": 77853},
-          {"pos": [224, 107], "hip": 73714}
-        ]
-      },
-      "common_name": {"english": "Scales", "native": "Libra", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cet",
-      "lines": [[10324, 11484], [8102, 3419, 1562], [3419, 5364, 6537, 8645, 11345, 12390, 12770, 11783, 8102], [10826, 12390], [10826, 12387, 12706, 14135, 13954, 12828, 11484, 12093, 12706]],
-      "image": {
-        "file": "illustrations/cetus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [87, 63], "hip": 14143},
-          {"pos": [28, 274], "hip": 12770},
-          {"pos": [412, 440], "hip": 1562}
-        ]
-      },
-      "common_name": {"english": "Whale", "byname": "Sea Monster", "native": "Cetus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Ari",
-      "lines": [[13209, 9884, 8903, 8832]],
-      "image": {
-        "file": "illustrations/aries.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [12, 130], "hip": 13209},
-          {"pos": [58, 206], "hip": 13914},
-          {"pos": [210, 47], "hip": 8832}
-        ]
-      },
-      "common_name": {"english": "Ram", "native": "Aries", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Sct",
-      "lines": [[92175, 92202, 92814, 90595, 91117, 92175]],
-      "image": {
-        "file": "illustrations/scutum.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [52, 17], "hip": 92175},
-          {"pos": [224, 124], "hip": 90595},
-          {"pos": [139, 206], "hip": 92814}
-        ]
-      },
-      "common_name": {"english": "Shield", "native": "Scutum", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Pyx",
-      "lines": [[42515, 42828, 43409]],
-      "image": {
-        "file": "illustrations/pyxis.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [152, 220], "hip": 41723},
-          {"pos": [94, 159], "hip": 42828},
-          {"pos": [44, 202], "hip": 42515}
-        ]
-      },
-      "common_name": {"english": "Mariner Compass", "native": "Pyxis", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Boo",
-      "lines": [[71795, 69673, 72105, 74666, 73555, 71075, 71053, 69673, 67927, 67459]],
-      "image": {
-        "file": "illustrations/bootes.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [225, 222], "hip": 72105},
-          {"pos": [365, 184], "hip": 71075},
-          {"pos": [207, 401], "hip": 67927}
-        ]
-      },
-      "common_name": {"english": "Boötes", "byname": "Herdsman", "native": "Boötes", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cae",
-      "lines": [[21060, 21770, 21861]],
-      "image": {
-        "file": "illustrations/caelum.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [16, 231], "hip": 21060},
-          {"pos": [76, 145], "hip": 21770},
-          {"pos": [199, 75], "hip": 21861}
-        ]
-      },
-      "common_name": {"english": "Engraving Tool", "native": "Caelum", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cha",
-      "lines": [[40702, 51839, 60000]],
-      "image": {
-        "file": "illustrations/chamaeleon.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [29, 214], "hip": 60000},
-          {"pos": [73, 123], "hip": 51839},
-          {"pos": [184, 33], "hip": 40702}
-        ]
-      },
-      "common_name": {"english": "Chameleon", "native": "Chamaeleon", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cnc",
-      "lines": [[43103, 42806, 40843], [42806, 42911, 40526], [42911, 44066]],
-      "image": {
-        "file": "illustrations/cancer.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [29, 166], "hip": 44066},
-          {"pos": [101, 255], "hip": 40526},
-          {"pos": [206, 91], "hip": 40843}
-        ]
-      },
-      "common_name": {"english": "Crab", "native": "Cancer", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cap",
-      "lines": [[100064, 100345, 104139, 105515, 106985, 107556], [105515, 105881, 104139], [100345, 102485], [104139, 102978]],
-      "image": {
-        "file": "illustrations/capricornus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [15, 436], "hip": 107556},
-          {"pos": [403, 7], "hip": 100064},
-          {"pos": [460, 438], "hip": 102978}
-        ]
-      },
-      "common_name": {"english": "Capricornus", "byname": "Sea Goat", "native": "Capricornus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Car",
-      "lines": [[45238, 50099, 52419, 52468, 54463, 53253, 51232, 50371, 45556], [42568, 41037, 30438], [45080, 45556], [45080, 42568], [30438, 31685], [41037, 39429]],
-      "image": {
-        "file": "illustrations/argonavis.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [202, 455], "hip": 45238},
-          {"pos": [62, 216], "hip": 50191},
-          {"pos": [298, 22], "hip": 39757}
-        ]
-      },
-      "common_name": {"english": "Keel", "native": "Carina", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cas",
-      "lines": [[8886, 6686, 4427, 3179, 746]],
-      "image": {
-        "file": "illustrations/cassiopeia.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [390, 336], "hip": 8886},
-          {"pos": [163, 156], "hip": 3179},
-          {"pos": [73, 243], "hip": 746}
-        ]
-      },
-      "common_name": {"native": "Cassiopeia", "english": "Cassiopeia", "byname": "Seated Queen", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cen",
-      "lines": [[71683, 68702, 66657, 68002, 68282, 67472, 67464, 65936, 65109], [67464, 68933], [67472, 71352, 73334], [68002, 61932, 60823, 59196, 56480, 56561]],
-      "image": {
-        "file": "illustrations/centaurus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [118, 157], "hip": 68933},
-          {"pos": [194, 444], "hip": 71683},
-          {"pos": [463, 412], "hip": 56561}
-        ]
-      },
-      "common_name": {"english": "Centaur", "native": "Centaurus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cep",
-      "lines": [[109492, 112724, 106032, 105199, 109492], [112724, 116727, 106032]],
-      "image": {
-        "file": "illustrations/cepheus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [60, 335], "hip": 116727},
-          {"pos": [125, 170], "hip": 106032},
-          {"pos": [335, 147], "hip": 109492}
-        ]
-      },
-      "common_name": {"english": "Cepheus", "byname": "King", "native": "Cepheus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Com",
-      "lines": [[64241, 64394, 60742]],
-      "image": {
-        "file": "illustrations/coma-berenices.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [27, 199], "hip": 64241},
-          {"pos": [38, 58], "hip": 64394},
-          {"pos": [172, 64], "hip": 60742}
-        ]
-      },
-      "common_name": {"english": "Bernice's Hair", "native": "Coma Berenices", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western CVn",
-      "lines": [[61317, 63125]],
-      "image": {
-        "file": "illustrations/canes-venatici.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [117, 113], "hip": 63901},
-          {"pos": [206, 40], "hip": 61317},
-          {"pos": [207, 152], "hip": 61309}
-        ]
-      },
-      "common_name": {"english": "Hunting Dogs", "native": "Canes Venatici", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Aur",
-      "lines": [[28380, 28360, 24608, 23453, 23015], [25428, 23015], [25428, 28380]],
-      "image": {
-        "file": "illustrations/auriga.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [196, 189], "hip": 28380},
-          {"pos": [419, 208], "hip": 24608},
-          {"pos": [290, 423], "hip": 23015}
-        ]
-      },
-      "common_name": {"english": "Charioteer", "native": "Auriga", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Col",
-      "lines": [[30277, 29807, 28199, 27628, 28328], [27628, 26634, 25859]],
-      "image": {
-        "file": "illustrations/columba.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [139, 29], "hip": 30277},
-          {"pos": [40, 190], "hip": 28328},
-          {"pos": [204, 211], "hip": 25859}
-        ]
-      },
-      "common_name": {"english": "Dove", "native": "Columba", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cir",
-      "lines": [[71908, 75323], [71908, 74824]],
-      "image": {
-        "file": "illustrations/circinus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [5, 36], "hip": 75323},
-          {"pos": [39, 11], "hip": 74824},
-          {"pos": [235, 239], "hip": 71908}
-        ]
-      },
-      "common_name": {"english": "Drawing Compass", "native": "Circinus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Crt",
-      "lines": [[53740, 54682, 55705, 55282, 53740], [55282, 55687, 56633, 58188, 57283, 55705]],
-      "image": {
-        "file": "illustrations/crater.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [45, 41], "hip": 58188},
-          {"pos": [160, 149], "hip": 55282},
-          {"pos": [55, 242], "hip": 54682}
-        ]
-      },
-      "common_name": {"english": "Cup", "native": "Crater", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western CrA",
-      "lines": [[91875, 92989, 93174, 93825, 94114, 94160, 94005, 93542, 92953], [91875, 90887]],
-      "image": {
-        "file": "illustrations/corona-australis.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [14, 142], "hip": 93825},
-          {"pos": [218, 34], "hip": 90887},
-          {"pos": [195, 208], "hip": 92953}
-        ]
-      },
-      "common_name": {"english": "Southern Crown", "native": "Corona Australis", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western CrB",
-      "lines": [[76127, 75695, 76267, 76952, 77512, 78159, 78493]],
-      "image": {
-        "file": "illustrations/corona-borealis.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [16, 186], "hip": 78493},
-          {"pos": [201, 203], "hip": 76952},
-          {"pos": [157, 20], "hip": 76127}
-        ]
-      },
-      "common_name": {"english": "Northern Crown", "native": "Corona Borealis", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Crv",
-      "lines": [[61174, 60965, 59803, 59316, 59199], [59316, 61359, 60965]],
-      "image": {
-        "file": "illustrations/corvus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [65, 59], "hip": 60965},
-          {"pos": [77, 235], "hip": 61359},
-          {"pos": [213, 187], "hip": 59316}
-        ]
-      },
-      "common_name": {"english": "Crow", "native": "Corvus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cru",
-      "lines": [[61084, 60718], [62434, 59747]],
-      "image": {
-        "file": "illustrations/crux.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [112, 21], "hip": 61084},
-          {"pos": [42, 20], "hip": 62434},
-          {"pos": [21, 106], "hip": 60718}
-        ]
-      },
-      "common_name": {"english": "Southern Cross", "native": "Crux", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cyg",
-      "lines": [[94779, 95853, 97165, 100453, 102098], [100453, 102488, 104732, 107310], [100453, 98110, 95947]],
-      "image": {
-        "file": "illustrations/cygnus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [7, 382], "hip": 107310},
-          {"pos": [474, 46], "hip": 94779},
-          {"pos": [467, 453], "hip": 95947}
-        ]
-      },
-      "common_name": {"english": "Swan", "native": "Cygnus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Del",
-      "lines": [[101421, 101769, 101958, 102532, 102281, 101769]],
-      "image": {
-        "file": "illustrations/delphinus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [59, 31], "hip": 102532},
-          {"pos": [75, 148], "hip": 102805},
-          {"pos": [211, 143], "hip": 101421}
-        ]
-      },
-      "common_name": {"english": "Dolphin", "native": "Delphinus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Dor",
-      "lines": [[27100, 27890, 26069, 27100], [26069, 21281, 19893]],
-      "image": {
-        "file": "illustrations/dorado.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [56, 197], "hip": 27890},
-          {"pos": [75, 228], "hip": 27100},
-          {"pos": [219, 46], "hip": 19893}
-        ]
-      },
-      "common_name": {"english": "Swordfish", "byname": "Dolphinfish", "native": "Dorado", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Dra",
-      "lines": [[87585, 87833, 85670, 85829, 87585, 94376, 97433, 94648, 89937, 83895, 80331, 78527, 75458, 68756, 61281, 56211]],
-      "image": {
-        "file": "illustrations/draco.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [13, 411], "hip": 56211},
-          {"pos": [361, 154], "hip": 85670},
-          {"pos": [449, 429], "hip": 97433}
-        ]
-      },
-      "common_name": {"english": "Dragon", "native": "Draco", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Nor",
-      "lines": [[79509, 80000, 80582, 78639, 80000], [78639, 79509]],
-      "image": {
-        "file": "illustrations/norma.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [17, 45], "hip": 78639},
-          {"pos": [101, 38], "hip": 79509},
-          {"pos": [16, 112], "hip": 80582}
-        ]
-      },
-      "common_name": {"english": "Carpenter's Square", "native": "Norma", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Eri",
-      "lines": [[7588, 9007, 10602, 11407, 12413, 12486, 13847, 15510, 17797, 17874, 20042, 20535, 21393, 17651, 16611, 15474, 14146, 12843, 13701, 15197, 16537, 17378, 21444, 22109, 22701, 23875, 23972, 21594]],
-  	  "label_positions": [[4.1, -15.0]],
-      "image": {
-        "file": "illustrations/eridanus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [41, 95], "hip": 22109},
-          {"pos": [296, 44], "hip": 13701},
-          {"pos": [493, 490], "hip": 7588}
-        ]
-      },
-      "common_name": {"english": "Eridanus", "byname": "River", "native": "Eridanus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Sge",
-      "lines": [[96837, 97365, 96757], [97365, 98337, 98920]],
-      "image": {
-        "file": "illustrations/sagitta.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [6, 12], "hip": 98920},
-          {"pos": [249, 213], "hip": 96757},
-          {"pos": [218, 243], "hip": 96837}
-        ]
-      },
-      "common_name": {"english": "Arrow", "native": "Sagitta", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western For",
-      "lines": [[13147, 14879]],
-      "image": {
-        "file": "illustrations/fornax.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [42, 125], "hip": 14879},
-          {"pos": [128, 37], "hip": 13202},
-          {"pos": [190, 129], "hip": 13147}
-        ]
-      },
-      "common_name": {"english": "Furnace", "native": "Fornax", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Gem",
-      "lines": [[31681, 34088, 35550, 35350, 32362], [35550, 36962, 37740], [36962, 37826], [36962, 36046, 34693, 36850], [34693, 33018], [34693, 32246, 30883], [32246, 30343, 29655, 28734]],
-      "image": {
-        "file": "illustrations/gemini.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [14, 81], "hip": 37740},
-          {"pos": [117, 252], "hip": 32362},
-          {"pos": [249, 165], "hip": 28734}
-        ]
-      },
-      "common_name": {"english": "Twins", "native": "Gemini", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Cam",
-      "lines": [[16228, 18505, 22783], [16228, 17959, 22783], [17959, 25110]],
-      "image": {
-        "file": "illustrations/camelopardalis.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [77, 46], "hip": 25110},
-          {"pos": [128, 135], "hip": 22783},
-          {"pos": [219, 136], "hip": 16228}
-        ]
-      },
-      "common_name": {"english": "Giraffe", "native": "Camelopardalis", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western CMa",
-      "lines": [[33160, 34045, 33347, 32349, 33977, 34444, 35037, 35904], [33579, 33856, 34444], [33856, 33165, 31592, 31416], [31592, 30324], [31592, 32349], [33579, 32759], [30122, 33579], [33347, 33160]],
-      "image": {
-        "file": "illustrations/canis-major.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [21, 347], "hip": 35904},
-          {"pos": [321, 24], "hip": 33160},
-          {"pos": [318, 492], "hip": 30122}
-        ]
-      },
-      "common_name": {"english": "Greater Dog", "native": "Canis Major", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western UMa",
-      "lines": [[67301, 65378, 62956, 59774, 54061, 53910, 58001, 59774], [58001, 57399, 54539, 50372], [54539, 50801], [53910, 48402, 46853, 44471], [46853, 44127], [48402, 48319, 41704, 46733, 54061]],
-      "image": {
-        "file": "illustrations/ursa-major.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [26, 75], "hip": 67301},
-          {"pos": [452, 272], "hip": 41704},
-          {"pos": [258, 394], "hip": 50372}
-        ]
-      },
-      "common_name": {"english": "Great Bear", "native": "Ursa Major", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Gru",
-      "lines": [[114131, 110997, 109268, 112122, 114421, 114131], [112122, 113638], [112122, 112623], [109268, 109111, 108085]],
-      "image": {
-        "file": "illustrations/grus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [49, 109], "hip": 114131},
-          {"pos": [85, 206], "hip": 112623},
-          {"pos": [220, 45], "hip": 108085}
-        ]
-      },
-      "common_name": {"english": "Crane", "native": "Grus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Her",
-      "lines": [[86414, 87808, 85112, 84606, 84380, 81833, 81126, 79992, 77760], [81833, 81693, 80816, 80170], [81693, 83207, 85693, 84379], [86974, 87933, 88794], [83207, 84380], [86974, 85693]],
-      "image": {
-        "file": "illustrations/hercules.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [44, 115], "hip": 80170},
-          {"pos": [254, 477], "hip": 79992},
-          {"pos": [441, 102], "hip": 88794}
-        ]
-      },
-      "common_name": {"english": "Hercules", "byname": "Kneeler", "native": "Hercules", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Hor",
-      "lines": [[19747, 12484, 14240]],
-      "image": {
-        "file": "illustrations/horlogium.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [16, 235], "hip": 19747},
-          {"pos": [184, 67], "hip": 12484},
-          {"pos": [235, 119], "hip": 14240}
-        ]
-      },
-      "common_name": {"english": "Clock", "native": "Horologium", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Hya",
-      "lines": [[42799, 42402, 42313, 43109, 43234, 42799], [43234, 43813, 45336, 46776, 46509, 46390, 45751, 47452, 48356, 49841, 51069, 52943, 54204, 56343, 57936, 64166, 64962, 68895, 69415, 70306, 72571]],
-      "label_positions": [[9.1, -10.0], [13.75, -26.0]],
-      "image": {
-        "file": "illustrations/hydra.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [26, 491], "hip": 64962},
-          {"pos": [111, 149], "hip": 55434},
-          {"pos": [401, 33], "hip": 43813}
-        ]
-      },
-      "common_name": {"english": "Water Snake", "native": "Hydra", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Hyi",
-      "lines": [[2021, 17678, 12394, 11001, 9236]],
-      "image": {
-        "file": "illustrations/hydrus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [14, 204], "hip": 9236},
-          {"pos": [201, 43], "hip": 2021},
-          {"pos": [241, 215], "hip": 17678}
-        ]
-      },
-      "common_name": {"english": "Lesser Water Snake", "native": "Hydrus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Ind",
-      "lines": [[105319, 101772, 103227, 105319]],
-      "image": {
-        "file": "illustrations/indus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [64, 143], "hip": 101772},
-          {"pos": [154, 20], "hip": 103227},
-          {"pos": [175, 98], "hip": 105319}
-        ]
-      },
-      "common_name": {"english": "Indian", "native": "Indus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Lac",
-      "lines": [[109937, 111104, 111022, 110609, 110538, 111169, 111022]],
-      "image": {
-        "file": "illustrations/lacerta.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [249, 42], "hip": 110538},
-          {"pos": [108, 123], "hip": 111104},
-          {"pos": [67, 215], "hip": 109937}
-        ]
-      },
-      "common_name": {"english": "Lizard", "native": "Lacerta", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Mon",
-      "lines": [[29651, 34769], [30867, 34769, 32533, 30419, 31216, 31978], [32533, 31978, 30665], [34769, 39211, 39863], [39211, 37447]],
-      "image": {
-        "file": "illustrations/monoceros.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [20, 306], "hip": 39863},
-          {"pos": [394, 80], "hip": 31978},
-          {"pos": [509, 359], "hip": 29651}
-        ]
-      },
-      "common_name": {"english": "Unicorn", "native": "Monoceros", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Lep",
-      "lines": [[28910, 28103, 27288, 25985, 24305], [25985, 27654, 27072, 25606, 23685], [25985, 25606], [24305, 24845], [24305, 24327], [23685, 24305], [24327, 24244], [24845, 24873]],
-      "image": {
-        "file": "illustrations/lepus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [21, 48], "hip": 28910},
-          {"pos": [246, 62], "hip": 24244},
-          {"pos": [213, 235], "hip": 23685}
-        ]
-      },
-      "common_name": {"english": "Hare", "native": "Lepus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Leo",
-      "lines": [[57632, 54879, 49669, 49583, 50583, 54872, 57632], [50583, 50335, 48455, 47908], [54872, 54879]],
-      "image": {
-        "file": "illustrations/leo.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [69, 411], "hip": 57632},
-          {"pos": [383, 186], "hip": 49669},
-          {"pos": [321, 32], "hip": 47908}
-        ]
-      },
-      "common_name": {"english": "Lion", "native": "Leo", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Lup",
-      "lines": [[77634, 78970, 78384, 77634], [78384, 76297, 75141, 75177], [75141, 73273], [76297, 76552, 74395, 71860], [74395, 71536], [71860, 70576], [71860, 73273]],
-      "image": {
-        "file": "illustrations/lupus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [90, 257], "hip": 74395},
-          {"pos": [207, 435], "hip": 70576},
-          {"pos": [425, 239], "hip": 75177}
-        ]
-      },
-      "common_name": {"english": "Wolf", "native": "Lupus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Lyn",
-      "lines": [[45860, 45688, 44700, 44248, 41075, 36145, 33449, 30060]],
-      "image": {
-        "file": "illustrations/lynx.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [100, 216], "hip": 44248},
-          {"pos": [337, 212], "hip": 36145},
-          {"pos": [472, 119], "hip": 30060}
-        ]
-      },
-      "common_name": {"english": "Lynx", "native": "Lynx", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Lyr",
-      "lines": [[91262, 91971, 92420, 93194, 92791, 91971]],
-      "image": {
-        "file": "illustrations/lyra.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [100, 96], "hip": 92791},
-          {"pos": [157, 38], "hip": 91262},
-          {"pos": [139, 162], "hip": 92420}
-        ]
-      },
-      "common_name": {"english": "Lyre", "native": "Lyra", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Ant",
-      "lines": [[51172, 48926]],
+      "id": "CON modern_iau Ant",
+      "lines": [[53502, 51172, 46515]],
       "image": {
         "file": "illustrations/antlia.png",
         "size": [128, 128],
@@ -1225,50 +500,8 @@
       "common_name": {"english": "Air Pump", "native": "Antlia", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Mic",
-      "lines": [[105140, 103738, 102831]],
-      "image": {
-        "file": "illustrations/microscopium.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [122, 226], "hip": 105140},
-          {"pos": [168, 148], "hip": 103738},
-          {"pos": [234, 115], "hip": 102831}
-        ]
-      },
-      "common_name": {"english": "Microscope", "native": "Microscopium", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Mus",
-      "lines": [[62322, 57363, 61199, 61585, 62322]],
-      "image": {
-        "file": "illustrations/musca.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [57, 52], "hip": 61199},
-          {"pos": [177, 68], "hip": 62322},
-          {"pos": [129, 236], "hip": 57363}
-        ]
-      },
-      "common_name": {"english": "Fly", "native": "Musca", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Oct",
-      "lines": [[107089, 112405, 70638, 107089]],
-      "image": {
-        "file": "illustrations/octans.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [15, 16], "hip": 70638},
-          {"pos": [236, 239], "hip": 107089},
-          {"pos": [247, 140], "hip": 112405}
-        ]
-      },
-      "common_name": {"english": "Octant", "native": "Octans", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Aps",
-      "lines": [[72370, 81065, 81852]],
+      "id": "CON modern_iau Aps",
+      "lines": [[72370, 81065], [80047, 81852, 81065]],
       "image": {
         "file": "illustrations/apus.png",
         "size": [256, 256],
@@ -1281,105 +514,105 @@
       "common_name": {"english": "Bird of Paradise", "native": "Apus", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Oph",
-      "lines": [[86032, 86742], [84012, 86742], [86032, 83000, 79882, 81377, 84012, 85755]],
+      "id": "CON modern_iau Aql",
+      "lines": [[98036, 97649, 97278, 95501, 93805, 95501, 93747, 95501, 97804, 99473], [93244, 93747], [93805, 93429], [99473, 96468, 93805, 93747]],
       "image": {
-        "file": "illustrations/ophiuchus.png",
+        "file": "illustrations/aquila.png",
         "size": [512, 512],
         "anchors": [
-          {"pos": [5, 183], "hip": 92946},
-          {"pos": [452, 47], "hip": 77233},
-          {"pos": [238, 453], "hip": 85755}
+          {"pos": [163, 232], "hip": 97649},
+          {"pos": [385, 131], "hip": 93244},
+          {"pos": [397, 397], "hip": 93805}
         ]
       },
-      "common_name": {"english": "Serpent Bearer", "native": "Ophiuchus", "context": "IAU constellation name"}
+      "common_name": {"english": "Eagle", "native": "Aquila", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Ori",
-      "lines": [[26727, 26311, 25930], [29434, 29426], [29434, 28716, 27913], [29426, 29038, 27913], [29426, 28614, 27989, 26727, 27366, 24436, 25930, 25336, 26207, 27989], [25336, 22449, 22549, 22730, 22797, 23123], [22449, 22509, 22845], [29038, 28614]],
+      "id": "CON modern_iau Aqr",
+      "lines": [[102618, 106278, 109074, 110395, 110960, 111497, 110960, 110672, 109074], [109139, 106278, 109074, 110003, 112961, 114724, 115033, 115438, 115033, 114341, 115033, 113136, 112716, 112961]],
       "image": {
-        "file": "illustrations/orion.png",
+        "file": "illustrations/aquarius.png",
         "size": [512, 512],
         "anchors": [
-          {"pos": [59, 11], "hip": 27913},
-          {"pos": [329, 477], "hip": 27366},
-          {"pos": [421, 91], "hip": 22449}
+          {"pos": [144, 464], "hip": 115438},
+          {"pos": [179, 98], "hip": 109074},
+          {"pos": [465, 49], "hip": 102618}
         ]
       },
-      "common_name": {"english": "Orion", "byname": "Hunter", "native": "Orion", "context": "IAU constellation name"}
+      "common_name": {"english": "Water Bearer", "native": "Aquarius", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Pav",
-      "lines": [[100751, 105858, 102395, 99240, 100751], [99240, 98495, 91792, 93015, 99240], [93015, 92609, 90098, 88866, 92609], [88866, 86929]],
+      "id": "CON modern_iau Ara",
+      "lines": [[85267, 85727, 82363, 83081, 83153, 85792, 88714, 85792, 85258]],
       "image": {
-        "file": "illustrations/pavo.png",
+        "file": "illustrations/ara.png",
         "size": [256, 256],
         "anchors": [
-          {"pos": [55, 60], "hip": 100751},
-          {"pos": [110, 208], "hip": 98495},
-          {"pos": [235, 146], "hip": 86929}
+          {"pos": [98, 70], "hip": 83081},
+          {"pos": [191, 93], "hip": 85727},
+          {"pos": [107, 249], "hip": 88714}
         ]
       },
-      "common_name": {"english": "Peacock", "native": "Pavo", "context": "IAU constellation name"}
+      "common_name": {"english": "Altar", "native": "Ara", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Peg",
-      "lines": [[1067, 113963], [113881, 112158, 109352], [113881, 112748, 112440, 109176, 107354], [113963, 112447, 112029, 109427, 107315], [677, 113881], [677, 1067], [113881, 113963]],
+      "id": "CON modern_iau Ari",
+      "lines": [[8832, 8903, 9884, 13209]],
       "image": {
-        "file": "illustrations/pegasus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [164, 41], "hip": 107315},
-          {"pos": [47, 283], "hip": 109410},
-          {"pos": [409, 349], "hip": 1067}
-        ]
-      },
-      "common_name": {"english": "Pegasus", "byname": "Winged Horse", "native": "Pegasus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Pic",
-      "lines": [[32607, 27530, 27321]],
-      "image": {
-        "file": "illustrations/pictor.png",
+        "file": "illustrations/aries.png",
         "size": [256, 256],
         "anchors": [
-          {"pos": [4, 252], "hip": 32607},
-          {"pos": [148, 138], "hip": 27530},
-          {"pos": [167, 38], "hip": 27321}
+          {"pos": [12, 130], "hip": 13209},
+          {"pos": [58, 206], "hip": 13914},
+          {"pos": [210, 47], "hip": 8832}
         ]
       },
-      "common_name": {"english": "Painter's Easel", "native": "Pictor", "context": "IAU constellation name"}
+      "common_name": {"english": "Ram", "native": "Aries", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Per",
-      "lines": [[17448, 18246, 18614, 18532, 17358, 15863, 14328, 13268], [15863, 14576, 14354, 13254]],
+      "id": "CON modern_iau Aur",
+      "lines": [[25428, 23015, 23767, 24608, 28360, 28380, 25428], [23767, 23453, 23416, 24608, 28358, 28360]],
       "image": {
-        "file": "illustrations/perseus.png",
+        "file": "illustrations/auriga.png",
         "size": [512, 512],
         "anchors": [
-          {"pos": [164, 323], "hip": 18532},
-          {"pos": [299, 175], "hip": 15863},
-          {"pos": [385, 386], "hip": 13254}
+          {"pos": [196, 189], "hip": 28380},
+          {"pos": [419, 208], "hip": 24608},
+          {"pos": [290, 423], "hip": 23015}
         ]
       },
-      "common_name": {"english": "Perseus", "byname": "Hero", "native": "Perseus", "context": "IAU constellation name"}
+      "common_name": {"english": "Charioteer", "native": "Auriga", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Equ",
-      "lines": [[104521, 104858, 105570, 104987, 104521]],
+      "id": "CON modern_iau Boo",
+      "lines": [[69673, 72105, 74666, 73555, 71075, 71053, 69673, 67927, 67275], [69673, 71795], [71075, 69732, 70497, 69483, 69732]],
       "image": {
-        "file": "illustrations/equuleus.png",
-        "size": [256, 256],
+        "file": "illustrations/bootes.png",
+        "size": [512, 512],
         "anchors": [
-          {"pos": [17, 180], "hip": 104521},
-          {"pos": [149, 86], "hip": 104987},
-          {"pos": [160, 160], "hip": 105570}
+          {"pos": [225, 222], "hip": 72105},
+          {"pos": [365, 184], "hip": 71075},
+          {"pos": [207, 401], "hip": 67927}
         ]
       },
-      "common_name": {"english": "Little Horse", "native": "Equuleus", "context": "IAU constellation name"}
+      "common_name": {"english": "Herdsman", "native": "Boötes", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western CMi",
+      "id": "CON modern_iau CMa",
+      "lines": [[30324, 32349, 34444, 33579, 34444, 35904], [30324, 31592, 33152, 33579], [32349, 33347, 34045, 33160, 33347]],
+      "image": {
+        "file": "illustrations/canis-major.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [21, 347], "hip": 35904},
+          {"pos": [321, 24], "hip": 33160},
+          {"pos": [318, 492], "hip": 30122}
+        ]
+      },
+      "common_name": {"english": "Greater Dog", "native": "Canis Major", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau CMi",
       "lines": [[37279, 36188]],
       "image": {
         "file": "illustrations/canis-minor.png",
@@ -1393,8 +626,472 @@
       "common_name": {"english": "Lesser Dog", "native": "Canis Minor", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western LMi",
-      "lines": [[53229, 51233, 49593, 46952], [49593, 53229]],
+      "id": "CON modern_iau CVn",
+      "lines": [[63125, 61317]],
+      "image": {
+        "file": "illustrations/canes-venatici.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [117, 113], "hip": 63901},
+          {"pos": [206, 40], "hip": 61317},
+          {"pos": [207, 152], "hip": 61309}
+        ]
+      },
+      "common_name": {"english": "Hunting Dogs", "native": "Canes Venatici", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cae",
+      "lines": [[23595, 21861, 21770, 21060]],
+      "image": {
+        "file": "illustrations/caelum.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [16, 231], "hip": 21060},
+          {"pos": [76, 145], "hip": 21770},
+          {"pos": [199, 75], "hip": 21861}
+        ]
+      },
+      "common_name": {"english": "Engraving Tool", "native": "Caelum", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cam",
+      "lines": [[23040, 23522, 22783, 29997, 33694, 29997, 22783, 17959, 17884, 16228]],
+      "image": {
+        "file": "illustrations/camelopardalis.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [77, 46], "hip": 25110},
+          {"pos": [128, 135], "hip": 22783},
+          {"pos": [219, 136], "hip": 16228}
+        ]
+      },
+      "common_name": {"english": "Giraffe", "native": "Camelopardalis", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cap",
+      "lines": [[100064, 100345, 102485, 102978, 105881, 106723, 107556, 106985, 104139, 100064]],
+      "image": {
+        "file": "illustrations/capricornus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [15, 436], "hip": 107556},
+          {"pos": [403, 7], "hip": 100064},
+          {"pos": [460, 438], "hip": 102978}
+        ]
+      },
+      "common_name": {"english": "Capricornus", "byname": "摩伽罗：海兽，山羊", "native": "Capricornus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Car",
+      "lines": [[30438, 45238, 50099, 52419, 51576, 50371, 45556, 42913], [51576, 53253], [52419, 54301, 54751, 54463, 53253], [45556, 41037, 38827, 39953]],
+      "image": {
+        "file": "illustrations/argonavis.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [202, 455], "hip": 45238},
+          {"pos": [62, 216], "hip": 50191},
+          {"pos": [298, 22], "hip": 39757}
+        ]
+      },
+      "common_name": {"english": "Keel", "native": "Carina", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cas",
+      "lines": [[746, 3179, 4427, 6686, 8886]],
+      "image": {
+        "file": "illustrations/cassiopeia.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [390, 336], "hip": 8886},
+          {"pos": [163, 156], "hip": 3179},
+          {"pos": [73, 243], "hip": 746}
+        ]
+      },
+      "common_name": {"native": "Cassiopeia", "english": "Cassiopeia", "byname": "卡西奥佩娅：被绑在椅子上的王后", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cen",
+      "lines": [[61932, 66657, 68702, 71683, 68702, 66657, 68002, 61932, 68002, 68282, 68245, 71352, 68245, 68862, 70090, 68933, 67464, 68002], [55425, 59196, 60823, 61932, 60823, 59449, 56243], [67464, 65936, 65109, 61789], [71352, 73334]],
+      "image": {
+        "file": "illustrations/centaurus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [118, 157], "hip": 68933},
+          {"pos": [194, 444], "hip": 71683},
+          {"pos": [463, 412], "hip": 56561}
+        ]
+      },
+      "common_name": {"english": "Centaur", "native": "Centaurus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cep",
+      "lines": [[102422, 105199, 106032, 112724, 106032, 116727, 112724, 110991, 109492, 109857, 107259, 105199], [101093, 102422]],
+      "image": {
+        "file": "illustrations/cepheus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [60, 335], "hip": 116727},
+          {"pos": [125, 170], "hip": 106032},
+          {"pos": [335, 147], "hip": 109492}
+        ]
+      },
+      "common_name": {"english": "Cepheus", "byname": "刻甫斯：国王", "native": "Cepheus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cet",
+      "lines": [[12706, 14135, 13954, 12828, 11484, 12706, 12387, 10826, 8645, 8102, 3419, 1562, 5364, 6537, 8645]],
+      "image": {
+        "file": "illustrations/cetus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [87, 63], "hip": 14143},
+          {"pos": [28, 274], "hip": 12770},
+          {"pos": [412, 440], "hip": 1562}
+        ]
+      },
+      "common_name": {"english": "Sea Monster", "native": "Cetus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cha",
+      "lines": [[40702, 51839, 52633, 60000, 58484, 51839]],
+      "image": {
+        "file": "illustrations/chamaeleon.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [29, 214], "hip": 60000},
+          {"pos": [73, 123], "hip": 51839},
+          {"pos": [184, 33], "hip": 40702}
+        ]
+      },
+      "common_name": {"english": "Chameleon", "native": "Chamaeleon", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cir",
+      "lines": [[74824, 71908, 75323]],
+      "image": {
+        "file": "illustrations/circinus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [5, 36], "hip": 75323},
+          {"pos": [39, 11], "hip": 74824},
+          {"pos": [235, 239], "hip": 71908}
+        ]
+      },
+      "common_name": {"english": "Drawing Compass", "native": "Circinus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cnc",
+      "lines": [[44066, 42911, 40526, 42911, 42806, 43103, 42806, 40843]],
+      "image": {
+        "file": "illustrations/cancer.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [29, 166], "hip": 44066},
+          {"pos": [101, 255], "hip": 40526},
+          {"pos": [206, 91], "hip": 40843}
+        ]
+      },
+      "common_name": {"english": "Crab", "native": "Cancer", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Col",
+      "lines": [[26634, 27628], [25859, 26634], [28328, 27628, 28199, 30277]],
+      "image": {
+        "file": "illustrations/columba.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [139, 29], "hip": 30277},
+          {"pos": [40, 190], "hip": 28328},
+          {"pos": [204, 211], "hip": 25859}
+        ]
+      },
+      "common_name": {"english": "Dove", "native": "Columba", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Com",
+      "lines": [[64241, 64394, 60742]],
+      "image": {
+        "file": "illustrations/coma-berenices.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [27, 199], "hip": 64241},
+          {"pos": [38, 58], "hip": 64394},
+          {"pos": [172, 64], "hip": 60742}
+        ]
+      },
+      "common_name": {"english": "Bernice's Hair", "native": "Coma Berenices", "byname": "贝勒尼基的头发", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau CrA",
+      "lines": [[93825, 94114, 94160, 94005, 90982]],
+      "image": {
+        "file": "illustrations/corona-australis.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [14, 142], "hip": 93825},
+          {"pos": [218, 34], "hip": 90887},
+          {"pos": [195, 208], "hip": 92953}
+        ]
+      },
+      "common_name": {"english": "Southern Crown", "native": "Corona Australis", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau CrB",
+      "lines": [[76127, 75695, 76267, 76952, 77512, 78159, 78493]],
+      "image": {
+        "file": "illustrations/corona-borealis.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [16, 186], "hip": 78493},
+          {"pos": [201, 203], "hip": 76952},
+          {"pos": [157, 20], "hip": 76127}
+        ]
+      },
+      "common_name": {"english": "Northern Crown", "native": "Corona Borealis", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Crt",
+      "lines": [[53740, 54682, 55705, 57283, 58188, 57283, 55705, 55282, 55687, 56633, 55687, 55282, 53740]],
+      "image": {
+        "file": "illustrations/crater.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [45, 41], "hip": 58188},
+          {"pos": [160, 149], "hip": 55282},
+          {"pos": [55, 242], "hip": 54682}
+        ]
+      },
+      "common_name": {"english": "Cup", "native": "Crater", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cru",
+      "lines": [[60718, 61084], [62434, 59747], [62434, 59747]],
+      "image": {
+        "file": "illustrations/crux.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [112, 21], "hip": 61084},
+          {"pos": [42, 20], "hip": 62434},
+          {"pos": [21, 106], "hip": 60718}
+        ]
+      },
+      "common_name": {"english": "Southern Cross", "native": "Crux", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Crv",
+      "lines": [[60965, 59803, 59316, 61359, 60965], [59316, 59199]],
+      "image": {
+        "file": "illustrations/corvus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [65, 59], "hip": 60965},
+          {"pos": [77, 235], "hip": 61359},
+          {"pos": [213, 187], "hip": 59316}
+        ]
+      },
+      "common_name": {"english": "Crow", "native": "Corvus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Cyg",
+      "lines": [[102098, 100453, 102488, 100453, 95947, 100453, 97165, 95853, 94779, 95853, 99848, 102098, 103413, 104732, 102488]],
+      "image": {
+        "file": "illustrations/cygnus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [7, 382], "hip": 107310},
+          {"pos": [474, 46], "hip": 94779},
+          {"pos": [467, 453], "hip": 95947}
+        ]
+      },
+      "common_name": {"english": "Swan", "native": "Cygnus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Del",
+      "lines": [[101421, 101769, 101958, 102532, 102281, 101769]],
+      "image": {
+        "file": "illustrations/delphinus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [59, 31], "hip": 102532},
+          {"pos": [75, 148], "hip": 102805},
+          {"pos": [211, 143], "hip": 101421}
+        ]
+      },
+      "common_name": {"english": "Dolphin", "native": "Delphinus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Dor",
+      "lines": [[19893, 21281, 23693, 26069, 21281, 26069, 27100, 27890, 26069]],
+      "image": {
+        "file": "illustrations/dorado.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [56, 197], "hip": 27890},
+          {"pos": [75, 228], "hip": 27100},
+          {"pos": [219, 46], "hip": 19893}
+        ]
+      },
+      "common_name": {"english": "Swordfish", "byname": "鬼头刀鱼", "native": "Dorado", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Dra",
+      "lines": [[56211, 61281, 68756, 75458, 78527, 80331, 83895, 89908, 89937, 89908, 94376, 97433, 94376, 87585, 85829, 85670, 87833, 87585, 94376]],
+      "image": {
+        "file": "illustrations/draco.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [13, 411], "hip": 56211},
+          {"pos": [361, 154], "hip": 85670},
+          {"pos": [449, 429], "hip": 97433}
+        ]
+      },
+      "common_name": {"english": "Dragon", "native": "Draco", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Equ",
+      "lines": [[104987, 104858, 104521]],
+      "image": {
+        "file": "illustrations/equuleus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [17, 180], "hip": 104521},
+          {"pos": [149, 86], "hip": 104987},
+          {"pos": [160, 160], "hip": 105570}
+        ]
+      },
+      "common_name": {"english": "Little Horse", "native": "Equuleus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Eri",
+      "lines": [[23875, 22109, 21444, 19587, 18543, 17593, 17378, 16537, 13701, 12770, 12770, 12843, 14146, 15474, 16611, 17651, 18216, 18673, 21248, 21393, 20535, 20042, 17874, 17874, 16870, 15510, 13847, 12486, 12413, 11407, 9007, 7588]],
+      "label_positions": [[4.1, -15.0]],
+      "image": {
+        "file": "illustrations/eridanus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [41, 95], "hip": 22109},
+          {"pos": [296, 44], "hip": 13701},
+          {"pos": [493, 490], "hip": 7588}
+        ]
+      },
+      "common_name": {"english": "Eridanus", "byname": "河流", "native": "Eridanus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau For",
+      "lines": [[14879, 13147, 9677]],
+      "image": {
+        "file": "illustrations/fornax.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [42, 125], "hip": 14879},
+          {"pos": [128, 37], "hip": 13202},
+          {"pos": [190, 129], "hip": 13147}
+        ]
+      },
+      "common_name": {"english": "Furnace", "native": "Fornax", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Gem",
+      "lines": [[32362, 35350, 35550, 34088, 31681, 34088, 35550, 36962, 37740, 36962, 37826, 36962, 36046, 34693, 36850, 34693, 33018, 34693, 32246, 30883, 32246, 30343, 29655, 28734]],
+      "image": {
+        "file": "illustrations/gemini.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [14, 81], "hip": 37740},
+          {"pos": [117, 252], "hip": 32362},
+          {"pos": [249, 165], "hip": 28734}
+        ]
+      },
+      "common_name": {"english": "Twins", "native": "Gemini", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Gru",
+      "lines": [[108085, 109111, 110997, 109268, 112122, 110997, 112122, 112623, 113638]],
+      "image": {
+        "file": "illustrations/grus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [49, 109], "hip": 114131},
+          {"pos": [85, 206], "hip": 112623},
+          {"pos": [220, 45], "hip": 108085}
+        ]
+      },
+      "common_name": {"english": "Crane", "native": "Grus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Her",
+      "lines": [[84379, 84345, 80816, 80170, 80816, 81693, 83207, 81693, 81833, 81126, 79992, 81126, 81833, 84380, 85112, 87808, 86414, 87808, 85112, 84380, 83207, 84379, 85693, 86974, 87933, 88794], [77760, 79101, 79992], [80170, 80463, 81008]],
+      "image": {
+        "file": "illustrations/hercules.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [44, 115], "hip": 80170},
+          {"pos": [254, 477], "hip": 79992},
+          {"pos": [441, 102], "hip": 88794}
+        ]
+      },
+      "common_name": {"english": "Hercules", "native": "Hercules", "byname": "赫拉克勒斯", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Hor",
+      "lines": [[19747, 12653, 12225, 12484, 14240, 13884]],
+      "image": {
+        "file": "illustrations/horlogium.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [16, 235], "hip": 19747},
+          {"pos": [184, 67], "hip": 12484},
+          {"pos": [235, 119], "hip": 14240}
+        ]
+      },
+      "common_name": {"english": "Clock", "native": "Horologium", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Hya",
+      "lines": [[43234, 42799, 42402, 42313, 43109, 43813, 45336, 47431, 46390, 48356, 49402, 49841, 51069, 52943, 53740], [54682, 56343, 57936, 64962, 68895, 72571]],
+      "label_positions": [[9.1, -10.0], [13.75, -26.0]],
+      "image": {
+        "file": "illustrations/hydra.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [26, 491], "hip": 64962},
+          {"pos": [111, 149], "hip": 55434},
+          {"pos": [401, 33], "hip": 43813}
+        ]
+      },
+      "common_name": {"english": "Female Water Snake", "native": "Hydra", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Hyi",
+      "lines": [[2021, 17678, 11001, 9236, 2021]],
+      "image": {
+        "file": "illustrations/hydrus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [14, 204], "hip": 9236},
+          {"pos": [201, 43], "hip": 2021},
+          {"pos": [241, 215], "hip": 17678}
+        ]
+      },
+      "common_name": {"english": "Male Water Snake", "native": "Hydrus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Ind",
+      "lines": [[103227, 102333, 101772, 105319, 108431, 103227]],
+      "image": {
+        "file": "illustrations/indus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [64, 143], "hip": 101772},
+          {"pos": [154, 20], "hip": 103227},
+          {"pos": [175, 98], "hip": 105319}
+        ]
+      },
+      "common_name": {"english": "Indian", "native": "Indus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau LMi",
+      "lines": [[46952, 49593, 51233, 53229, 51056, 49593]],
       "image": {
         "file": "illustrations/leo-minor.png",
         "size": [256, 256],
@@ -1407,21 +1104,522 @@
       "common_name": {"english": "Lesser Lion", "native": "Leo Minor", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Vul",
-      "lines": [[95771, 98543]],
+      "id": "CON modern_iau Lac",
+      "lines": [[111022, 111169, 110538, 110609, 111022, 110351, 111104, 111944, 111104, 111944, 111022, 111944, 111104, 109754, 109937]],
       "image": {
-        "file": "illustrations/vulpecula.png",
+        "file": "illustrations/lacerta.png",
         "size": [256, 256],
         "anchors": [
-          {"pos": [35, 133], "hip": 98543},
-          {"pos": [174, 111], "hip": 95771},
-          {"pos": [242, 135], "hip": 94703}
+          {"pos": [249, 42], "hip": 110538},
+          {"pos": [108, 123], "hip": 111104},
+          {"pos": [67, 215], "hip": 109937}
         ]
       },
-      "common_name": {"english": "Fox", "native": "Vulpecula", "context": "IAU constellation name"}
+      "common_name": {"english": "Lizard", "native": "Lacerta", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western UMi",
+      "id": "CON modern_iau Leo",
+      "lines": [[49669, 49583, 50583, 50335, 48455, 47908], [50583, 54872, 57632, 54879, 54872, 54879, 49583], [48455, 46146, 46750, 47908, 49583], [54879, 55642, 55434]],
+      "image": {
+        "file": "illustrations/leo.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [69, 411], "hip": 57632},
+          {"pos": [383, 186], "hip": 49669},
+          {"pos": [321, 32], "hip": 47908}
+        ]
+      },
+      "common_name": {"english": "Lion", "native": "Leo", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Lep",
+      "lines": [[23685, 24305, 25985, 25606, 23685], [24845, 24305, 24327], [25606, 27072, 27654, 28910, 28103, 27288, 25985]],
+      "image": {
+        "file": "illustrations/lepus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [21, 48], "hip": 28910},
+          {"pos": [246, 62], "hip": 24244},
+          {"pos": [213, 235], "hip": 23685}
+        ]
+      },
+      "common_name": {"english": "Hare", "native": "Lepus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Lib",
+      "lines": [[72622, 74785], [72622, 73714], [74785, 76333, 72622, 76333, 76470, 76600]],
+      "image": {
+        "file": "illustrations/libra.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [41, 27], "hip": 74785},
+          {"pos": [58, 170], "hip": 77853},
+          {"pos": [224, 107], "hip": 73714}
+        ]
+      },
+      "common_name": {"english": "Scales", "native": "Libra", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Lup",
+      "lines": [[71860, 74395, 75264, 76297, 75141, 73273, 75141, 76297, 78384, 75177, 77634, 78384, 74395]],
+      "image": {
+        "file": "illustrations/lupus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [90, 257], "hip": 74395},
+          {"pos": [207, 435], "hip": 70576},
+          {"pos": [425, 239], "hip": 75177}
+        ]
+      },
+      "common_name": {"english": "Wolf", "native": "Lupus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Lyn",
+      "lines": [[45860, 45688, 44700, 44248, 41075, 36145, 33449, 30060]],
+      "image": {
+        "file": "illustrations/lynx.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [100, 216], "hip": 44248},
+          {"pos": [337, 212], "hip": 36145},
+          {"pos": [472, 119], "hip": 30060}
+        ]
+      },
+      "common_name": {"english": "Lynx", "native": "Lynx", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Lyr",
+      "lines": [[91262, 91919, 91971, 91262, 91971, 92791, 93194, 92420, 91971]],
+      "image": {
+        "file": "illustrations/lyra.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [100, 96], "hip": 92791},
+          {"pos": [157, 38], "hip": 91262},
+          {"pos": [139, 162], "hip": 92420}
+        ]
+      },
+      "common_name": {"english": "Lyre", "native": "Lyra", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Men",
+      "lines": [[29271, 23467]],
+      "image": {
+        "file": "illustrations/mensa.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [100, 67], "hip": 21949},
+          {"pos": [179, 136], "hip": 25918},
+          {"pos": [54, 183], "hip": 29134}
+        ]
+      },
+      "common_name": {"english": "Table Mountain", "native": "Mensa", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Mic",
+      "lines": [[102831, 102989]],
+      "image": {
+        "file": "illustrations/microscopium.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [122, 226], "hip": 105140},
+          {"pos": [168, 148], "hip": 103738},
+          {"pos": [234, 115], "hip": 102831}
+        ]
+      },
+      "common_name": {"english": "Microscope", "native": "Microscopium", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Mon",
+      "lines": [[31978, 31216, 30419, 30419, 32578, 31216, 32578, 34769, 30867, 29651, 30867, 34769, 39863, 37447]],
+      "image": {
+        "file": "illustrations/monoceros.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [20, 306], "hip": 39863},
+          {"pos": [394, 80], "hip": 31978},
+          {"pos": [509, 359], "hip": 29651}
+        ]
+      },
+      "common_name": {"english": "Unicorn", "native": "Monoceros", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Mus",
+      "lines": [[57363, 59929, 61585, 62322, 63613, 61199, 61585]],
+      "image": {
+        "file": "illustrations/musca.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [57, 52], "hip": 61199},
+          {"pos": [177, 68], "hip": 62322},
+          {"pos": [129, 236], "hip": 57363}
+        ]
+      },
+      "common_name": {"english": "Fly", "native": "Musca", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Nor",
+      "lines": [[78639, 80000, 80582, 78914, 78639]],
+      "image": {
+        "file": "illustrations/norma.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [17, 45], "hip": 78639},
+          {"pos": [101, 38], "hip": 79509},
+          {"pos": [16, 112], "hip": 80582}
+        ]
+      },
+      "common_name": {"english": "Carpenter's Square", "native": "Norma", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Oct",
+      "lines": [[70638, 107089, 112405, 70638]],
+      "image": {
+        "file": "illustrations/octans.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [15, 16], "hip": 70638},
+          {"pos": [236, 239], "hip": 107089},
+          {"pos": [247, 140], "hip": 112405}
+        ]
+      },
+      "common_name": {"english": "Octant", "native": "Octans", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Oph",
+      "lines": [[86032, 83000, 80883, 79593, 79882, 80628, 81377, 80628, 79882, 79593, 80883, 83000, 81377, 84012, 86742, 87108, 88048, 87108, 86742, 86032], [84012, 84970, 85423], [81377, 80894, 80569, 80343, 80473]],
+      "image": {
+        "file": "illustrations/ophiuchus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [5, 183], "hip": 92946},
+          {"pos": [452, 47], "hip": 77233},
+          {"pos": [238, 453], "hip": 85755}
+        ]
+      },
+      "common_name": {"english": "Serpent Bearer", "native": "Ophiuchus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Ori",
+      "lines": [[27989, 26727, 27366, 26727, 26311, 25930, 25336, 25930, 25281, 24436], [27989, 25336, 26207, 26207, 27989], [23607, 22957, 22845, 22509, 22449, 25336, 22449, 22549, 22797, 23123], [27989, 28614, 29426, 29038, 27913, 28716, 29426]],
+      "image": {
+        "file": "illustrations/orion.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [59, 11], "hip": 27913},
+          {"pos": [329, 477], "hip": 27366},
+          {"pos": [421, 91], "hip": 22449}
+        ]
+      },
+      "common_name": {"english": "Hunter", "native": "Orion", "byname": "俄里翁", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Pav",
+      "lines": [[100751, 99240, 102395], [100751, 105858, 102395], [91792, 99240, 98495, 99240, 93015, 88866, 86929, 88866, 90098, 92609, 99240]],
+      "image": {
+        "file": "illustrations/pavo.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [55, 60], "hip": 100751},
+          {"pos": [110, 208], "hip": 98495},
+          {"pos": [235, 146], "hip": 86929}
+        ]
+      },
+      "common_name": {"english": "Peacock", "native": "Pavo", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Peg",
+      "lines": [[109410, 112158, 113881, 112748, 112440, 109176, 107354], [677, 113881, 113963, 1067, 677], [107315, 109427, 112029, 113963]],
+      "image": {
+        "file": "illustrations/pegasus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [164, 41], "hip": 107315},
+          {"pos": [47, 283], "hip": 109410},
+          {"pos": [409, 349], "hip": 1067}
+        ]
+      },
+      "common_name": {"english": "Winged Horse", "native": "Pegasus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Per",
+      "lines": [[17448, 18246, 18614, 18532, 17358, 15863, 14328, 13268, 13531, 14328, 13531, 14632, 15863, 14632, 14668, 14576, 18532, 14576, 14354], [17358, 19343, 19812, 20070, 19167], [14632, 12777, 8068]],
+      "image": {
+        "file": "illustrations/perseus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [164, 323], "hip": 18532},
+          {"pos": [299, 175], "hip": 15863},
+          {"pos": [385, 386], "hip": 13254}
+        ]
+      },
+      "common_name": {"english": "Hero", "native": "Perseus", "byname": "珀尔修斯", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Phe",
+      "lines": [[2081, 5165, 6867], [2081, 765, 5165, 5348, 7083, 6867]],
+      "image": {
+        "file": "illustrations/phoenix.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [55, 243], "hip": 8837},
+          {"pos": [209, 15], "hip": 765},
+          {"pos": [229, 214], "hip": 5348}
+        ]
+      },
+      "common_name": {"english": "Phoenix", "native": "Phoenix", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Pic",
+      "lines": [[32607, 27530, 27321]],
+      "image": {
+        "file": "illustrations/pictor.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [4, 252], "hip": 32607},
+          {"pos": [148, 138], "hip": 27530},
+          {"pos": [167, 38], "hip": 27321}
+        ]
+      },
+      "common_name": {"english": "Painter's Easel", "native": "Pictor", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau PsA",
+      "lines": [[113368, 113246, 112948, 111188, 109285, 107380, 107608, 109285, 111954, 113368]],
+      "image": {
+        "file": "illustrations/piscis-austrinus.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [190, 5], "hip": 113246},
+          {"pos": [82, 202], "hip": 107608},
+          {"pos": [236, 92], "hip": 111954}
+        ]
+      },
+      "common_name": {"english": "Southern Fish", "native": "Piscis Austrinus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Psc",
+      "lines": [[5742, 6193, 5586, 5742, 7097, 8198, 9487, 7884, 4906, 3786, 118268, 116771, 115830, 114971, 115738, 116928, 116771]],
+      "image": {
+        "file": "illustrations/pisces.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [24, 104], "hip": 4889},
+          {"pos": [111, 489], "hip": 9487},
+          {"pos": [481, 155], "hip": 114971}
+        ]
+      },
+      "common_name": {"english": "Fishes", "native": "Pisces", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Pup",
+      "lines": [[39953, 39429, 39757, 38170, 37229, 36917, 35264, 31685, 30438], [36917, 37677, 38070, 38170]],
+      "common_name": {"english": "Stern", "native": "Puppis", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Pyx",
+      "lines": [[39429, 42515, 42828, 43409]],
+      "image": {
+        "file": "illustrations/pyxis.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [152, 220], "hip": 41723},
+          {"pos": [94, 159], "hip": 42828},
+          {"pos": [44, 202], "hip": 42515}
+        ]
+      },
+      "common_name": {"english": "Mariner Compass", "native": "Pyxis", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Ret",
+      "lines": [[19780, 17440, 18597, 19921, 19780]],
+      "image": {
+        "file": "illustrations/reticulum.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [47, 56], "hip": 18597},
+          {"pos": [78, 88], "hip": 19780},
+          {"pos": [16, 111], "hip": 19921}
+        ]
+      },
+      "common_name": {"english": "Reticle", "native": "Reticulum", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Scl",
+      "lines": [[4577, 117452, 115102, 116231]],
+      "image": {
+        "file": "illustrations/sculptor.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [231, 39], "hip": 115102},
+          {"pos": [240, 106], "hip": 116231},
+          {"pos": [32, 174], "hip": 4577}
+        ]
+      },
+      "common_name": {"english": "Sculptor", "native": "Sculptor", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Sco",
+      "lines": [[78820, 78401, 78265, 78401, 80112, 80763, 81266, 82396, 82514, 82729, 84143, 86228, 87073, 86670, 85696, 85927, 87261], [78820, 79374], [78265, 78104]],
+      "image": {
+        "file": "illustrations/scorpius.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [447, 29], "hip": 78820},
+          {"pos": [62, 365], "hip": 85927},
+          {"pos": [217, 462], "hip": 82729}
+        ]
+      },
+      "common_name": {"english": "Scorpion", "native": "Scorpius", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Sct",
+      "lines": [[92175, 91117, 90595, 91726, 92175]],
+      "image": {
+        "file": "illustrations/scutum.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [52, 17], "hip": 92175},
+          {"pos": [224, 124], "hip": 90595},
+          {"pos": [139, 206], "hip": 92814}
+        ]
+      },
+      "common_name": {"english": "Shield", "native": "Scutum", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Ser",
+      "lines": [[77233, 78072, 77450, 76852, 77233, 76276, 77070, 77622, 77516, 79593], [84012, 86263, 88048, 89962, 92946]],
+      "label_positions": [[15.8, 10.5], [18.333, -2.0]],
+      "common_name": {"english": "Serpent", "native": "Serpens", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Sex",
+      "lines": [[48437, 49641, 51437, 51362]],
+      "image": {
+        "file": "illustrations/sextans.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [26, 54], "hip": 51437},
+          {"pos": [68, 36], "hip": 49641},
+          {"pos": [118, 84], "hip": 48437}
+        ]
+      },
+      "common_name": {"english": "Sextant", "native": "Sextans", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Sge",
+      "lines": [[98337, 97365, 96757, 97365, 96837]],
+      "image": {
+        "file": "illustrations/sagitta.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [6, 12], "hip": 98920},
+          {"pos": [249, 213], "hip": 96757},
+          {"pos": [218, 243], "hip": 96837}
+        ]
+      },
+      "common_name": {"english": "Arrow", "native": "Sagitta", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Sgr",
+      "lines": [[90185, 88635, 89931, 90185, 89931, 90496, 92041, 89931, 92041, 92855, 93864, 93506, 92041, 93506, 90185, 89642], [90496, 89341], [95168, 94141, 93683, 93085, 94141]],
+      "image": {
+        "file": "illustrations/sagittarius.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [96, 82], "hip": 95168},
+          {"pos": [307, 492], "hip": 95294},
+          {"pos": [506, 100], "hip": 87072}
+        ]
+      },
+      "common_name": {"english": "Archer", "native": "Sagittarius", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Tau",
+      "lines": [[26451, 21421, 20894, 20205, 20455, 20889, 25428], [16083, 18907], [15900, 16852], [20205, 18724, 16083]],
+      "image": {
+        "file": "illustrations/taurus.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [13, 92], "hip": 26451},
+          {"pos": [399, 438], "hip": 15900},
+          {"pos": [382, 192], "hip": 17999}
+        ]
+      },
+      "common_name": {"english": "Bull", "native": "Taurus", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Tel",
+      "lines": [[89112, 90422, 90568]],
+      "image": {
+        "file": "illustrations/telescopium.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [30, 66], "hip": 91589},
+          {"pos": [101, 40], "hip": 90422},
+          {"pos": [106, 92], "hip": 90568}
+        ]
+      },
+      "common_name": {"english": "Telescope", "native": "Telescopium", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau TrA",
+      "lines": [[82273, 77952, 76440, 74946, 82273]],
+      "image": {
+        "file": "illustrations/triangulum-australe.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [26, 12], "hip": 77952},
+          {"pos": [108, 15], "hip": 74946},
+          {"pos": [60, 106], "hip": 82273}
+        ]
+      },
+      "common_name": {"english": "Southern Triangle", "native": "Triangulum Australe", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Tri",
+      "lines": [[8796, 10064, 10670, 8796]],
+      "image": {
+        "file": "illustrations/triangulum.png",
+        "size": [128, 128],
+        "anchors": [
+          {"pos": [16, 42], "hip": 10064},
+          {"pos": [13, 70], "hip": 10559},
+          {"pos": [97, 78], "hip": 8796}
+        ]
+      },
+      "common_name": {"english": "Triangle", "native": "Triangulum", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Tuc",
+      "lines": [[2484, 1599, 118322, 110838, 110130, 114996, 2484]],
+      "image": {
+        "file": "illustrations/tucana.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [53, 121], "hip": 2484},
+          {"pos": [154, 86], "hip": 114996},
+          {"pos": [224, 141], "hip": 110130}
+        ]
+      },
+      "common_name": {"english": "Toucan", "native": "Tucana", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau UMa",
+      "lines": [[58001, 57399, 54539, 50801, 50372, 50801, 54539, 57399, 55219, 55203], [59774, 54061, 53910, 58001, 59774, 62956, 65378, 67301], [54061, 46733, 48319, 46733, 41704, 48319, 53910, 48319, 46853, 44471, 44127]],
+      "image": {
+        "file": "illustrations/ursa-major.png",
+        "size": [512, 512],
+        "anchors": [
+          {"pos": [26, 75], "hip": 67301},
+          {"pos": [452, 272], "hip": 41704},
+          {"pos": [258, 394], "hip": 50372}
+        ]
+      },
+      "common_name": {"english": "Great Bear", "native": "Ursa Major", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau UMi",
       "lines": [[11767, 85822, 82080, 77055, 79822, 75097, 72607, 77055]],
       "image": {
         "file": "illustrations/ursa-minor.png",
@@ -1435,229 +1633,13 @@
       "common_name": {"english": "Lesser Bear", "native": "Ursa Minor", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Phe",
-      "lines": [[5348, 5165, 2072, 5348], [5165, 7083, 8837, 5165, 6867, 2072, 2081, 765, 2072]],
-      "image": {
-        "file": "illustrations/phoenix.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [55, 243], "hip": 8837},
-          {"pos": [209, 15], "hip": 765},
-          {"pos": [229, 214], "hip": 5348}
-        ]
-      },
-      "common_name": {"english": "Phoenix", "native": "Phoenix", "context": "IAU constellation name"}
+      "id": "CON modern_iau Vel",
+      "lines": [[42913, 39953, 44816, 46651, 50191, 52727, 48774, 45941, 42913]],
+      "common_name": {"english": "Sails", "native": "Vela", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Psc",
-      "lines": [[4889, 5742], [4889, 6193, 5742, 7097, 8198, 9487, 8833, 7884, 7007, 4906, 3760, 1645, 118268, 116771, 117245, 116928, 115738, 114971, 115227, 115830, 116771]],
-      "image": {
-        "file": "illustrations/pisces.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [24, 104], "hip": 4889},
-          {"pos": [111, 489], "hip": 9487},
-          {"pos": [481, 155], "hip": 114971}
-        ]
-      },
-      "common_name": {"english": "Fishes", "native": "Pisces", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western PsA",
-      "lines": [[113368, 111954, 108661, 107608, 109422, 111188, 113246]],
-      "image": {
-        "file": "illustrations/piscis-austrinus.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [190, 5], "hip": 113246},
-          {"pos": [82, 202], "hip": 107608},
-          {"pos": [236, 92], "hip": 111954}
-        ]
-      },
-      "common_name": {"english": "Southern Fish", "native": "Piscis Austrinus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Vol",
-      "lines": [[37504, 34481, 39794, 37504], [39794, 35228], [39794, 41312, 44382, 39794]],
-      "image": {
-        "file": "illustrations/volans.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [55, 85], "hip": 44382},
-          {"pos": [210, 122], "hip": 35228},
-          {"pos": [207, 163], "hip": 34481}
-        ]
-      },
-      "common_name": {"english": "Flying Fish", "native": "Volans", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Pup",
-      "lines": [[39757, 38146, 35264, 31685, 32768, 36377, 39429, 39757]],
-      "common_name": {"english": "Stern", "native": "Puppis", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Ret",
-      "lines": [[19780, 19921, 18597, 17440, 19780]],
-      "image": {
-        "file": "illustrations/reticulum.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [47, 56], "hip": 18597},
-          {"pos": [78, 88], "hip": 19780},
-          {"pos": [16, 111], "hip": 19921}
-        ]
-      },
-      "common_name": {"english": "Reticle", "native": "Reticulum", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Sgr",
-      "lines": [[89931, 90496], [89642, 90185, 88635, 87072], [88635, 89931, 90185, 93506, 92041, 89931], [92041, 90496, 89341], [93506, 93864, 92855, 92041], [92855, 93085, 93683, 94820, 95168], [93864, 96406, 98688, 98412, 98032, 95347], [98032, 95294]],
-      "image": {
-        "file": "illustrations/sagittarius.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [96, 82], "hip": 95168},
-          {"pos": [307, 492], "hip": 95294},
-          {"pos": [506, 100], "hip": 87072}
-        ]
-      },
-      "common_name": {"english": "Archer", "native": "Sagittarius", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Sco",
-      "lines": [[85927, 86670, 87073, 86228, 84143, 82671, 82514, 82396, 81266, 80763, 78401], [80763, 78265], [80763, 78820]],
-      "image": {
-        "file": "illustrations/scorpius.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [447, 29], "hip": 78820},
-          {"pos": [62, 365], "hip": 85927},
-          {"pos": [217, 462], "hip": 82729}
-        ]
-      },
-      "common_name": {"english": "Scorpion", "native": "Scorpius", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Ser",
-      "lines": [[79593, 77516, 77622, 77070, 76276, 77233, 78072, 77450, 77233], [92946, 90441, 89962, 88670, 88048, 86565, 86263, 84880]],
-      "common_name": {"english": "Serpent", "native": "Serpens"},
-      "label_positions": [[15.8, 10.5], [18.333, -2.0]]
-    },
-    {
-      "id": "CON test_western Sex",
-      "lines": [[51437, 49641]],
-      "image": {
-        "file": "illustrations/sextans.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [26, 54], "hip": 51437},
-          {"pos": [68, 36], "hip": 49641},
-          {"pos": [118, 84], "hip": 48437}
-        ]
-      },
-      "common_name": {"english": "Sextant", "native": "Sextans", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Men",
-      "lines": [[25918, 21949]],
-      "image": {
-        "file": "illustrations/mensa.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [100, 67], "hip": 21949},
-          {"pos": [179, 136], "hip": 25918},
-          {"pos": [54, 183], "hip": 29134}
-        ]
-      },
-      "common_name": {"english": "Table Mountain", "native": "Mensa", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Tau",
-      "lines": [[25428, 21881, 20889], [21421, 26451], [20205, 20455], [20205, 18724, 15900], [21421, 20889], [21421, 20894, 20205], [20889, 20648, 20455, 17847]],
-      "image": {
-        "file": "illustrations/taurus.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [13, 92], "hip": 26451},
-          {"pos": [399, 438], "hip": 15900},
-          {"pos": [382, 192], "hip": 17999}
-        ]
-      },
-      "common_name": {"english": "Bull", "native": "Taurus", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Tel",
-      "lines": [[90568, 90422]],
-      "image": {
-        "file": "illustrations/telescopium.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [30, 66], "hip": 91589},
-          {"pos": [101, 40], "hip": 90422},
-          {"pos": [106, 92], "hip": 90568}
-        ]
-      },
-      "common_name": {"english": "Telescope", "native": "Telescopium", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Tuc",
-      "lines": [[110130, 114996, 1599], [114996, 2484]],
-      "image": {
-        "file": "illustrations/tucana.png",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [53, 121], "hip": 2484},
-          {"pos": [154, 86], "hip": 114996},
-          {"pos": [224, 141], "hip": 110130}
-        ]
-      },
-      "common_name": {"english": "Toucan", "native": "Tucana", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Tri",
-      "lines": [[10670, 10064, 8796, 10670]],
-      "image": {
-        "file": "illustrations/triangulum.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [16, 42], "hip": 10064},
-          {"pos": [13, 70], "hip": 10559},
-          {"pos": [97, 78], "hip": 8796}
-        ]
-      },
-      "common_name": {"english": "Triangle", "native": "Triangulum", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western TrA",
-      "lines": [[82273, 74946, 77952, 82273]],
-      "image": {
-        "file": "illustrations/triangulum-australe.png",
-        "size": [128, 128],
-        "anchors": [
-          {"pos": [26, 12], "hip": 77952},
-          {"pos": [108, 15], "hip": 74946},
-          {"pos": [60, 106], "hip": 82273}
-        ]
-      },
-      "common_name": {"english": "Southern Triangle", "native": "Triangulum Australe", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Aqr",
-      "lines": [[106278, 109074, 110395, 110960, 111497, 112961, 114855, 115438], [109074, 110003, 109139], [110003, 111123, 112716, 113136, 114341], [102618, 106278]],
-      "image": {
-        "file": "illustrations/aquarius.png",
-        "size": [512, 512],
-        "anchors": [
-          {"pos": [144, 464], "hip": 115438},
-          {"pos": [179, 98], "hip": 109074},
-          {"pos": [465, 49], "hip": 102618}
-        ]
-      },
-      "common_name": {"english": "Water Bearer", "native": "Aquarius", "context": "IAU constellation name"}
-    },
-    {
-      "id": "CON test_western Vir",
-      "lines": [[57380, 60129, 61941, 65474, 69427, 69701, 71957], [65474, 66249, 68520, 72220], [66249, 63090, 63608], [63090, 61941]],
+      "id": "CON modern_iau Vir",
+      "lines": [[60129, 58948, 57380, 57757, 60129, 61941, 63090, 63608, 63090, 61941, 64238, 65474, 64238, 61941, 66249, 68520, 72220, 68520, 66249, 69701, 71957]],
       "image": {
         "file": "illustrations/virgo.png",
         "size": [512, 512],
@@ -1670,14 +1652,37 @@
       "common_name": {"english": "Maiden", "native": "Virgo", "context": "IAU constellation name"}
     },
     {
-      "id": "CON test_western Vel",
-      "lines": [[39953, 42536, 42913, 45941, 48774, 52727, 51986, 50191, 46651, 44816, 39953]],
-      "common_name": {"english": "Sails", "native": "Vela"}
+      "id": "CON modern_iau Vol",
+      "lines": [[44382, 41312, 39794, 35228, 34481, 39794, 44382]],
+      "image": {
+        "file": "illustrations/volans.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [55, 85], "hip": 44382},
+          {"pos": [210, 122], "hip": 35228},
+          {"pos": [207, 163], "hip": 34481}
+        ]
+      },
+      "common_name": {"english": "Flying Fish", "native": "Volans", "context": "IAU constellation name"}
+    },
+    {
+      "id": "CON modern_iau Vul",
+      "lines": [[95771, 97886]],
+      "image": {
+        "file": "illustrations/vulpecula.png",
+        "size": [256, 256],
+        "anchors": [
+          {"pos": [35, 133], "hip": 98543},
+          {"pos": [174, 111], "hip": 95771},
+          {"pos": [242, 135], "hip": 94703}
+        ]
+      },
+      "common_name": {"english": "Fox", "native": "Vulpecula", "context": "IAU constellation name"}
     }
   ],
   "zodiac": { "name": { "native": "Zodiacus", "english": "Zodiac"},
               "partitions": [ 12, 3, 2, 5],
-              "context": "western zodiac sign",
+              "context": "Latin zodiac sign",
               "extent": 9,
 	      "names": [ { "symbol": "\u2648", "native": "Aries",       "english": "Ram"},
 			 { "symbol": "\u2649", "native": "Taurus",      "english": "Bull"},
@@ -2478,1561 +2483,70 @@
     "687:686 M+ 19:15:00 +19:10:00 19:15:00 +21:05:00 VUL SGE"
   ],
   "common_names": {
-  "HIP    677": [{"english": "12_H._And_1"}],
-  "HIP   5447": [{"english": "33_H._And_2"}],
-  "HIP   9640": [{"english": "45_H._And_3"}],
-  "HIP   3092": [{"english": "21_H._And_4"}],
-  "HIP   2912": [{"english": "19_H._And_5"}],
-  "HIP   3031": [{"english": "20_H._And_6"}],
-  "HIP   1473": [{"english": "15_H._And_7"}],
-  "HIP   1686": [{"english": "16_H._And_8"}],
-  "HIP   1366": [{"english": "14_H._And_9"}],
-  "HIP 116631": [{"english": "8_H._And_10"}],
-  "HIP 116805": [{"english": "9_H._And_11"}],
-  "HIP 116584": [{"english": "7_H._And_12"}],
-  "HIP 117221": [{"english": "10_H._And_13"}],
-  "HIP 113726": [{"english": "2_H._And_14"}],
-  "HIP   3693": [{"english": "25_H._And_15"}],
-  "HIP   4463": [{"english": "29_H._And_16"}],
-  "HIP   3881": [{"english": "26_H._And_17"}],
-  "HIP   4436": [{"english": "28_H._And_18"}],
-  "HIP   7818": [{"english": "40_H._And_19"}],
-  "HIP   7918": [{"english": "41_H._And_20"}],
-  "HIP   5434": [{"english": "32_H._And_21"}],
-  "HIP   7607": [{"english": "39_H._And_22"}],
-  "HIP   8068": [{"english": "42_H._And_23"}],
-  "HIP   1168": [{"english": "13_H._And_24"}],
-  "HIP 118131": [{"english": "11_H._And_25"}],
-  "HIP 117073": [{"english": "27_H._And_26"}],
-  "HIP 112917": [{"english": "1_H._And_27"}],
-  "HIP 113919": [{"english": "3_H._And_28"}],
-  "HIP 114570": [{"english": "4_H._And_29"}],
-  "HIP 115152": [{"english": "5_H._And_30"}],
-  "HIP   3269": [{"english": "24_H._And_31"}],
-  "HIP   3231": [{"english": "22_H._And_33"}],
-  "HIP   5317": [{"english": "31_H._And_34"}],
-  "HIP   5493": [{"english": "34_H._And_35"}],
-  "HIP   4903": [{"english": "30_H._And_36"}],
-  "HIP   6411": [{"english": "35_H._And_37"}],
-  "HIP   6813": [{"english": "36_H._And_38"}],
-  "HIP   6999": [{"english": "37_H._And_39"}],
-  "HIP   7513": [{"english": "38_H._And_40"}],
-  "HIP   8814": [{"english": "44_H._And_41"}],
-  "HIP  10176": [{"english": "46_H._And_42"}],
-  "HIP   8714": [{"english": "43_H._And_43"}],
-  "HIP  11090": [{"english": "47_H._And_44"}],
-  "HIP   2225": [{"english": "17_H._And_45"}],
-  "HIP   2900": [{"english": "18_H._And_46"}],
-  "HIP 116076": [{"english": "6_H._And_47"}],
-  "HIP  99473": [{"english": "13_H._Atn_1"}],
-  "HIP  95501": [{"english": "5_H._Atn_2"}],
-  "HIP  93805": [{"english": "2_H._Atn_3"}],
-  "HIP  97804": [{"english": "11_H._Atn_4"}],
-  "HIP  96468": [{"english": "9_H._Atn_5"}],
-  "HIP  96483": [{"english": "8_H._Atn_6"}],
-  "HIP  93429": [{"english": "1_H._Atn_7"}],
-  "HIP  95585": [{"english": "4_H._Atn_8"}],
-  "HIP  95066": [{"english": "3_H._Atn_9"}],
-  "HIP  97966": [{"english": "12_H._Atn_10"}],
-  "HIP  96327": [{"english": "7_H._Atn_11"}],
-  "HIP  97650": [{"english": "10_H._Atn_12"}],
-  "HIP  95937": [{"english": "6_H._Atn_13"}],
-  "HIP 101101": [{"english": "14_H._Atn_14"}],
-  "HIP 101692": [{"english": "15_H._Atn_15"}],
-  "HIP 101847": [{"english": "16_H._Atn_16"}],
-  "HIP 101936": [{"english": "17_H._Atn_17"}],
-  "HIP 102624": [{"english": "18_H._Atn_18"}],
-  "HIP 103005": [{"english": "19_H._Atn_19"}],
-  "HIP 109074": [{"english": "11_H._Aqr_1"}],
-  "HIP 106278": [{"english": "4_H._Aqr_2"}],
-  "HIP 102618": [{"english": "1_H._Aqr_3"}],
-  "HIP 103045": [{"english": "2_H._Aqr_4"}],
-  "HIP 104459": [{"english": "3_H._Aqr_5"}],
-  "HIP 106786": [{"english": "5_H._Aqr_6"}],
-  "HIP 106944": [{"english": "6_H._Aqr_7"}],
-  "HIP 108874": [{"english": "9_H._Aqr_8"}],
-  "HIP 110395": [{"english": "16_H._Aqr_9"}],
-  "HIP 110672": [{"english": "17_H._Aqr_10"}],
-  "HIP 110960": [{"english": "18_H._Aqr_11"}],
-  "HIP 111497": [{"english": "21_H._Aqr_12"}],
-  "HIP 110003": [{"english": "14_H._Aqr_13"}],
-  "HIP 110273": [{"english": "15_H._Aqr_14"}],
-  "HIP 109139": [{"english": "10_H._Aqr_15"}],
-  "HIP 111123": [{"english": "19_H._Aqr_16"}],
-  "HIP 111449": [{"english": "20_H._Aqr_18"}],
-  "HIP 112211": [{"english": "24_H._Aqr_19"}],
-  "HIP 112716": [{"english": "25_H._Aqr_20"}],
-  "HIP 113136": [{"english": "27_H._Aqr_21"}],
-  "HIP 111710": [{"english": "22_H._Aqr_22"}],
-  "HIP 112961": [{"english": "26_H._Aqr_23"}],
-  "HIP 113996": [{"english": "29_H._Aqr_24"}],
-  "HIP 114724": [{"english": "33_H._Aqr_25"}],
-  "HIP 114939": [{"english": "35_H._Aqr_26"}],
-  "HIP 114855": [{"english": "34_H._Aqr_27"}],
-  "HIP 115033": [{"english": "36_H._Aqr_28"}],
-  "HIP 115115": [{"english": "38_H._Aqr_29"}],
-  "HIP 116758": [{"english": "43_H._Aqr_30"}],
-  "HIP 116971": [{"english": "44_H._Aqr_31"}],
-  "HIP 116901": [{"english": "45_H._Aqr_32"}],
-  "HIP 117218": [{"english": "46_H._Aqr_33"}],
-  "HIP 117629": [{"english": "47_H._Aqr_34"}],
-  "HIP 115438": [{"english": "40_H._Aqr_35"}],
-  "HIP 115669": [{"english": "41_H._Aqr_36"}],
-  "HIP 116247": [{"english": "42_H._Aqr_37"}],
-  "HIP 114341": [{"english": "31_H._Aqr_38"}],
-  "HIP 114375": [{"english": "32_H._Aqr_39"}],
-  "HIP 114119": [{"english": "30_H._Aqr_40"}],
-  "HIP 113368": [{"english": "28_H._Aqr_41"}],
-  "HIP 111954": [{"english": "23_H._Aqr_42"}],
-  "HIP 115126": [{"english": "37_H._Aqr_43"}],
-  "HIP 115404": [{"english": "39_H._Aqr_44"}],
-  "HIP 107575": [{"english": "8_H._Aqr_45"}],
-  "HIP 107144": [{"english": "7_H._Aqr_46"}],
-  "HIP 109472": [{"english": "12_H._Aqr_47"}],
-  "HIP 110000": [{"english": "13_H._Aqr_48"}],
-  "HIP  97649": [{"english": "15_H._Aql_1"}],
-  "HIP  97278": [{"english": "13_H._Aql_2"}],
-  "HIP  98036": [{"english": "18_H._Aql_3"}],
-  "HIP  98823": [{"english": "20_H._Aql_4"}],
-  "HIP  97675": [{"english": "16_H._Aql_5"}],
-  "HIP  97473": [{"english": "14_H._Aql_6"}],
-  "HIP  96229": [{"english": "11_H._Aql_7"}],
-  "HIP  96665": [{"english": "12_H._Aql_8"}],
-  "HIP  93244": [{"english": "5_H._Aql_9"}],
-  "HIP  92161": [{"english": "2_H._Aql_10"}],
-  "HIP  92043": [{"english": "1_H._Aql_11"}],
-  "HIP  93747": [{"english": "6_H._Aql_12"}],
-  "HIP  97938": [{"english": "17_H._Aql_13"}],
-  "HIP  95447": [{"english": "10_H._Aql_14"}],
-  "HIP  94834": [{"english": "8_H._Aql_15"}],
-  "HIP  94982": [{"english": "9_H._Aql_16"}],
-  "HIP  93867": [{"english": "7_H._Aql_17"}],
-  "HIP  93203": [{"english": "4_H._Aql_18"}],
-  "HIP 100541": [{"english": "23_H._Aql_19"}],
-  "HIP  96957": [{"english": "19_H._Aql_20"}],
-  "HIP  98103": [{"english": "21_H._Aql_21"}],
-  "HIP  92818": [{"english": "3_H._Aql_22"}],
-  "HIP  99742": [{"english": "22_H._Aql_23"}],
-  "HIP   9884": [{"english": "8_H._Ari_1"}],
-  "HIP   8903": [{"english": "4_H._Ari_2"}],
-  "HIP   8832": [{"english": "3_H._Ari_3"}],
-  "HIP   9110": [{"english": "5_H._Ari_4"}],
-  "HIP   9836": [{"english": "7_H._Ari_5"}],
-  "HIP  10306": [{"english": "10_H._Ari_6"}],
-  "HIP  10732": [{"english": "11_H._Ari_7"}],
-  "HIP  12332": [{"english": "12_H._Ari_8"}],
-  "HIP  12640": [{"english": "14_H._Ari_9"}],
-  "HIP  13165": [{"english": "20_H._Ari_10"}],
-  "HIP  13702": [{"english": "22_H._Ari_11"}],
-  "HIP  12803": [{"english": "17_H._Ari_12"}],
-  "HIP  13327": [{"english": "21_H._Ari_13"}],
-  "HIP  13914": [{"english": "23_H._Ari_14"}],
-  "HIP  14838": [{"english": "24_H._Ari_15"}],
-  "HIP  15110": [{"english": "25_H._Ari_16"}],
-  "HIP  15627": [{"english": "26_H._Ari_17"}],
-  "HIP  12489": [{"english": "13_H._Ari_18"}],
-  "HIP  12719": [{"english": "15_H._Ari_19"}],
-  "HIP  13061": [{"english": "18_H._Ari_20"}],
-  "HIP  13209": [{"english": "19_H._Ari_21"}],
-  "HIP   9153": [{"english": "6_H._Ari_22"}],
-  "HIP  10053": [{"english": "9_H._Ari_23"}],
-  "HIP  15737": [{"english": "27_H._Ari_24"}],
-  "HIP   7981": [{"english": "1_H._Ari_25"}],
-  "HIP   8387": [{"english": "2_H._Ari_26"}],
-  "HIP  12832": [{"english": "16_H._Ari_27*"}],
-  "HIP  24608": [{"english": "12_H._Aur_1"}],
-  "HIP  28360": [{"english": "35_H._Aur_2"}],
-  "HIP  28380": [{"english": "36_H._Aur_3"}],
-  "HIP  23015": [{"english": "4_H._Aur_4"}],
-  "HIP  23453": [{"english": "8_H._Aur_5"}],
-  "HIP  23767": [{"english": "10_H._Aur_6"}],
-  "HIP  23416": [{"english": "7_H._Aur_7"}],
-  "HIP  27949": [{"english": "28_H._Aur_8"}],
-  "HIP  28358": [{"english": "32_H._Aur_9"}],
-  "HIP  28404": [{"english": "34_H._Aur_10"}],
-  "HIP  25048": [{"english": "19_H._Aur_11"}],
-  "HIP  24813": [{"english": "16_H._Aur_12"}],
-  "HIP  24340": [{"english": "11_H._Aur_13"}],
-  "HIP  25292": [{"english": "21_H._Aur_14"}],
-  "HIP  23179": [{"english": "5_H._Aur_15"}],
-  "HIP  22453": [{"english": "1_H._Aur_16"}],
-  "HIP  22678": [{"english": "2_H._Aur_17"}],
-  "HIP  27483": [{"english": "27_H._Aur_18"}],
-  "HIP  27673": [{"english": "29_H._Aur_19"}],
-  "HIP  27639": [{"english": "31_H._Aur_20"}],
-  "HIP  25541": [{"english": "22_H._Aur_21"}],
-  "HIP  25984": [{"english": "24_H._Aur_22"}],
-  "HIP  29696": [{"english": "39_H._Aur_23"}],
-  "HIP  26640": [{"english": "26_H._Aur_24"}],
-  "HIP  27468": [{"english": "30_H._Aur_25"}],
-  "HIP  27830": [{"english": "33_H._Aur_26"}],
-  "HIP  28237": [{"english": "37_H._Aur_27"}],
-  "HIP  23783": [{"english": "9_H._Aur_28"}],
-  "HIP  25695": [{"english": "23_H._Aur_29"}],
-  "HIP  28677": [{"english": "38_H._Aur_30"}],
-  "HIP  24575": [{"english": "13_H._Aur_31"}],
-  "HIP  24799": [{"english": "18_H._Aur_32"}],
-  "HIP  24727": [{"english": "17_H._Aur_33"}],
-  "HIP  24504": [{"english": "15_H._Aur_34*"}],
-  "HIP  26536": [{"english": "25_H._Aur_35"}],
-  "HIP  25001": [{"english": "20_H._Aur_36"}],
-  "HIP  23522": [{"english": "3_H._Aur_37"}],
-  "HIP  23734": [{"english": "6_H._Aur_38"}],
-  "HIP  25197": [{"english": "14_H._Aur_39"}],
-  "HIP  31832": [{"english": "40_H._Aur_40"}],
-  "HIP  69673": [{"english": "11_H._Boo_1"}],
-  "HIP  72105": [{"english": "31_H._Boo_2"}],
-  "HIP  67927": [{"english": "6_H._Boo_3"}],
-  "HIP  73555": [{"english": "38_H._Boo_4"}],
-  "HIP  74666": [{"english": "45_H._Boo_5"}],
-  "HIP  71075": [{"english": "23_H._Boo_6"}],
-  "HIP  71795": [{"english": "27_H._Boo_7"}],
-  "HIP  69483": [{"english": "12_H._Boo_8_A"}],
-  "HIP  69481": [{"english": "12_H._Boo_8_B"}],
-  "HIP  69713": [{"english": "17_H._Boo_9"}],
-  "HIP  70497": [{"english": "21_H._Boo_10"}],
-  "HIP  69732": [{"english": "15_H._Boo_11"}],
-  "HIP  71053": [{"english": "22_H._Boo_12"}],
-  "HIP  71284": [{"english": "24_H._Boo_13"}],
-  "HIP  67459": [{"english": "4_H._Boo_14"}],
-  "HIP  67275": [{"english": "3_H._Boo_15"}],
-  "HIP  72659": [{"english": "33_H._Boo_16"}],
-  "HIP  72125": [{"english": "30_H._Boo_17"}],
-  "HIP  71762": [{"english": "25_H._Boo_18"}],
-  "HIP  73745": [{"english": "40_H._Boo_19"}],
-  "HIP  74087": [{"english": "42_H._Boo_20"}],
-  "HIP  73568": [{"english": "37_H._Boo_21"}],
-  "HIP  73996": [{"english": "41_H._Boo_22"}],
-  "HIP  75411": [{"english": "51_H._Boo_23"}],
-  "HIP  76669": [{"english": "52_H._Boo_24"}],
-  "HIP  74596": [{"english": "43_H._Boo_25"}],
-  "HIP  75312": [{"english": "49_H._Boo_26"}],
-  "HIP  75049": [{"english": "47_H._Boo_27"}],
-  "HIP  75178": [{"english": "48_H._Boo_28"}],
-  "HIP  69038": [{"english": "9_H._Boo_29"}],
-  "HIP  70327": [{"english": "18_H._Boo_30"}],
-  "HIP  70400": [{"english": "19_H._Boo_31"}],
-  "HIP  73369": [{"english": "36_H._Boo_32"}],
-  "HIP  72582": [{"english": "34_H._Boo_33"}],
-  "HIP  73634": [{"english": "39_H._Boo_34"}],
-  "HIP  72552": [{"english": "32_H._Boo_35"}],
-  "HIP  71995": [{"english": "28_H._Boo_36"}],
-  "HIP  66727": [{"english": "2_H._Boo_37"}],
-  "HIP  67480": [{"english": "5_H._Boo_38"}],
-  "HIP  68276": [{"english": "7_H._Boo_39"}],
-  "HIP  72220": [{"english": "29_H._Boo_40"}],
-  "HIP  73620": [{"english": "35_H._Boo_41"}],
-  "HIP  74975": [{"english": "46_H._Boo_42"}],
-  "HIP  75761": [{"english": "50_H._Boo_43"}],
-  "HIP  70602": [{"english": "20_H._Boo_44"}],
-  "HIP  70027": [{"english": "14_H._Boo_45"}],
-  "HIP  69989": [{"english": "13_H._Boo_46"}],
-  "HIP  69612": [{"english": "10_H._Boo_47"}],
-  "HIP  69226": [{"english": "8_H._Boo_48"}],
-  "HIP  71832": [{"english": "26_H._Boo_49"}],
-  "HIP  66640": [{"english": "1_H._Boo_50"}],
-  "HIP  74896": [{"english": "44_H._Boo_51"}],
-  "HIP  69879": [{"english": "16_H._Boo_52"}],
-  "HIP  62572": [{"english": "32_H._Cam_1_A"}],
-  "HIP  62561": [{"english": "32_H._Cam_1_B"}],
-  "HIP  51502": [{"english": "30_H._Cam_2"}],
-  "HIP  51384": [{"english": "29_H._Cam_3"}],
-  "HIP  39538": [{"english": "28_H._Cam_4"}],
-  "HIP  36547": [{"english": "25_H._Cam_5"}],
-  "HIP  59504": [{"english": "31_H._Cam_6"}],
-  "HIP  32439": [{"english": "23_H._Cam_7"}],
-  "HIP  33694": [{"english": "24_H._Cam_8"}],
-  "HIP  25110": [{"english": "19_H._Cam_9"}],
-  "HIP  24254": [{"english": "18_H._Cam_10"}],
-  "HIP  23040": [{"english": "20_H._Cam_11"}],
-  "HIP  22287": [{"english": "16_H._Cam_12"}],
-  "HIP  21727": [{"english": "15_H._Cam_13"}],
-  "HIP  19949": [{"english": "12_H._Cam_14"}],
-  "HIP  16292": [{"english": "4_H._Cam_15"}],
-  "HIP  16281": [{"english": "3_H._Cam_16"}],
-  "HIP  16228": [{"english": "2_H._Cam_17"}],
-  "HIP  15520": [{"english": "1_H._Cam_18"}],
-  "HIP  17884": [{"english": "7_H._Cam_19"}],
-  "HIP  20266": [{"english": "13_H._Cam_20"}],
-  "HIP  17587": [{"english": "6_H._Cam_21"}],
-  "HIP  18505": [{"english": "8_H._Cam_22"}],
-  "HIP  18488": [{"english": "9_H._Cam_23"}],
-  "HIP  19018": [{"english": "10_H._Cam_24"}],
-  "HIP  20376": [{"english": "14_H._Cam_25"}],
-  "HIP  19968": [{"english": "11_H._Cam_26"}],
-  "HIP  22783": [{"english": "17_H._Cam_27"}],
-  "HIP  17959": [{"english": "5_H._Cam_28"}],
-  "HIP  29490": [{"english": "21_H._Cam_29"}],
-  "HIP  29997": [{"english": "22_H._Cam_30"}],
-  "HIP  33104": [{"english": "27_H._Cam_31"}],
-  "HIP  32864": [{"english": "26_H._Cam_32"}],
-  "HIP  44066": [{"english": "25_H._Cnc_1"}],
-  "HIP  40526": [{"english": "8_H._Cnc_2"}],
-  "HIP  42806": [{"english": "19_H._Cnc_4"}],
-  "HIP  42911": [{"english": "20_H._Cnc_5"}],
-  "HIP  44405": [{"english": "26_H._Cnc_6"}],
-  "HIP  44946": [{"english": "28_H._Cnc_7"}],
-  "HIP  43103": [{"english": "22_H._Cnc_8"}],
-  "HIP  39780": [{"english": "5_H._Cnc_9"}],
-  "HIP  40167": [{"english": "7_H._Cnc_10"}],
-  "HIP  41909": [{"english": "14_H._Cnc_11"}],
-  "HIP  41822": [{"english": "13_H._Cnc_12"}],
-  "HIP  41117": [{"english": "10_H._Cnc_13"}],
-  "HIP  43970": [{"english": "23_H._Cnc_14"}],
-  "HIP  44798": [{"english": "27_H._Cnc_15"}],
-  "HIP  39567": [{"english": "4_H._Cnc_16"}],
-  "HIP  37921": [{"english": "3_H._Cnc_17"}],
-  "HIP  42917": [{"english": "21_H._Cnc_19"}],
-  "HIP  42265": [{"english": "16_H._Cnc_20"}],
-  "HIP  41325": [{"english": "12_H._Cnc_21"}],
-  "HIP  36425": [{"english": "2_H._Cnc_22"}],
-  "HIP  35987": [{"english": "1_H._Cnc_23"}],
-  "HIP  40023": [{"english": "6_H._Cnc_24"}],
-  "HIP  40843": [{"english": "9_H._Cnc_25"}],
-  "HIP  41404": [{"english": "11_H._Cnc_26"}],
-  "HIP  41940": [{"english": "15_H._Cnc_27*"}],
-  "HIP  45410": [{"english": "29_H._Cnc_28"}],
-  "HIP  44154": [{"english": "24_H._Cnc_29"}],
-  "HIP  32349": [{"english": "7_H._CMa_1"}],
-  "HIP  30324": [{"english": "2_H._CMa_2"}],
-  "HIP  34045": [{"english": "16_H._CMa_3"}],
-  "HIP  34444": [{"english": "18_H._CMa_4"}],
-  "HIP  33579": [{"english": "14_H._CMa_5"}],
-  "HIP  35904": [{"english": "21_H._CMa_6"}],
-  "HIP  30122": [{"english": "1_H._CMa_7"}],
-  "HIP  33160": [{"english": "9_H._CMa_8"}],
-  "HIP  33345": [{"english": "11_H._CMa_9"}],
-  "HIP  33347": [{"english": "13_H._CMa_10"}],
-  "HIP  33302": [{"english": "12_H._CMa_11"}],
-  "HIP  31592": [{"english": "5_H._CMa_12"}],
-  "HIP  31125": [{"english": "3_H._CMa_13"}],
-  "HIP  31416": [{"english": "4_H._CMa_14"}],
-  "HIP  33977": [{"english": "17_H._CMa_15"}],
-  "HIP  33152": [{"english": "10_H._CMa_16"}],
-  "HIP  32759": [{"english": "H._CMa_17"}],
-  "HIP  31700": [{"english": "6_H._CMa_18"}],
-  "HIP  33856": [{"english": "15_H._CMa_19"}],
-  "HIP  32492": [{"english": "8_H._CMa_20"}],
-  "HIP  35415": [{"english": "20_H._CMa_21"}],
-  "HIP  35037": [{"english": "19_H._CMa_22"}],
-  "HIP  37279": [{"english": "7_H._CMi_1"}],
-  "HIP  36188": [{"english": "2_H._CMi_2"}],
-  "HIP  36284": [{"english": "3_H._CMi_3"}],
-  "HIP  36041": [{"english": "1_H._CMi_4"}],
-  "HIP  36641": [{"english": "5_H._CMi_5"}],
-  "HIP  36812": [{"english": "6_H._CMi_6"}],
-  "HIP  36265": [{"english": "4_H._CMi_9"}],
-  "HIP  38373": [{"english": "8_H._CMi_10"}],
-  "HIP  38962": [{"english": "11_H._CMi_11"}],
-  "HIP  39311": [{"english": "12_H._CMi_12"}],
-  "HIP  38712": [{"english": "10_H._CMi_13"}],
-  "HIP  63125": [{"english": "7_H._CVn_1_A"}],
-  "HIP  63121": [{"english": "7_H._CVn_1_B"}],
-  "HIP  61317": [{"english": "4_H._CVn_2"}],
-  "HIP  59831": [{"english": "1_H._CVn_3"}],
-  "HIP  60646": [{"english": "3_H._CVn_4"}],
-  "HIP  59856": [{"english": "2_H._CVn_5"}],
-  "HIP  61309": [{"english": "5_H._CVn_6"}],
-  "HIP  62641": [{"english": "6_H._CVn_7"}],
-  "HIP  63901": [{"english": "9_H._CVn_8"}],
-  "HIP  64979": [{"english": "14_H._CVn_9"}],
-  "HIP  64246": [{"english": "10_H._CVn_10"}],
-  "HIP  64540": [{"english": "11_H._CVn_11"}],
-  "HIP  67239": [{"english": "19_H._CVn_12"}],
-  "HIP  64844": [{"english": "12_H._CVn_13"}],
-  "HIP  65072": [{"english": "15_H._CVn_14"}],
-  "HIP  66257": [{"english": "17_H._CVn_15"}],
-  "HIP  66458": [{"english": "18_H._CVn_16"}],
-  "HIP  67665": [{"english": "23_H._CVn_17"}],
-  "HIP  67250": [{"english": "21_H._CVn_18"}],
-  "HIP  67194": [{"english": "20_H._CVn_19"}],
-  "HIP  64906": [{"english": "13_H._CVn_20"}],
-  "HIP  66234": [{"english": "16_H._CVn_21"}],
-  "HIP  68103": [{"english": "22_H._CVn_22"}],
-  "HIP  63462": [{"english": "8_H._CVn_23"}],
-  "HIP 100064": [{"english": "3_H._Cap_1"}],
-  "HIP 100345": [{"english": "6_H._Cap_2"}],
-  "HIP 106985": [{"english": "23_H._Cap_3"}],
-  "HIP 107556": [{"english": "27_H._Cap_4"}],
-  "HIP 100195": [{"english": "4_H._Cap_5"}],
-  "HIP 100881": [{"english": "7_H._Cap_6"}],
-  "HIP 101123": [{"english": "9_H._Cap_7"}],
-  "HIP 101027": [{"english": "8_H._Cap_8"}],
-  "HIP 101923": [{"english": "10_H._Cap_9"}],
-  "HIP 101984": [{"english": "11_H._Cap_10"}],
-  "HIP 102485": [{"english": "12_H._Cap_11"}],
-  "HIP 102978": [{"english": "13_H._Cap_12"}],
-  "HIP 104234": [{"english": "16_H._Cap_13"}],
-  "HIP 104139": [{"english": "15_H._Cap_14"}],
-  "HIP 105515": [{"english": "19_H._Cap_15"}],
-  "HIP 104019": [{"english": "14_H._Cap_16"}],
-  "HIP 104365": [{"english": "17_H._Cap_17"}],
-  "HIP 104963": [{"english": "18_H._Cap_18"}],
-  "HIP 105881": [{"english": "21_H._Cap_19"}],
-  "HIP 106039": [{"english": "20_H._Cap_20"}],
-  "HIP 106723": [{"english": "22_H._Cap_21"}],
-  "HIP 107188": [{"english": "25_H._Cap_22"}],
-  "HIP 107382": [{"english": "26_H._Cap_23"}],
-  "HIP 107517": [{"english": "28_H._Cap_24"}],
-  "HIP 108036": [{"english": "29_H._Cap_26"}],
-  "HIP 100310": [{"english": "5_H._Cap_27"}],
-  "HIP  99572": [{"english": "1_H._Cap_28"}],
-  "HIP 100027": [{"english": "2_H._Cap_29"}],
-  "HIP 107095": [{"english": "24_H._Cap_30"}],
-  "HIP    746": [{"english": "3_H._Cas_1"}],
-  "HIP   3179": [{"english": "10_H._Cas_2"}],
-  "HIP   4427": [{"english": "19_H._Cas_3"}],
-  "HIP   6686": [{"english": "26_H._Cas_4"}],
-  "HIP   8886": [{"english": "31_H._Cas_5"}],
-  "HIP   2920": [{"english": "9_H._Cas_6"}],
-  "HIP   3821": [{"english": "17_H._Cas_7"}],
-  "HIP  11569": [{"english": "35_H._Cas_8"}],
-  "HIP   2599": [{"english": "5_H._Cas_9"}],
-  "HIP   3414": [{"english": "14_H._Cas_11"}],
-  "HIP   3504": [{"english": "15_H._Cas_12"}],
-  "HIP   3801": [{"english": "11_H._Cas_13"}],
-  "HIP   3300": [{"english": "13_H._Cas_14"}],
-  "HIP   2505": [{"english": "4_H._Cas_15"}],
-  "HIP 118243": [{"english": "8_H._Cas_16"}],
-  "HIP 117301": [{"english": "16_H._Cas_17"}],
-  "HIP 117863": [{"english": "12_H._Cas_18"}],
-  "HIP   5336": [{"english": "21_H._Cas_19"}],
-  "HIP   5542": [{"english": "23_H._Cas_20"}],
-  "HIP   4422": [{"english": "20_H._Cas_21"}],
-  "HIP   6242": [{"english": "27_H._Cas_22"}],
-  "HIP   7294": [{"english": "2_H._Cas_23"}],
-  "HIP   9598": [{"english": "34_H._Cas_24"}],
-  "HIP   9480": [{"english": "33_H._Cas_25"}],
-  "HIP   8016": [{"english": "30_H._Cas_26"}],
-  "HIP   7650": [{"english": "29_H._Cas_27"}],
-  "HIP  12273": [{"english": "36_H._Cas_28"}],
-  "HIP  14862": [{"english": "37_H._Cas_29"}],
-  "HIP 115990": [{"english": "1_H._Cas_30"}],
-  "HIP   4151": [{"english": "18_H._Cas_34"}],
-  "HIP   5518": [{"english": "22_H._Cas_35"}],
-  "HIP   6692": [{"english": "25_H._Cas_36"}],
-  "HIP   7965": [{"english": "28_H._Cas_37"}],
-  "HIP   9009": [{"english": "32_H._Cas_38"}],
-  "HIP 105199": [{"english": "8_H._Cep_1"}],
-  "HIP 106032": [{"english": "11_H._Cep_2"}],
-  "HIP 116727": [{"english": "40_H._Cep_3"}],
-  "HIP 109857": [{"english": "23_H._Cep_4"}],
-  "HIP 109492": [{"english": "22_H._Cep_5"}],
-  "HIP 110991": [{"english": "27_H._Cep_6"}],
-  "HIP 101093": [{"english": "5_H._Cep_7"}],
-  "HIP 102422": [{"english": "7_H._Cep_8"}],
-  "HIP 112724": [{"english": "33_H._Cep_9"}],
-  "HIP 108917": [{"english": "18_H._Cep_10"}],
-  "HIP  99255": [{"english": "4_H._Cep_11"}],
-  "HIP 110538": [{"english": "26_H._Cep_12"}],
-  "HIP 111169": [{"english": "28_H._Cep_13"}],
-  "HIP 111674": [{"english": "29_H._Cep_14"}],
-  "HIP 107119": [{"english": "15_H._Cep_15"}],
-  "HIP 107230": [{"english": "16_H._Cep_16"}],
-  "HIP 109400": [{"english": "25_H._Cep_17"}],
-  "HIP 108535": [{"english": "19_H._Cep_18"}],
-  "HIP   3721": [{"english": "42_H._Cep_19"}],
-  "HIP 108165": [{"english": "17_H._Cep_20"}],
-  "HIP 106886": [{"english": "13_H._Cep_21"}],
-  "HIP 109190": [{"english": "21_H._Cep_22"}],
-  "HIP 114104": [{"english": "35_H._Cep_23"}],
-  "HIP  97870": [{"english": "1_H._Cep_24"}],
-  "HIP  98073": [{"english": "2_H._Cep_25"}],
-  "HIP  23265": [{"english": "50_H._Cep_26"}],
-  "HIP  37391": [{"english": "51_H._Cep_27"}],
-  "HIP   9727": [{"english": "45_H._Cep_28"}],
-  "HIP   5626": [{"english": "44_H._Cep_29"}],
-  "HIP  13055": [{"english": "46_H._Cep_30"}],
-  "HIP  99655": [{"english": "3_H._Cep_31"}],
-  "HIP 102431": [{"english": "6_H._Cep_32"}],
-  "HIP 105972": [{"english": "10_H._Cep_33"}],
-  "HIP 105268": [{"english": "9_H._Cep_34"}],
-  "HIP 106801": [{"english": "12_H._Cep_35"}],
-  "HIP 107418": [{"english": "14_H._Cep_36"}],
-  "HIP 109017": [{"english": "20_H._Cep_37"}],
-  "HIP 111797": [{"english": "30_H._Cep_38"}],
-  "HIP 115088": [{"english": "38_H._Cep_39"}],
-  "HIP 117371": [{"english": "41_H._Cep_40"}],
-  "HIP 109693": [{"english": "32_H._Cep_41"}],
-  "HIP 115746": [{"english": "39_H._Cep_42"}],
-  "HIP   5372": [{"english": "43_H._Cep_43"}],
-  "HIP 113116": [{"english": "36_H._Cep_44"}],
-  "HIP 112519": [{"english": "34_H._Cep_45"}],
-  "HIP  14417": [{"english": "47_H._Cep_46"}],
-  "HIP  15547": [{"english": "48_H._Cep_47"}],
-  "HIP  19461": [{"english": "49_H._Cep_48"}],
-  "HIP  84535": [{"english": "24_H._Cep_49"}],
-  "HIP 114222": [{"english": "37_H._Cep_50"}],
-  "HIP 111532": [{"english": "31_H._Cep_51"}],
-  "HIP  88267": [{"english": "2_H._Cer_1"}],
-  "HIP  88128": [{"english": "1_H._Cer_2"}],
-  "HIP  90139": [{"english": "4_H._Cer_3"}],
-  "HIP  88886": [{"english": "3_H._Cer_4"}],
-  "HIP  14135": [{"english": "40_H._Cet_1"}],
-  "HIP  12706": [{"english": "36_H._Cet_2"}],
-  "HIP  12387": [{"english": "34_H._Cet_3"}],
-  "HIP   6537": [{"english": "15_H._Cet_4"}],
-  "HIP   5364": [{"english": "13_H._Cet_5"}],
-  "HIP   1562": [{"english": "8_H._Cet_6"}],
-  "HIP   3419": [{"english": "9_H._Cet_7"}],
-  "HIP  13954": [{"english": "39_H._Cet_8"}],
-  "HIP  12828": [{"english": "37_H._Cet_9"}],
-  "HIP  11484": [{"english": "29_H._Cet_10"}],
-  "HIP  12093": [{"english": "33_H._Cet_11"}],
-  "HIP  10324": [{"english": "22_H._Cet_12"}],
-  "HIP  11345": [{"english": "28_H._Cet_13"}],
-  "HIP  11783": [{"english": "32_H._Cet_14"}],
-  "HIP  12390": [{"english": "35_H._Cet_15"}],
-  "HIP  12770": [{"english": "38_H._Cet_16"}],
-  "HIP   8645": [{"english": "19_H._Cet_17"}],
-  "HIP   8102": [{"english": "17_H._Cet_18"}],
-  "HIP   9347": [{"english": "20_H._Cet_20"}],
-  "HIP  15457": [{"english": "41_H._Cet_21"}],
-  "HIP  16852": [{"english": "42_H._Cet_22"}],
-  "HIP  18255": [{"english": "44_H._Cet_23"}],
-  "HIP  18788": [{"english": "45_H._Cet_24"}],
-  "HIP  10826": [{"english": "24_H._Cet_25"}],
-  "HIP  11738": [{"english": "30_H._Cet_26"}],
-  "HIP  11791": [{"english": "31_H._Cet_27"}],
-  "HIP  11046": [{"english": "26_H._Cet_28"}],
-  "HIP  11021": [{"english": "25_H._Cet_29"}],
-  "HIP   9589": [{"english": "21_H._Cet_30"}],
-  "HIP  10305": [{"english": "23_H._Cet_31"}],
-  "HIP    301": [{"english": "4_H._Cet_32"}],
-  "HIP    910": [{"english": "6_H._Cet_33"}],
-  "HIP   1170": [{"english": "7_H._Cet_34"}],
-  "HIP    154": [{"english": "3_H._Cet_35"}],
-  "HIP    443": [{"english": "5_H._Cet_36"}],
-  "HIP 118209": [{"english": "1_H._Cet_37"}],
-  "HIP    145": [{"english": "2_H._Cet_38"}],
-  "HIP  11249": [{"english": "27_H._Cet_39"}],
-  "HIP  17167": [{"english": "43_H._Cet_40"}],
-  "HIP   8497": [{"english": "18_H._Cet_41"}],
-  "HIP   8497": [{"english": "H._Cet_19"}],
-  "HIP   6670": [{"english": "16_H._Cet_42"}],
-  "HIP   3455": [{"english": "10_H._Cet_43"}],
-  "HIP   3909": [{"english": "11_H._Cet_44"}],
-  "HIP   4371": [{"english": "12_H._Cet_45"}],
-  "HIP   5799": [{"english": "14_H._Cet_46"}],
-  "HIP  60742": [{"english": "5_H._Com_1"}],
-  "HIP  60697": [{"english": "4_H._Com_2"}],
-  "HIP  60746": [{"english": "6_H._Com_3"}],
-  "HIP  60904": [{"english": "7_H._Com_4"}],
-  "HIP  60514": [{"english": "3_H._Com_5"}],
-  "HIP  60351": [{"english": "2_H._Com_6"}],
-  "HIP  59847": [{"english": "1_H._Com_7"}],
-  "HIP  61071": [{"english": "9_H._Com_8"}],
-  "HIP  60941": [{"english": "8_H._Com_9"}],
-  "HIP  61394": [{"english": "10_H._Com_10"}],
-  "HIP  62763": [{"english": "13_H._Com_11"}],
-  "HIP  64022": [{"english": "16_H._Com_12"}],
-  "HIP  64394": [{"english": "17_H._Com_14"}],
-  "HIP  66763": [{"english": "21_H._Com_15"}],
-  "HIP  66417": [{"english": "20_H._Com_16"}],
-  "HIP  65466": [{"english": "18_H._Com_17"}],
-  "HIP  62886": [{"english": "14_H._Com_18"}],
-  "HIP  61418": [{"english": "11_H._Com_19_A"}],
-  "HIP  61415": [{"english": "11_H._Com_19_B"}],
-  "HIP  62356": [{"english": "12_H._Com_20"}],
-  "HIP  65721": [{"english": "19_H._Com_21"}],
-  "HIP  76267": [{"english": "3_H._CrB_1"}],
-  "HIP  75695": [{"english": "1_H._CrB_2"}],
-  "HIP  76127": [{"english": "2_H._CrB_3"}],
-  "HIP  77048": [{"english": "5_H._CrB_4"}],
-  "HIP  78493": [{"english": "8_H._CrB_5"}],
-  "HIP  76952": [{"english": "4_H._CrB_6"}],
-  "HIP  77512": [{"english": "6_H._CrB_7"}],
-  "HIP  78159": [{"english": "7_H._CrB_8"}],
-  "HIP  59803": [{"english": "H._Crv_1"}],
-  "HIP  60965": [{"english": "H._Crv_2"}],
-  "HIP  61359": [{"english": "H._Crv_3"}],
-  "HIP  59316": [{"english": "H._Crv_4"}],
-  "HIP  59199": [{"english": "H._Crv_5"}],
-  "HIP  60189": [{"english": "H._Crv_6"}],
-  "HIP  61174": [{"english": "H._Crv_7"}],
-  "HIP  61910": [{"english": "H._Crv_8"}],
-  "HIP  53740": [{"english": "1_H._Crt_1"}],
-  "HIP  55282": [{"english": "2_H._Crt_2"}],
-  "HIP  55705": [{"english": "5_H._Crt_3"}],
-  "HIP  55687": [{"english": "4_H._Crt_4"}],
-  "HIP  56633": [{"english": "6_H._Crt_5"}],
-  "HIP  57283": [{"english": "8_H._Crt_6"}],
-  "HIP  58188": [{"english": "9_H._Crt_7"}],
-  "HIP  56802": [{"english": "7_H._Crt_8"}],
-  "HIP  55598": [{"english": "3_H._Crt_9"}],
-  "HIP  58587": [{"english": "10_H._Crt_10"}],
-  "HIP  95947": [{"english": "3_H._Cyg_1"}],
-  "HIP 100044": [{"english": "18_H._Cyg_2"}],
-  "HIP 100453": [{"english": "19_H._Cyg_3"}],
-  "HIP 102098": [{"english": "24_H._Cyg_4"}],
-  "HIP  97165": [{"english": "9_H._Cyg_5"}],
-  "HIP 102488": [{"english": "26_H._Cyg_6"}],
-  "HIP 104732": [{"english": "37_H._Cyg_7"}],
-  "HIP  96683": [{"english": "5_H._Cyg_8"}],
-  "HIP  98110": [{"english": "10_H._Cyg_9"}],
-  "HIP  94779": [{"english": "1_H._Cyg_10"}],
-  "HIP  95853": [{"english": "4_H._Cyg_11"}],
-  "HIP  96441": [{"english": "6_H._Cyg_12"}],
-  "HIP  99675": [{"english": "16_H._Cyg_13"}],
-  "HIP  99848": [{"english": "17_H._Cyg_14"}],
-  "HIP 103413": [{"english": "31_H._Cyg_15"}],
-  "HIP 104060": [{"english": "35_H._Cyg_16"}],
-  "HIP 102589": [{"english": "27_H._Cyg_17"}],
-  "HIP 105102": [{"english": "40_H._Cyg_18"}],
-  "HIP 104887": [{"english": "38_H._Cyg_19"}],
-  "HIP 105138": [{"english": "39_H._Cyg_20"}],
-  "HIP 107310": [{"english": "43_H._Cyg_21"}],
-  "HIP 100587": [{"english": "20_H._Cyg_22"}],
-  "HIP 101076": [{"english": "21_H._Cyg_23"}],
-  "HIP 102453": [{"english": "25_H._Cyg_24"}],
-  "HIP 101474": [{"english": "23_H._Cyg_25"}],
-  "HIP 104214": [{"english": "34_H._Cyg_26_A"}],
-  "HIP 104217": [{"english": "34_H._Cyg_26_B"}],
-  "HIP 101138": [{"english": "22_H._Cyg_27"}],
-  "HIP 102724": [{"english": "29_H._Cyg_29"}],
-  "HIP 103089": [{"english": "30_H._Cyg_30"}],
-  "HIP 102843": [{"english": "28_H._Cyg_31"}],
-  "HIP 103632": [{"english": "32_H._Cyg_32"}],
-  "HIP 104194": [{"english": "36_H._Cyg_33"}],
-  "HIP 105186": [{"english": "41_H._Cyg_34"}],
-  "HIP 106481": [{"english": "42_H._Cyg_35"}],
-  "HIP 107136": [{"english": "44_H._Cyg_36"}],
-  "HIP 107533": [{"english": "45_H._Cyg_37"}],
-  "HIP  95372": [{"english": "2_H._Cyg_38"}],
-  "HIP  97295": [{"english": "8_H._Cyg_39"}],
-  "HIP  98068": [{"english": "11_H._Cyg_40"}],
-  "HIP  98425": [{"english": "12_H._Cyg_41"}],
-  "HIP  99031": [{"english": "13_H._Cyg_42"}],
-  "HIP  99303": [{"english": "14_H._Cyg_43"}],
-  "HIP  99770": [{"english": "15_H._Cyg_44"}],
-  "HIP  97118": [{"english": "7_H._Cyg_45"}],
-  "HIP 107763": [{"english": "46_H._Cyg_46"}],
-  "HIP 107975": [{"english": "47_H._Cyg_47"}],
-  "HIP 102532": [{"english": "10_H._Del_1_A"}],
-  "HIP 102531": [{"english": "10_H._Del_1_B"}],
-  "HIP 101769": [{"english": "5_H._Del_2"}],
-  "HIP 101958": [{"english": "8_H._Del_3"}],
-  "HIP 102281": [{"english": "9_H._Del_4"}],
-  "HIP 101421": [{"english": "1_H._Del_5"}],
-  "HIP 101589": [{"english": "3_H._Del_6"}],
-  "HIP 101483": [{"english": "2_H._Del_7"}],
-  "HIP 101882": [{"english": "6_H._Del_8"}],
-  "HIP 101800": [{"english": "4_H._Del_9"}],
-  "HIP 101916": [{"english": "7_H._Del_10"}],
-  "HIP 102805": [{"english": "13_H._Del_11"}],
-  "HIP 103527": [{"english": "14_H._Del_12"}],
-  "HIP 103298": [{"english": "12_H._Del_13"}],
-  "HIP 102633": [{"english": "11_H._Del_14"}],
-  "HIP  85670": [{"english": "23_H._Dra_1"}],
-  "HIP  87833": [{"english": "27_H._Dra_2"}],
-  "HIP  94376": [{"english": "19_H._Dra_3"}],
-  "HIP  83895": [{"english": "22_H._Dra_4"}],
-  "HIP  80331": [{"english": "15_H._Dra_5"}],
-  "HIP  78527": [{"english": "13_H._Dra_6"}],
-  "HIP  75458": [{"english": "11_H._Dra_7"}],
-  "HIP  68756": [{"english": "8_H._Dra_8"}],
-  "HIP  61281": [{"english": "6_H._Dra_9"}],
-  "HIP  56211": [{"english": "3_H._Dra_10"}],
-  "HIP  83608": [{"english": "21_H._Dra_11"}],
-  "HIP  85819": [{"english": "24_H._Dra_12"}],
-  "HIP  87585": [{"english": "26_H._Dra_13"}],
-  "HIP  90156": [{"english": "28_H._Dra_14"}],
-  "HIP  91755": [{"english": "32_H._Dra_15"}],
-  "HIP  90905": [{"english": "30_H._Dra_16"}],
-  "HIP  92512": [{"english": "33_H._Dra_17"}],
-  "HIP  95081": [{"english": "35_H._Dra_18"}],
-  "HIP  98583": [{"english": "39_H._Dra_19"}],
-  "HIP  98702": [{"english": "40_H._Dra_20"}],
-  "HIP  96100": [{"english": "37_H._Dra_21"}],
-  "HIP  97433": [{"english": "38_H._Dra_22"}],
-  "HIP  92782": [{"english": "34_H._Dra_23"}],
-  "HIP  94648": [{"english": "36_H._Dra_24"}],
-  "HIP  89908": [{"english": "29_H._Dra_25"}],
-  "HIP  86614": [{"english": "2_H._Dra_26_A"}],
-  "HIP  86620": [{"english": "2_H._Dra_26_B"}],
-  "HIP  89937": [{"english": "31_H._Dra_27"}],
-  "HIP  86201": [{"english": "25_H._Dra_28"}],
-  "HIP  80650": [{"english": "17_H._Dra_29"}],
-  "HIP  82860": [{"english": "20_H._Dra_30"}],
-  "HIP  81660": [{"english": "18_H._Dra_31"}],
-  "HIP  67627": [{"english": "7_H._Dra_32"}],
-  "HIP  47193": [{"english": "1_H._Dra_33"}],
-  "HIP  81290": [{"english": "16_H._Dra_34"}],
-  "HIP  77277": [{"english": "12_H._Dra_35"}],
-  "HIP  51808": [{"english": "9_H._Dra_36"}],
-  "HIP  59504": [{"english": "4_H._Dra_37"}],
-  "HIP  60044": [{"english": "5_H._Dra_38"}],
-  "HIP 104987": [{"english": "4_H._Equ_1"}],
-  "HIP 105570": [{"english": "5_H._Equ_2"}],
-  "HIP 104521": [{"english": "2_H._Equ_3"}],
-  "HIP 104858": [{"english": "3_H._Equ_4"}],
-  "HIP 105767": [{"english": "6_H._Equ_5"}],
-  "HIP 103569": [{"english": "1_H._Equ_6"}],
-  "HIP  23875": [{"english": "26_H._Eri_1"}],
-  "HIP  23972": [{"english": "27_H._Eri_2"}],
-  "HIP  23364": [{"english": "25_H._Eri_3"}],
-  "HIP  22701": [{"english": "24_H._Eri_4"}],
-  "HIP  22109": [{"english": "23_H._Eri_5"}],
-  "HIP  21444": [{"english": "22_H._Eri_6"}],
-  "HIP  20507": [{"english": "21_H._Eri_7"}],
-  "HIP  19849": [{"english": "20_H._Eri_8"}],
-  "HIP  19587": [{"english": "18_H._Eri_9"}],
-  "HIP  19777": [{"english": "19_H._Eri_10"}],
-  "HIP  18543": [{"english": "16_H._Eri_11"}],
-  "HIP  17593": [{"english": "12_H._Eri_12"}],
-  "HIP  17378": [{"english": "11_H._Eri_13"}],
-  "HIP  16537": [{"english": "9_H._Eri_14"}],
-  "HIP  15197": [{"english": "7_H._Eri_15"}],
-  "HIP  14168": [{"english": "4_H._Eri_16"}],
-  "HIP  13701": [{"english": "3_H._Eri_17"}],
-  "HIP  12843": [{"english": "1_H._Eri_18"}],
-  "HIP  13288": [{"english": "2_H._Eri_19"}],
-  "HIP  14146": [{"english": "5_H._Eri_20"}],
-  "HIP  15474": [{"english": "8_H._Eri_21"}],
-  "HIP  16611": [{"english": "10_H._Eri_22"}],
-  "HIP  17651": [{"english": "13_H._Eri_23"}],
-  "HIP  17717": [{"english": "14_H._Eri_24"}],
-  "HIP  18216": [{"english": "15_H._Eri_25"}],
-  "HIP  18673": [{"english": "17_H._Eri_26"}],
-  "HIP  21248": [{"english": "H._Eri_27"}],
-  "HIP  21393": [{"english": "H._Eri_28"}],
-  "HIP  14879": [{"english": "6_H._Eri_29"}],
-  "HIP  36850": [{"english": "24_H._Gem_1"}],
-  "HIP  37826": [{"english": "32_H._Gem_2"}],
-  "HIP  31681": [{"english": "5_H._Gem_3"}],
-  "HIP  30343": [{"english": "3_H._Gem_4"}],
-  "HIP  36366": [{"english": "21_H._Gem_5"}],
-  "HIP  37629": [{"english": "29_H._Gem_6"}],
-  "HIP  33018": [{"english": "8_H._Gem_7"}],
-  "HIP  34693": [{"english": "14_H._Gem_8"}],
-  "HIP  36046": [{"english": "20_H._Gem_9"}],
-  "HIP  36393": [{"english": "22_H._Gem_10"}],
-  "HIP  36962": [{"english": "26_H._Gem_11"}],
-  "HIP  37740": [{"english": "30_H._Gem_12"}],
-  "HIP  35846": [{"english": "19_H._Gem_13"}],
-  "HIP  33927": [{"english": "11_H._Gem_14"}],
-  "HIP  32921": [{"english": "9_H._Gem_15"}],
-  "HIP  35550": [{"english": "17_H._Gem_16"}],
-  "HIP  32246": [{"english": "6_H._Gem_17"}],
-  "HIP  34088": [{"english": "12_H._Gem_18"}],
-  "HIP  35350": [{"english": "15_H._Gem_19"}],
-  "HIP  36760": [{"english": "25_H._Gem_20"}],
-  "HIP  28734": [{"english": "1_H._Gem_21"}],
-  "HIP  29655": [{"english": "2_H._Gem_22"}],
-  "HIP  30883": [{"english": "4_H._Gem_23"}],
-  "HIP  32362": [{"english": "7_H._Gem_24"}],
-  "HIP  33202": [{"english": "10_H._Gem_25"}],
-  "HIP  37300": [{"english": "28_H._Gem_26"}],
-  "HIP  37908": [{"english": "34_H._Gem_27"}],
-  "HIP  38722": [{"english": "36_H._Gem_28"}],
-  "HIP  38538": [{"english": "35_H._Gem_29"}],
-  "HIP  36238": [{"english": "23_H._Gem_30"}],
-  "HIP  34752": [{"english": "13_H._Gem_31"}],
-  "HIP  35907": [{"english": "18_H._Gem_32"}],
-  "HIP  35710": [{"english": "16_H._Gem_33"}],
-  "HIP  37265": [{"english": "27_H._Gem_34"}],
-  "HIP  37946": [{"english": "31_H._Gem_35"}],
-  "HIP  38016": [{"english": "33_H._Gem_36"}],
-  "HIP  39424": [{"english": "37_H._Gem_37"}],
-  "HIP  40240": [{"english": "38_H._Gem_38"}],
-  "HIP  84345": [{"english": "26_H._Her_1"}],
-  "HIP  80816": [{"english": "13_H._Her_2"}],
-  "HIP  84379": [{"english": "27_H._Her_3"}],
-  "HIP  81693": [{"english": "18_H._Her_4"}],
-  "HIP  80170": [{"english": "8_H._Her_5"}],
-  "HIP  83207": [{"english": "24_H._Her_6"}],
-  "HIP  84380": [{"english": "28_H._Her_7"}],
-  "HIP  81833": [{"english": "20_H._Her_8"}],
-  "HIP  87808": [{"english": "42_H._Her_9"}],
-  "HIP  86414": [{"english": "37_H._Her_10"}],
-  "HIP  79043": [{"english": "5_H._Her_11_A"}],
-  "HIP  79045": [{"english": "5_H._Her_11_B"}],
-  "HIP  80463": [{"english": "12_H._Her_12"}],
-  "HIP  85693": [{"english": "34_H._Her_13"}],
-  "HIP  86974": [{"english": "38_H._Her_14"}],
-  "HIP  87933": [{"english": "41_H._Her_15"}],
-  "HIP  87998": [{"english": "43_H._Her_16"}],
-  "HIP  88794": [{"english": "44_H._Her_17"}],
-  "HIP  84606": [{"english": "30_H._Her_18"}],
-  "HIP  85112": [{"english": "33_H._Her_19"}],
-  "HIP  81126": [{"english": "17_H._Her_20"}],
-  "HIP  80704": [{"english": "15_H._Her_21"}],
-  "HIP  79992": [{"english": "11_H._Her_22"}],
-  "HIP  78592": [{"english": "4_H._Her_23"}],
-  "HIP  79101": [{"english": "6_H._Her_24"}],
-  "HIP  76041": [{"english": "1_H._Her_25"}],
-  "HIP  77760": [{"english": "2_H._Her_26"}],
-  "HIP  86182": [{"english": "36_H._Her_27"}],
-  "HIP  85379": [{"english": "35_H._Her_28"}],
-  "HIP  87280": [{"english": "39_H._Her_29"}],
-  "HIP  81497": [{"english": "19_H._Her_30"}],
-  "HIP  82321": [{"english": "22_H._Her_31"}],
-  "HIP  84835": [{"english": "32_H._Her_32"}],
-  "HIP  87563": [{"english": "40_H._Her_33"}],
-  "HIP  81008": [{"english": "14_H._Her_34"}],
-  "HIP  84573": [{"english": "29_H._Her_35"}],
-  "HIP  89935": [{"english": "45_H._Her_36"}],
-  "HIP  84887": [{"english": "31_H._Her_37"}],
-  "HIP  82504": [{"english": "21_H._Her_38"}],
-  "HIP  83613": [{"english": "25_H._Her_39"}],
-  "HIP  82802": [{"english": "23_H._Her_40"}],
-  "HIP  80181": [{"english": "9_H._Her_41"}],
-  "HIP  78459": [{"english": "3_H._Her_42"}],
-  "HIP  79607": [{"english": "7_H._Her_43"}],
-  "HIP  80197": [{"english": "10_H._Her_44"}],
-  "HIP  80460": [{"english": "16_H._Her_45"}],
-  "HIP  46390": [{"english": "14_H._Hya_1"}],
-  "HIP  42313": [{"english": "1_H._Hya_2"}],
-  "HIP  43109": [{"english": "4_H._Hya_3"}],
-  "HIP  43813": [{"english": "7_H._Hya_4"}],
-  "HIP  42402": [{"english": "2_H._Hya_5"}],
-  "HIP  42799": [{"english": "3_H._Hya_6"}],
-  "HIP  43234": [{"english": "5_H._Hya_7"}],
-  "HIP  44659": [{"english": "8_H._Hya_8"}],
-  "HIP  45336": [{"english": "10_H._Hya_9"}],
-  "HIP  46509": [{"english": "15_H._Hya_10"}],
-  "HIP  46776": [{"english": "16_H._Hya_11"}],
-  "HIP  47431": [{"english": "17_H._Hya_12"}],
-  "HIP  47452": [{"english": "18_H._Hya_13"}],
-  "HIP  48356": [{"english": "19_H._Hya_14"}],
-  "HIP  49402": [{"english": "20_H._Hya_15"}],
-  "HIP  49841": [{"english": "21_H._Hya_16"}],
-  "HIP  51069": [{"english": "22_H._Hya_17"}],
-  "HIP  52085": [{"english": "24_H._Hya_18"}],
-  "HIP  52943": [{"english": "25_H._Hya_19"}],
-  "HIP  54682": [{"english": "27_H._Hya_20"}],
-  "HIP  54204": [{"english": "26_H._Hya_21"}],
-  "HIP  64166": [{"english": "28_H._Hya_22"}],
-  "HIP  64962": [{"english": "29_H._Hya_23"}],
-  "HIP  68895": [{"english": "31_H._Hya_24"}],
-  "HIP  45811": [{"english": "13_H._Hya_25"}],
-  "HIP  45751": [{"english": "12_H._Hya_26"}],
-  "HIP  44961": [{"english": "9_H._Hya_27"}],
-  "HIP  65835": [{"english": "30_H._Hya_28"}],
-  "HIP  43305": [{"english": "6_H._Hya_29"}],
-  "HIP  45526": [{"english": "11_H._Hya_30"}],
-  "HIP  52009": [{"english": "23_H._Hya_31"}],
-  "HIP 109937": [{"english": "3_H._Lac_1"}],
-  "HIP 109754": [{"english": "1_H._Lac_2"}],
-  "HIP 111104": [{"english": "6_H._Lac_3"}],
-  "HIP 111944": [{"english": "9_H._Lac_4"}],
-  "HIP 110351": [{"english": "5_H._Lac_5"}],
-  "HIP 111022": [{"english": "2_H._Lac_6"}],
-  "HIP 110609": [{"english": "4_H._Lac_7"}],
-  "HIP 111546": [{"english": "7_H._Lac_8"}],
-  "HIP 111841": [{"english": "8_H._Lac_9"}],
-  "HIP 112031": [{"english": "10_H._Lac_10"}],
-  "HIP  49669": [{"english": "18_H._Leo_1"}],
-  "HIP  50583": [{"english": "21_H._Leo_2"}],
-  "HIP  54872": [{"english": "35_H._Leo_3"}],
-  "HIP  57632": [{"english": "48_H._Leo_4"}],
-  "HIP  47908": [{"english": "10_H._Leo_5"}],
-  "HIP  50335": [{"english": "19_H._Leo_6"}],
-  "HIP  49583": [{"english": "16_H._Leo_7"}],
-  "HIP  54879": [{"english": "36_H._Leo_8"}],
-  "HIP  46146": [{"english": "1_H._Leo_9"}],
-  "HIP  46750": [{"english": "3_H._Leo_10"}],
-  "HIP  48455": [{"english": "12_H._Leo_11"}],
-  "HIP  48390": [{"english": "11_H._Leo_12"}],
-  "HIP  46771": [{"english": "4_H._Leo_13"}],
-  "HIP  47723": [{"english": "9_H._Leo_14"}],
-  "HIP  48883": [{"english": "13_H._Leo_16"}],
-  "HIP  46454": [{"english": "2_H._Leo_17"}],
-  "HIP  46774": [{"english": "5_H._Leo_18"}],
-  "HIP  47508": [{"english": "8_H._Leo_19"}],
-  "HIP  49029": [{"english": "14_H._Leo_20"}],
-  "HIP  49637": [{"english": "17_H._Leo_21"}],
-  "HIP  51624": [{"english": "23_H._Leo_22"}],
-  "HIP  52686": [{"english": "25_H._Leo_23"}],
-  "HIP  52689": [{"english": "26_H._Leo_24"}],
-  "HIP  52911": [{"english": "27_H._Leo_25"}],
-  "HIP  53954": [{"english": "32_H._Leo_26"}],
-  "HIP  54182": [{"english": "34_H._Leo_27"}],
-  "HIP  53824": [{"english": "31_H._Leo_28"}],
-  "HIP  53807": [{"english": "30_H._Leo_29"}],
-  "HIP  55016": [{"english": "38_H._Leo_30"}],
-  "HIP  55642": [{"english": "41_H._Leo_31"}],
-  "HIP  55434": [{"english": "40_H._Leo_32"}],
-  "HIP  55945": [{"english": "42_H._Leo_33"}],
-  "HIP  55084": [{"english": "39_H._Leo_34"}],
-  "HIP  56127": [{"english": "43_H._Leo_35"}],
-  "HIP  56647": [{"english": "45_H._Leo_37"}],
-  "HIP  53417": [{"english": "29_H._Leo_38"}],
-  "HIP  54951": [{"english": "37_H._Leo_39"}],
-  "HIP  57565": [{"english": "47_H._Leo_40"}],
-  "HIP  49220": [{"english": "15_H._Leo_41"}],
-  "HIP  53273": [{"english": "28_H._Leo_42"}],
-  "HIP  53907": [{"english": "33_H._Leo_43"}],
-  "HIP  50333": [{"english": "20_H._Leo_44"}],
-  "HIP  47168": [{"english": "6_H._Leo_45"}],
-  "HIP  47701": [{"english": "7_H._Leo_46"}],
-  "HIP  58159": [{"english": "49_H._Leo_47"}],
-  "HIP  56975": [{"english": "46_H._Leo_48"}],
-  "HIP  56601": [{"english": "44_H._Leo_49"}],
-  "HIP  51008": [{"english": "22_H._Leo_50"}],
-  "HIP  48833": [{"english": "H._LMi_1"}],
-  "HIP  47029": [{"english": "H._LMi_2"}],
-  "HIP  46952": [{"english": "H._LMi_3"}],
-  "HIP  46735": [{"english": "H._LMi_4"}],
-  "HIP  49593": [{"english": "H._LMi_5"}],
-  "HIP  49081": [{"english": "H._LMi_6"}],
-  "HIP  50303": [{"english": "H._LMi_7"}],
-  "HIP  51233": [{"english": "H._LMi_8"}],
-  "HIP  51056": [{"english": "H._LMi_9"}],
-  "HIP  52098": [{"english": "H._LMi_10"}],
-  "HIP  51685": [{"english": "H._LMi_11"}],
-  "HIP  53229": [{"english": "H._LMi_12"}],
-  "HIP  52638": [{"english": "H._LMi_13"}],
-  "HIP  52422": [{"english": "H._LMi_14"}],
-  "HIP  53417": [{"english": "H._LMi_15"}],
-  "HIP  54487": [{"english": "H._LMi_16"}],
-  "HIP  54951": [{"english": "H._LMi_17"}],
-  "HIP  52457": [{"english": "H._LMi_18"}],
-  "HIP  52457": [{"english": "24_H._Leo_36"}],
-  "HIP  25985": [{"english": "11_H._Lep_1"}],
-  "HIP  25606": [{"english": "10_H._Lep_2"}],
-  "HIP  27072": [{"english": "12_H._Lep_3"}],
-  "HIP  27654": [{"english": "13_H._Lep_4"}],
-  "HIP  24244": [{"english": "5_H._Lep_5"}],
-  "HIP  24327": [{"english": "7_H._Lep_6"}],
-  "HIP  24873": [{"english": "9_H._Lep_7"}],
-  "HIP  24845": [{"english": "8_H._Lep_8"}],
-  "HIP  24305": [{"english": "6_H._Lep_9"}],
-  "HIP  23685": [{"english": "4_H._Lep_10"}],
-  "HIP  27288": [{"english": "14_H._Lep_11"}],
-  "HIP  28103": [{"english": "15_H._Lep_12"}],
-  "HIP  28910": [{"english": "16_H._Lep_13"}],
-  "HIP  21763": [{"english": "3_H._Lep_14"}],
-  "HIP  21594": [{"english": "1_H._Lep_15"}],
-  "HIP  21644": [{"english": "2_H._Lep_16"}],
-  "HIP  72622": [{"english": "3_H._Lib_1"}],
-  "HIP  74785": [{"english": "8_H._Lib_2"}],
-  "HIP  72489": [{"english": "1_H._Lib_3"}],
-  "HIP  73945": [{"english": "6_H._Lib_4"}],
-  "HIP  73473": [{"english": "5_H._Lib_5"}],
-  "HIP  75379": [{"english": "10_H._Lib_6"}],
-  "HIP  76126": [{"english": "13_H._Lib_7"}],
-  "HIP  75118": [{"english": "9_H._Lib_8"}],
-  "HIP  76333": [{"english": "16_H._Lib_9"}],
-  "HIP  77060": [{"english": "17_H._Lib_10"}],
-  "HIP  74392": [{"english": "7_H._Lib_11"}],
-  "HIP  76880": [{"english": "H._Lib_12"}],
-  "HIP  77853": [{"english": "18_H._Lib_13"}],
-  "HIP  78207": [{"english": "19_H._Lib_14"}],
-  "HIP  78727": [{"english": "20_H._Lib_15"}],
-  "HIP  76219": [{"english": "14_H._Lib_16"}],
-  "HIP  76243": [{"english": "15_H._Lib_17"}],
-  "HIP  73133": [{"english": "4_H._Lib_18*"}],
-  "HIP  76033": [{"english": "12_H._Lib_19"}],
-  "HIP  76106": [{"english": "11_H._Lib_20"}],
-  "HIP  72603": [{"english": "2_H._Lib_21"}],
-  "HIP  29919": [{"english": "1_H._Lyn_1"}],
-  "HIP  30060": [{"english": "2_H._Lyn_2"}],
-  "HIP  30679": [{"english": "3_H._Lyn_3"}],
-  "HIP  33449": [{"english": "5_H._Lyn_4"}],
-  "HIP  33444": [{"english": "4_H._Lyn_5"}],
-  "HIP  35146": [{"english": "7_H._Lyn_6"}],
-  "HIP  35384": [{"english": "8_H._Lyn_7"}],
-  "HIP  33485": [{"english": "6_H._Lyn_8"}],
-  "HIP  41075": [{"english": "13_H._Lyn_9"}],
-  "HIP  42604": [{"english": "15_H._Lyn_10"}],
-  "HIP  43531": [{"english": "16_H._Lyn_11"}],
-  "HIP  42090": [{"english": "14_H._Lyn_12"}],
-  "HIP  37609": [{"english": "11_H._Lyn_13"}],
-  "HIP  35785": [{"english": "9_H._Lyn_14_A"}],
-  "HIP  35783": [{"english": "9_H._Lyn_14_B"}],
-  "HIP  39847": [{"english": "12_H._Lyn_15"}],
-  "HIP  36145": [{"english": "10_H._Lyn_16"}],
-  "HIP  45290": [{"english": "17_H._Lyn_17"}],
-  "HIP  45688": [{"english": "18_H._Lyn_18"}],
-  "HIP  45860": [{"english": "19_H._Lyn_19"}],
-  "HIP  91262": [{"english": "3_H._Lyr_1"}],
-  "HIP  92420": [{"english": "7_H._Lyr_2"}],
-  "HIP  93194": [{"english": "10_H._Lyr_3"}],
-  "HIP  91919": [{"english": "4_H._Lyr_4"}],
-  "HIP  91971": [{"english": "5_H._Lyr_5"}],
-  "HIP  92791": [{"english": "8_H._Lyr_6"}],
-  "HIP  93903": [{"english": "13_H._Lyr_7"}],
-  "HIP  94481": [{"english": "14_H._Lyr_8"}],
-  "HIP  94713": [{"english": "15_H._Lyr_9"}],
-  "HIP  92398": [{"english": "6_H._Lyr_10"}],
-  "HIP  93279": [{"english": "11_H._Lyr_11"}],
-  "HIP  92862": [{"english": "9_H._Lyr_12"}],
-  "HIP  90191": [{"english": "2_H._Lyr_13"}],
-  "HIP  95556": [{"english": "16_H._Lyr_14"}],
-  "HIP  96052": [{"english": "17_H._Lyr_15"}],
-  "HIP  89826": [{"english": "1_H._Lyr_16"}],
-  "HIP  93408": [{"english": "12_H._Lyr_17"}],
-  "HIP  31978": [{"english": "8_H._Mon_1"}],
-  "HIP  32533": [{"english": "9_H._Mon_2"}],
-  "HIP  31216": [{"english": "7_H._Mon_3"}],
-  "HIP  30419": [{"english": "3_H._Mon_4"}],
-  "HIP  31159": [{"english": "6_H._Mon_5"}],
-  "HIP  32578": [{"english": "10_H._Mon_6"}],
-  "HIP  34769": [{"english": "13_H._Mon_7"}],
-  "HIP  29651": [{"english": "1_H._Mon_8"}],
-  "HIP  30772": [{"english": "4_H._Mon_9"}],
-  "HIP  30867": [{"english": "5_H._Mon_10"}],
-  "HIP  41307": [{"english": "18_H._Mon_11"}],
-  "HIP  42835": [{"english": "19_H._Mon_12"}],
-  "HIP  37447": [{"english": "15_H._Mon_13"}],
-  "HIP  30073": [{"english": "2_H._Mon_14"}],
-  "HIP  33971": [{"english": "11_H._Mon_15"}],
-  "HIP  34622": [{"english": "12_H._Mon_16"}],
-  "HIP  37088": [{"english": "14_H._Mon_17"}],
-  "HIP  39079": [{"english": "16_H._Mon_18"}],
-  "HIP  39211": [{"english": "17_H._Mon_19"}],
-  "HIP  38170": [{"english": "2_H._Nav_1"}],
-  "HIP  39757": [{"english": "3_H._Nav_2"}],
-  "HIP  40084": [{"english": "4_H._Nav_3"}],
-  "HIP  37229": [{"english": "1_H._Nav_4"}],
-  "HIP  37677": [{"english": "H._Nav_5"}],
-  "HIP  27989": [{"english": "48_H._Ori_1"}],
-  "HIP  25336": [{"english": "20_H._Ori_2"}],
-  "HIP  24436": [{"english": "16_H._Ori_3"}],
-  "HIP  27366": [{"english": "45_H._Ori_4"}],
-  "HIP  25930": [{"english": "29_H._Ori_5"}],
-  "HIP  26311": [{"english": "37_H._Ori_6"}],
-  "HIP  26727": [{"english": "43_H._Ori_7"}],
-  "HIP  25281": [{"english": "23_H._Ori_8"}],
-  "HIP  26241": [{"english": "36_H._Ori_9"}],
-  "HIP  26220": [{"english": "35_H._Ori_10_A"}],
-  "HIP  26221": [{"english": "35_H._Ori_10_C"}],
-  "HIP  26224": [{"english": "35_H._Ori_10_D"}],
-  "HIP  26237": [{"english": "38_H._Ori_11"}],
-  "HIP  22667": [{"english": "4_H._Ori_12"}],
-  "HIP  22957": [{"english": "8_H._Ori_13"}],
-  "HIP  22833": [{"english": "6_H._Ori_14"}],
-  "HIP  22845": [{"english": "5_H._Ori_15"}],
-  "HIP  22509": [{"english": "2_H._Ori_16"}],
-  "HIP  22449": [{"english": "1_H._Ori_17"}],
-  "HIP  22549": [{"english": "3_H._Ori_18"}],
-  "HIP  22797": [{"english": "7_H._Ori_19"}],
-  "HIP  23123": [{"english": "9_H._Ori_20"}],
-  "HIP  23983": [{"english": "12_H._Ori_21"}],
-  "HIP  23879": [{"english": "11_H._Ori_22"}],
-  "HIP  24555": [{"english": "15_H._Ori_23"}],
-  "HIP  24331": [{"english": "14_H._Ori_24"}],
-  "HIP  26207": [{"english": "32_H._Ori_25"}],
-  "HIP  26176": [{"english": "31_H._Ori_26"}],
-  "HIP  26366": [{"english": "34_H._Ori_27"}],
-  "HIP  25813": [{"english": "26_H._Ori_28"}],
-  "HIP  28614": [{"english": "53_H._Ori_29"}],
-  "HIP  25142": [{"english": "19_H._Ori_30"}],
-  "HIP  25473": [{"english": "25_H._Ori_31"}],
-  "HIP  25861": [{"english": "27_H._Ori_32"}],
-  "HIP  26126": [{"english": "33_H._Ori_33"}],
-  "HIP  26594": [{"english": "40_H._Ori_34"}],
-  "HIP  25302": [{"english": "22_H._Ori_35"}],
-  "HIP  25044": [{"english": "18_H._Ori_36"}],
-  "HIP  25282": [{"english": "21_H._Ori_37"}],
-  "HIP  26549": [{"english": "41_H._Ori_38"}],
-  "HIP  26885": [{"english": "44_H._Ori_39"}],
-  "HIP  27750": [{"english": "47_H._Ori_40"}],
-  "HIP  28296": [{"english": "51_H._Ori_41"}],
-  "HIP  29800": [{"english": "60_H._Ori_42"}],
-  "HIP  29038": [{"english": "56_H._Ori_43"}],
-  "HIP  29426": [{"english": "58_H._Ori_44"}],
-  "HIP  29434": [{"english": "57_H._Ori_45"}],
-  "HIP  29704": [{"english": "59_H._Ori_46"}],
-  "HIP  27913": [{"english": "46_H._Ori_47"}],
-  "HIP  28041": [{"english": "50_H._Ori_48*"}],
-  "HIP  28716": [{"english": "54_H._Ori_49"}],
-  "HIP  24674": [{"english": "17_H._Ori_50"}],
-  "HIP  25247": [{"english": "24_H._Ori_51"}],
-  "HIP  25923": [{"english": "30_H._Ori_52"}],
-  "HIP  26563": [{"english": "42_H._Ori_53"}],
-  "HIP  29850": [{"english": "62_H._Ori_54"}],
-  "HIP  23607": [{"english": "10_H._Ori_55"}],
-  "HIP  24010": [{"english": "13_H._Ori_56"}],
-  "HIP  28321": [{"english": "49_H._Ori_57"}],
-  "HIP  28325": [{"english": "52_H._Ori_59"}],
-  "HIP  28574": [{"english": "55_H._Ori_60"}],
-  "HIP  26093": [{"english": "28_H._Ori_61"}],
-  "HIP  26777": [{"english": "39_H._Ori_62"}],
-  "HIP 107315": [{"english": "3_H._Peg_1"}],
-  "HIP 112029": [{"english": "16_H._Peg_2"}],
-  "HIP 113963": [{"english": "25_H._Peg_3"}],
-  "HIP 113881": [{"english": "24_H._Peg_4"}],
-  "HIP 112158": [{"english": "18_H._Peg_5"}],
-  "HIP   1067": [{"english": "37_H._Peg_6"}],
-  "HIP 109068": [{"english": "8_H._Peg_7"}],
-  "HIP 109427": [{"english": "10_H._Peg_8"}],
-  "HIP 112447": [{"english": "19_H._Peg_9"}],
-  "HIP 112935": [{"english": "22_H._Peg_10"}],
-  "HIP 113186": [{"english": "23_H._Peg_11"}],
-  "HIP 110386": [{"english": "13_H._Peg_12"}],
-  "HIP 106140": [{"english": "2_H._Peg_13"}],
-  "HIP 107354": [{"english": "5_H._Peg_14"}],
-  "HIP 109176": [{"english": "9_H._Peg_15"}],
-  "HIP 109410": [{"english": "11_H._Peg_16"}],
-  "HIP 112051": [{"english": "17_H._Peg_17"}],
-  "HIP 112440": [{"english": "20_H._Peg_18"}],
-  "HIP 112748": [{"english": "21_H._Peg_19"}],
-  "HIP 105502": [{"english": "1_H._Peg_20"}],
-  "HIP 107348": [{"english": "4_H._Peg_21"}],
-  "HIP 115250": [{"english": "30_H._Peg_22"}],
-  "HIP 115623": [{"english": "34_H._Peg_23"}],
-  "HIP 110371": [{"english": "14_H._Peg_24"}],
-  "HIP 115355": [{"english": "31_H._Peg_25"}],
-  "HIP 115591": [{"english": "33_H._Peg_26"}],
-  "HIP 115919": [{"english": "35_H._Peg_27"}],
-  "HIP 114144": [{"english": "26_H._Peg_28"}],
-  "HIP 114389": [{"english": "28_H._Peg_29"}],
-  "HIP 114520": [{"english": "29_H._Peg_30"}],
-  "HIP 114347": [{"english": "27_H._Peg_31"}],
-  "HIP 116310": [{"english": "36_H._Peg_32"}],
-  "HIP 108022": [{"english": "7_H._Peg_33"}],
-  "HIP 115444": [{"english": "32_H._Peg_34"}],
-  "HIP 110882": [{"english": "15_H._Peg_35"}],
-  "HIP 110298": [{"english": "12_H._Peg_36"}],
-  "HIP   2903": [{"english": "38_H._Peg_37"}],
-  "HIP 107472": [{"english": "6_H._Peg_38"}],
-  "HIP  15863": [{"english": "24_H._Per_1"}],
-  "HIP  14328": [{"english": "14_H._Per_2"}],
-  "HIP  17358": [{"english": "27_H._Per_3"}],
-  "HIP  18532": [{"english": "35_H._Per_4"}],
-  "HIP  18246": [{"english": "34_H._Per_5"}],
-  "HIP  14576": [{"english": "19_H._Per_6"}],
-  "HIP  13879": [{"english": "13_H._Per_7"}],
-  "HIP  14354": [{"english": "17_H._Per_8"}],
-  "HIP  14817": [{"english": "21_H._Per_9"}],
-  "HIP  13254": [{"english": "10_H._Per_10"}],
-  "HIP  10805": [{"english": "4_H._Per_11*"}],
-  "HIP  13268": [{"english": "9_H._Per_12"}],
-  "HIP  13531": [{"english": "11_H._Per_13"}],
-  "HIP  12777": [{"english": "8_H._Per_14"}],
-  "HIP  14632": [{"english": "18_H._Per_15"}],
-  "HIP  14668": [{"english": "20_H._Per_16"}],
-  "HIP  16335": [{"english": "25_H._Per_17"}],
-  "HIP  16826": [{"english": "26_H._Per_18"}],
-  "HIP  18453": [{"english": "33_H._Per_19"}],
-  "HIP  19167": [{"english": "37_H._Per_20"}],
-  "HIP  20070": [{"english": "41_H._Per_21"}],
-  "HIP  19343": [{"english": "38_H._Per_22"}],
-  "HIP  19812": [{"english": "39_H._Per_23"}],
-  "HIP  20354": [{"english": "42_H._Per_24"}],
-  "HIP  21476": [{"english": "46_H._Per_25"}],
-  "HIP  17529": [{"english": "30_H._Per_26"}],
-  "HIP  18614": [{"english": "36_H._Per_27"}],
-  "HIP  17448": [{"english": "31_H._Per_28"}],
-  "HIP  17313": [{"english": "28_H._Per_29"}],
-  "HIP   8704": [{"english": "1_H._Per_30"}],
-  "HIP   9505": [{"english": "2_H._Per_31"}],
-  "HIP  11313": [{"english": "6_H._Per_32"}],
-  "HIP  10340": [{"english": "3_H._Per_33"}],
-  "HIP  17886": [{"english": "32_H._Per_34/48"}],
-  "HIP  17313": [{"english": "29_H._Per_35"}],
-  "HIP  19811": [{"english": "40_H._Per_36"}],
-  "HIP  12623": [{"english": "7_H._Per_37"}],
-  "HIP  14382": [{"english": "15_H._Per_38/47"}],
-  "HIP  15416": [{"english": "23_H._Per_39"}],
-  "HIP  13328": [{"english": "12_H._Per_40"}],
-  "HIP  10819": [{"english": "5_H._Per_41"}],
-  "HIP  15338": [{"english": "22_H._Per_42"}],
-  "HIP  20579": [{"english": "44_H._Per_43"}],
-  "HIP  20704": [{"english": "45_H._Per_44"}],
-  "HIP  13905": [{"english": "16_H._Per_45"}],
-  "HIP  20252": [{"english": "43_H._Per_46"}],
-  "HIP   9487": [{"english": "39_H._Psc_1"}],
-  "HIP 113889": [{"english": "1_H._Psc_2"}],
-  "HIP 114971": [{"english": "3_H._Psc_3"}],
-  "HIP 115227": [{"english": "4_H._Psc_4"}],
-  "HIP 115830": [{"english": "6_H._Psc_5"}],
-  "HIP 116771": [{"english": "7_H._Psc_6"}],
-  "HIP 115738": [{"english": "5_H._Psc_7"}],
-  "HIP 116928": [{"english": "8_H._Psc_8"}],
-  "HIP 118268": [{"english": "9_H._Psc_9"}],
-  "HIP    194": [{"english": "10_H._Psc_10"}],
-  "HIP   1645": [{"english": "11_H._Psc_11"}],
-  "HIP   2548": [{"english": "12_H._Psc_12"}],
-  "HIP   3786": [{"english": "13_H._Psc_13"}],
-  "HIP   4906": [{"english": "19_H._Psc_14"}],
-  "HIP   5737": [{"english": "28_H._Psc_15"}],
-  "HIP   5346": [{"english": "22_H._Psc_16"}],
-  "HIP   6061": [{"english": "29_H._Psc_17"}],
-  "HIP   7007": [{"english": "33_H._Psc_18"}],
-  "HIP   7884": [{"english": "37_H._Psc_19"}],
-  "HIP   8833": [{"english": "38_H._Psc_20"}],
-  "HIP   6732": [{"english": "32_H._Psc_21"}],
-  "HIP   7097": [{"english": "34_H._Psc_22"}],
-  "HIP   7535": [{"english": "35_H._Psc_23"}],
-  "HIP   8198": [{"english": "36_H._Psc_24"}],
-  "HIP   3885": [{"english": "14_H._Psc_25"}],
-  "HIP   4510": [{"english": "17_H._Psc_26"}],
-  "HIP   4366": [{"english": "15_H._Psc_27"}],
-  "HIP   4889": [{"english": "18_H._Psc_28"}],
-  "HIP   5544": [{"english": "26_H._Psc_29"}],
-  "HIP   5586": [{"english": "24_H._Psc_30"}],
-  "HIP   5742": [{"english": "27_H._Psc_31"}],
-  "HIP   6193": [{"english": "30_H._Psc_32"}],
-  "HIP   6315": [{"english": "31_H._Psc_33"}],
-  "HIP   5131": [{"english": "20_H._Psc_34_A"}],
-  "HIP   5132": [{"english": "20_H._Psc_34_B"}],
-  "HIP   5310": [{"english": "21_H._Psc_35"}],
-  "HIP   5454": [{"english": "23_H._Psc_36"}],
-  "HIP   5571": [{"english": "25_H._Psc_37"}],
-  "HIP   4463": [{"english": "16_H._Psc_38"}],
-  "HIP 114273": [{"english": "2_H._Psc_39"}],
-  "HIP  98337": [{"english": "5_H._Sge_1"}],
-  "HIP  97365": [{"english": "3_H._Sge_2"}],
-  "HIP  97496": [{"english": "4_H._Sge_3"}],
-  "HIP  96837": [{"english": "2_H._Sge_4"}],
-  "HIP  96757": [{"english": "1_H._Sge_5"}],
-  "HIP  93085": [{"english": "6_H._Sgr_1"}],
-  "HIP  93683": [{"english": "9_H._Sgr_2"}],
-  "HIP  94141": [{"english": "11_H._Sgr_3"}],
-  "HIP  92855": [{"english": "5_H._Sgr_4"}],
-  "HIP  89931": [{"english": "2_H._Sgr_5"}],
-  "HIP  89341": [{"english": "1_H._Sgr_6"}],
-  "HIP  90496": [{"english": "3_H._Sgr_7"}],
-  "HIP  88635": [{"english": "H._Sgr_8"}],
-  "HIP  92041": [{"english": "4_H._Sgr_9"}],
-  "HIP  90185": [{"english": "H._Sgr_10"}],
-  "HIP  93506": [{"english": "8_H._Sgr_11"}],
-  "HIP  93864": [{"english": "10_H._Sgr_12"}],
-  "HIP  94643": [{"english": "13_H._Sgr_13"}],
-  "HIP  96465": [{"english": "17_H._Sgr_14"}],
-  "HIP  95176": [{"english": "14_H._Sgr_15"}],
-  "HIP  95168": [{"english": "15_H._Sgr_16"}],
-  "HIP  94820": [{"english": "12_H._Sgr_17"}],
-  "HIP  96950": [{"english": "18_H._Sgr_18"}],
-  "HIP  98258": [{"english": "20_H._Sgr_19"}],
-  "HIP  97290": [{"english": "19_H._Sgr_20"}],
-  "HIP  98353": [{"english": "21_H._Sgr_21"}],
-  "HIP  98066": [{"english": "H._Sgr_22"}],
-  "HIP  98162": [{"english": "H._Sgr_23"}],
-  "HIP  98688": [{"english": "22_H._Sgr_24"}],
-  "HIP  95477": [{"english": "16_H._Sgr_25"}],
-  "HIP  92845": [{"english": "7_H._Sgr_26"}],
-  "HIP  80763": [{"english": "17_H._Sco_1"}],
-  "HIP  78820": [{"english": "9_H._Sco_2"}],
-  "HIP  78401": [{"english": "8_H._Sco_3"}],
-  "HIP  78265": [{"english": "7_H._Sco_4"}],
-  "HIP  80112": [{"english": "15_H._Sco_5"}],
-  "HIP  81266": [{"english": "19_H._Sco_6"}],
-  "HIP  73714": [{"english": "1_H._Sco_7"}],
-  "HIP  79375": [{"english": "14_H._Sco_8"}],
-  "HIP  77811": [{"english": "5_H._Sco_9"}],
-  "HIP  79374": [{"english": "13_H._Sco_10"}],
-  "HIP  78933": [{"english": "11_H._Sco_11"}],
-  "HIP  78104": [{"english": "6_H._Sco_12"}],
-  "HIP  79404": [{"english": "12_H._Sco_13"}],
-  "HIP  80473": [{"english": "16_H._Sco_14"}],
-  "HIP  80815": [{"english": "18_H._Sco_15"}],
-  "HIP  78990": [{"english": "10_H._Sco_16"}],
-  "HIP  74857": [{"english": "2_H._Sco_17"}],
-  "HIP  76470": [{"english": "3_H._Sco_18"}],
-  "HIP  76600": [{"english": "4_H._Sco_19"}],
-  "HIP  81724": [{"english": "20_H._Sco_20"}],
-  "HIP  93026": [{"english": "7_H._Sct_1"}],
-  "HIP  91117": [{"english": "3_H._Sct_2"}],
-  "HIP  91845": [{"english": "5_H._Sct_3"}],
-  "HIP  91726": [{"english": "4_H._Sct_4"}],
-  "HIP  90595": [{"english": "2_H._Sct_5"}],
-  "HIP  90135": [{"english": "1_H._Sct_6"}],
-  "HIP  92175": [{"english": "6_H._Sct_7"}],
-  "HIP  86032": [{"english": "30_H._Oph_1"}],
-  "HIP  86742": [{"english": "31_H._Oph_2"}],
-  "HIP  87108": [{"english": "32_H._Oph_3"}],
-  "HIP  83000": [{"english": "19_H._Oph_4"}],
-  "HIP  79593": [{"english": "1_H._Oph_5"}],
-  "HIP  79882": [{"english": "2_H._Oph_6"}],
-  "HIP  81377": [{"english": "10_H._Oph_7"}],
-  "HIP  84012": [{"english": "21_H._Oph_8"}],
-  "HIP  82673": [{"english": "18_H._Oph_9"}],
-  "HIP  80883": [{"english": "9_H._Oph_10"}],
-  "HIP  80628": [{"english": "6_H._Oph_11"}],
-  "HIP  88048": [{"english": "33_H._Oph_12"}],
-  "HIP  88404": [{"english": "37_H._Oph_13"}],
-  "HIP  80894": [{"english": "7_H._Oph_14"}],
-  "HIP  80569": [{"english": "5_H._Oph_15"}],
-  "HIP  80343": [{"english": "3_H._Oph_16"}],
-  "HIP  80975": [{"english": "8_H._Oph_17"}],
-  "HIP  84893": [{"english": "H._Oph_18"}],
-  "HIP  84970": [{"english": "24_H._Oph_19"}],
-  "HIP  85340": [{"english": "26_H._Oph_20"}],
-  "HIP  84405": [{"english": "H._Oph_21*"}],
-  "HIP  85340": [{"english": "H._Oph_22*"}],
-  "HIP  85755": [{"english": "H._Oph_23*"}],
-  "HIP  88149": [{"english": "34_H._Oph_24"}],
-  "HIP  88192": [{"english": "35_H._Oph_25"}],
-  "HIP  88290": [{"english": "36_H._Oph_26"}],
-  "HIP  88601": [{"english": "38_H._Oph_27"}],
-  "HIP  88771": [{"english": "39_H._Oph_28"}],
-  "HIP  88765": [{"english": "40_H._Oph_29"}],
-  "HIP  85365": [{"english": "27_H._Oph_30"}],
-  "HIP  82369": [{"english": "13_H._Oph_31"}],
-  "HIP  81641": [{"english": "11_H._Oph_32"}],
-  "HIP  82216": [{"english": "14_H._Oph_33"}],
-  "HIP  84177": [{"english": "22_H._Oph_34"}],
-  "HIP  84671": [{"english": "25_H._Oph_35"}],
-  "HIP  85998": [{"english": "29_H._Oph_36"}],
-  "HIP  85355": [{"english": "28_H._Oph_37"}],
-  "HIP  82480": [{"english": "16_H._Oph_39"}],
-  "HIP  82402": [{"english": "15_H._Oph_40"}],
-  "HIP  82073": [{"english": "12_H._Oph_41"}],
-  "HIP  84514": [{"english": "23_H._Oph_42"}],
-  "HIP  83262": [{"english": "20_H._Oph_43"}],
-  "HIP  82730": [{"english": "17_H._Oph_44"}],
-  "HIP  77070": [{"english": "4_H._Ser_1"}],
-  "HIP  78554": [{"english": "14_H._Ser_2"}],
-  "HIP  76852": [{"english": "3_H._Ser_3"}],
-  "HIP  77661": [{"english": "12_H._Ser_4"}],
-  "HIP  77450": [{"english": "10_H._Ser_5"}],
-  "HIP  78072": [{"english": "13_H._Ser_6"}],
-  "HIP  77233": [{"english": "7_H._Ser_7"}],
-  "HIP  76276": [{"english": "2_H._Ser_8"}],
-  "HIP  77257": [{"english": "6_H._Ser_9"}],
-  "HIP  77622": [{"english": "11_H._Ser_10"}],
-  "HIP  77516": [{"english": "8_H._Ser_11"}],
-  "HIP  84880": [{"english": "16_H._Ser_12"}],
-  "HIP  86263": [{"english": "17_H._Ser_13"}],
-  "HIP  86565": [{"english": "19_H._Ser_14"}],
-  "HIP  86284": [{"english": "18_H._Ser_15"}],
-  "HIP  88175": [{"english": "20_H._Ser_16"}],
-  "HIP  89962": [{"english": "21_H._Ser_17"}],
-  "HIP  92946": [{"english": "22_H._Ser_18_A"}],
-  "HIP  92951": [{"english": "22_H._Ser_18_B"}],
-  "HIP  77578": [{"english": "9_H._Ser_19"}],
-  "HIP  77052": [{"english": "5_H._Ser_20"}],
-  "HIP  80179": [{"english": "15_H._Ser_21"}],
-  "HIP  80179": [{"english": "4_H._Oph_38"}],
-  "HIP  75530": [{"english": "1_H._Ser_22"}],
-  "HIP  48437": [{"english": "3_H._Sex_1"}],
-  "HIP  49865": [{"english": "5_H._Sex_2"}],
-  "HIP  50414": [{"english": "7_H._Sex_3"}],
-  "HIP  52980": [{"english": "H._Sex_4"}],
-  "HIP  47310": [{"english": "2_H._Sex_5"}],
-  "HIP  47205": [{"english": "1_H._Sex_6"}],
-  "HIP  49641": [{"english": "4_H._Sex_7"}],
-  "HIP  51362": [{"english": "8_H._Sex_8"}],
-  "HIP  51437": [{"english": "9_H._Sex_9"}],
-  "HIP  52452": [{"english": "10_H._Sex_10"}],
-  "HIP  51775": [{"english": "11_H._Sex_11"}],
-  "HIP  50027": [{"english": "6_H._Sex_12"}],
-  "HIP  21421": [{"english": "36_H._Tau_1"}],
-  "HIP  25428": [{"english": "48_H._Tau_2"}],
-  "HIP  26451": [{"english": "51_H._Tau_3"}],
-  "HIP  20889": [{"english": "32_H._Tau_4"}],
-  "HIP  20205": [{"english": "24_H._Tau_5"}],
-  "HIP  20455": [{"english": "26_H._Tau_6"}],
-  "HIP  20894": [{"english": "33_H._Tau_7"}],
-  "HIP  16369": [{"english": "4_H._Tau_8"}],
-  "HIP  16322": [{"english": "3_H._Tau_9"}],
-  "HIP  16083": [{"english": "2_H._Tau_10"}],
-  "HIP  15900": [{"english": "1_H._Tau_11"}],
-  "HIP  16511": [{"english": "5_H._Tau_12"}],
-  "HIP  17563": [{"english": "11_H._Tau_13"}],
-  "HIP  18907": [{"english": "17_H._Tau_14"}],
-  "HIP  17771": [{"english": "13_H._Tau_15"}],
-  "HIP  18724": [{"english": "15_H._Tau_16"}],
-  "HIP  19860": [{"english": "21_H._Tau_17"}],
-  "HIP  20522": [{"english": "28_H._Tau_18"}],
-  "HIP  21402": [{"english": "37_H._Tau_19"}],
-  "HIP  20901": [{"english": "34_H._Tau_20"}],
-  "HIP  21589": [{"english": "38_H._Tau_21"}],
-  "HIP  19205": [{"english": "19_H._Tau_22"}],
-  "HIP  19171": [{"english": "18_H._Tau_23"}],
-  "HIP  19513": [{"english": "20_H._Tau_24"}],
-  "HIP  20250": [{"english": "23_H._Tau_25"}],
-  "HIP  20430": [{"english": "25_H._Tau_26"}],
-  "HIP  19038": [{"english": "16_H._Tau_27"}],
-  "HIP  19990": [{"english": "22_H._Tau_28"}],
-  "HIP  20711": [{"english": "30_H._Tau_29"}],
-  "HIP  20635": [{"english": "27_H._Tau_30"}],
-  "HIP  20732": [{"english": "31_H._Tau_31"}],
-  "HIP  21273": [{"english": "35_H._Tau_32"}],
-  "HIP  21683": [{"english": "39_H._Tau_33"}],
-  "HIP  21881": [{"english": "40_H._Tau_34"}],
-  "HIP  22565": [{"english": "42_H._Tau_35"}],
-  "HIP  23497": [{"english": "43_H._Tau_36"}],
-  "HIP  23871": [{"english": "45_H._Tau_37"}],
-  "HIP  24822": [{"english": "46_H._Tau_38"}],
-  "HIP  25539": [{"english": "49_H._Tau_39"}],
-  "HIP  17702": [{"english": "10_H._Tau_40"}],
-  "HIP  17531": [{"english": "6_H._Tau_41"}],
-  "HIP  17847": [{"english": "12_H._Tau_42"}],
-  "HIP  17573": [{"english": "9_H._Tau_43"}],
-  "HIP  17499": [{"english": "7_H._Tau_44"}],
-  "HIP  17608": [{"english": "8_H._Tau_45"}],
-  "HIP  20648": [{"english": "29_H._Tau_46"}],
-  "HIP  23835": [{"english": "44_H._Tau_47"}],
-  "HIP  25945": [{"english": "50_H._Tau_48"}],
-  "HIP  25278": [{"english": "47_H._Tau_49"}],
-  "HIP  17954": [{"english": "14_H._Tau_50"}],
-  "HIP  22157": [{"english": "41_H._Tau_51"}],
-  "HIP   8796": [{"english": "2_H._Tri_1"}],
-  "HIP  10064": [{"english": "6_H._Tri_2"}],
-  "HIP  10670": [{"english": "10_H._Tri_3"}],
-  "HIP  10644": [{"english": "9_H._Tri_4"}],
-  "HIP  10559": [{"english": "8_H._Tri_5"}],
-  "HIP   7943": [{"english": "1_H._Tri_6"}],
-  "HIP   9001": [{"english": "3_H._Tri_7*"}],
-  "HIP   9977": [{"english": "5_H._Tri_8"}],
-  "HIP   9570": [{"english": "4_H._Tri_9"}],
-  "HIP  10793": [{"english": "11_H._Tri_TrM_1"}],
-  "HIP  10280": [{"english": "7_H._Tri_TrM_2"}],
-  "HIP  11486": [{"english": "12_H._Tri_TrM_3"}],
-  "HIP  65474": [{"english": "30_H._Vir_1"}],
-  "HIP  63608": [{"english": "23_H._Vir_2"}],
-  "HIP  57757": [{"english": "4_H._Vir_3"}],
-  "HIP  60129": [{"english": "12_H._Vir_4"}],
-  "HIP  61941": [{"english": "15_H._Vir_5"}],
-  "HIP  63090": [{"english": "21_H._Vir_6"}],
-  "HIP  57328": [{"english": "1_H._Vir_7"}],
-  "HIP  57380": [{"english": "2_H._Vir_8"}],
-  "HIP  58948": [{"english": "8_H._Vir_9"}],
-  "HIP  58590": [{"english": "6_H._Vir_10"}],
-  "HIP  58510": [{"english": "5_H._Vir_11"}],
-  "HIP  61960": [{"english": "17_H._Vir_12"}],
-  "HIP  62267": [{"english": "18_H._Vir_13"}],
-  "HIP  61968": [{"english": "16_H._Vir_14"}],
-  "HIP  64792": [{"english": "27_H._Vir_15"}],
-  "HIP  64852": [{"english": "28_H._Vir_16"}],
-  "HIP  66200": [{"english": "34_H._Vir_17"}],
-  "HIP  68520": [{"english": "39_H._Vir_18"}],
-  "HIP  63414": [{"english": "22_H._Vir_19"}],
-  "HIP  64238": [{"english": "25_H._Vir_20"}],
-  "HIP  66006": [{"english": "32_H._Vir_21"}],
-  "HIP  66249": [{"english": "35_H._Vir_22"}],
-  "HIP  66098": [{"english": "33_H._Vir_23"}],
-  "HIP  66803": [{"english": "36_H._Vir_24"}],
-  "HIP  69974": [{"english": "45_H._Vir_26"}],
-  "HIP  67929": [{"english": "37_H._Vir_27"}],
-  "HIP  70012": [{"english": "46_H._Vir_28"}],
-  "HIP  70755": [{"english": "47_H._Vir_29"}],
-  "HIP  71957": [{"english": "48_H._Vir_30"}],
-  "HIP  69701": [{"english": "44_H._Vir_31"}],
-  "HIP  69427": [{"english": "41_H._Vir_32"}],
-  "HIP  60172": [{"english": "11_H._Vir_33"}],
-  "HIP  61740": [{"english": "14_H._Vir_34"}],
-  "HIP  62985": [{"english": "20_H._Vir_35"}],
-  "HIP  64078": [{"english": "24_H._Vir_36"}],
-  "HIP  64407": [{"english": "26_H._Vir_37"}],
-  "HIP  65639": [{"english": "31_H._Vir_38"}],
-  "HIP  64924": [{"english": "29_H._Vir_39"}],
-  "HIP  59501": [{"english": "7_H._Vir_40*"}],
-  "HIP  57562": [{"english": "3_H._Vir_41"}],
-  "HIP  59608": [{"english": "9_H._Vir_42"}],
-  "HIP  59819": [{"english": "10_H._Vir_43"}],
-  "HIP  62325": [{"english": "19_H._Vir_44"}],
-  "HIP  72631": [{"english": "49_H._Vir_45"}],
-  "HIP  73165": [{"english": "50_H._Vir_46"}],
-  "HIP  69389": [{"english": "42_H._Vir_47"}],
-  "HIP  60202": [{"english": "13_H._Vir_48"}],
-  "HIP  69269": [{"english": "40_H._Vir_49"}],
-  "HIP  69658": [{"english": "43_H._Vir_50"}],
-  "HIP  54061": [{"english": "42_H._UMa_1"}],
-  "HIP  53910": [{"english": "40_H._UMa_2"}],
-  "HIP  59774": [{"english": "59_H._UMa_3"}],
-  "HIP  58001": [{"english": "56_H._UMa_4"}],
-  "HIP  62956": [{"english": "64_H._UMa_5"}],
-  "HIP  65378": [{"english": "67_H._UMa_6"}],
-  "HIP  67301": [{"english": "72_H._UMa_7"}],
-  "HIP  63125": [{"english": "65_H._UMa_8_A"}],
-  "HIP  63121": [{"english": "65_H._UMa_8_B"}],
-  "HIP  44127": [{"english": "11_H._UMa_9"}],
-  "HIP  44471": [{"english": "14_H._UMa_10"}],
-  "HIP  46853": [{"english": "23_H._UMa_11"}],
-  "HIP  44248": [{"english": "12_H._UMa_12"}],
-  "HIP  44700": [{"english": "17_H._UMa_13"}],
-  "HIP  41704": [{"english": "6_H._UMa_14"}],
-  "HIP  43644": [{"english": "9_H._UMa_15"}],
-  "HIP  45075": [{"english": "15_H._UMa_16"}],
-  "HIP  42080": [{"english": "7_H._UMa_17"}],
-  "HIP  42527": [{"english": "8_H._UMa_18"}],
-  "HIP  44390": [{"english": "10_H._UMa_19"}],
-  "HIP  45038": [{"english": "13_H._UMa_20"}],
-  "HIP  45333": [{"english": "18_H._UMa_21"}],
-  "HIP  46733": [{"english": "21_H._UMa_22"}],
-  "HIP  46977": [{"english": "20_H._UMa_23"}],
-  "HIP  48319": [{"english": "27_H._UMa_24"}],
-  "HIP  48402": [{"english": "28_H._UMa_25"}],
-  "HIP  47006": [{"english": "25_H._UMa_26"}],
-  "HIP  45493": [{"english": "19_H._UMa_27"}],
-  "HIP  44901": [{"english": "16_H._UMa_28"}],
-  "HIP  50372": [{"english": "29_H._UMa_29"}],
-  "HIP  50801": [{"english": "31_H._UMa_30"}],
-  "HIP  53295": [{"english": "38_H._UMa_31"}],
-  "HIP  54539": [{"english": "45_H._UMa_32"}],
-  "HIP  57399": [{"english": "54_H._UMa_33"}],
-  "HIP  55219": [{"english": "46_H._UMa_34"}],
-  "HIP  55203": [{"english": "47_H._UMa_35"}],
-  "HIP  61317": [{"english": "63_H._UMa_36"}],
-  "HIP  66738": [{"english": "71_H._UMa_37"}],
-  "HIP  66634": [{"english": "70_H._UMa_38"}],
-  "HIP  67848": [{"english": "73_H._UMa_39"}],
-  "HIP  60485": [{"english": "61_H._UMa_40"}],
-  "HIP  60122": [{"english": "60_H._UMa_41"}],
-  "HIP  63503": [{"english": "66_H._UMa_42"}],
-  "HIP  65728": [{"english": "69_H._UMa_43"}],
-  "HIP  60978": [{"english": "62_H._UMa_44"}],
-  "HIP  36528": [{"english": "1_H._UMa_45"}],
-  "HIP  40215": [{"english": "3_H._UMa_46"}],
-  "HIP  46471": [{"english": "22_H._UMa_49"}],
-  "HIP  48113": [{"english": "26_H._UMa_50"}],
-  "HIP  53721": [{"english": "41_H._UMa_51"}],
-  "HIP  55266": [{"english": "48_H._UMa_52"}],
-  "HIP  54136": [{"english": "44_H._UMa_53"}],
-  "HIP  56034": [{"english": "50_H._UMa_54"}],
-  "HIP  55560": [{"english": "49_H._UMa_55"}],
-  "HIP  53781": [{"english": "39_H._UMa_56"}],
-  "HIP  53261": [{"english": "37_H._UMa_57"}],
-  "HIP  51814": [{"english": "34_H._UMa_58"}],
-  "HIP  51459": [{"english": "32_H._UMa_59"}],
-  "HIP  47654": [{"english": "24_H._UMa_60"}],
-  "HIP  58684": [{"english": "58_H._UMa_61"}],
-  "HIP  58654": [{"english": "57_H._UMa_62"}],
-  "HIP  57670": [{"english": "55_H._UMa_63"}],
-  "HIP  56997": [{"english": "53_H._UMa_64"}],
-  "HIP  51658": [{"english": "33_H._UMa_65"}],
-  "HIP  52469": [{"english": "36_H._UMa_66"}],
-  "HIP  53838": [{"english": "43_H._UMa_67"}],
-  "HIP  52425": [{"english": "35_H._UMa_68"}],
-  "HIP  56035": [{"english": "51_H._UMa_69"}],
-  "HIP  57029": [{"english": "52_H._UMa_70"}],
-  "HIP  65477": [{"english": "68_H._UMa_71"}],
-  "HIP  50933": [{"english": "30_H._UMa_72"}],
-  "HIP  40646": [{"english": "5_H._UMa_73"}],
-  "HIP  11767": [{"english": "12_H._UMi_1"}],
-  "HIP  72607": [{"english": "6_H._UMi_2"}],
-  "HIP  75097": [{"english": "7_H._UMi_3"}],
-  "HIP  77055": [{"english": "8_H._UMi_4"}],
-  "HIP  79822": [{"english": "9_H._UMi_5"}],
-  "HIP  82080": [{"english": "10_H._UMi_6"}],
-  "HIP  85822": [{"english": "11_H._UMi_7"}],
-  "HIP  70692": [{"english": "5_H._UMi_8"}],
-  "HIP  69112": [{"english": "4_H._UMi_9"}],
-  "HIP  69373": [{"english": "3_H._UMi_10"}],
-  "HIP  73199": [{"english": "2_H._UMi_11"}],
-  "HIP  73199": [{"english": "10_H._Dra_40"}],
-  "HIP  74605": [{"english": "1_H._UMi_12"}],
-  "HIP  95771": [{"english": "5_H._Vul_1"}],
-  "HIP  97077": [{"english": "7_H._Vul_2"}],
-  "HIP  98543": [{"english": "11_H._Vul_4"}],
-  "HIP  98636": [{"english": "12_H._Vul_5"}],
-  "HIP  97886": [{"english": "10_H._Vul_6"}],
-  "HIP  97679": [{"english": "9_H._Vul_7"}],
-  "HIP  99853": [{"english": "15_H._Vul_8"}],
-  "HIP  99951": [{"english": "18_H._Vul_9"}],
-  "HIP 100435": [{"english": "19_H._Vul_10"}],
-  "HIP  99824": [{"english": "16_H._Vul_11"}],
-  "HIP 101716": [{"english": "20_H._Vul_12"}],
-  "HIP  99874": [{"english": "17_H._Vul_13"}],
-  "HIP 102388": [{"english": "23_H._Vul_14"}],
-  "HIP 101868": [{"english": "22_H._Vul_15"}],
-  "HIP 101867": [{"english": "21_H._Vul_16"}],
-  "HIP 103511": [{"english": "26_H._Vul_17"}],
-  "HIP 103004": [{"english": "24_H._Vul_18"}],
-  "HIP 103200": [{"english": "25_H._Vul_19"}],
-  "HIP 106140": [{"english": "27_H._Vul_20"}],
-  "HIP  99080": [{"english": "14_H._Vul_21"}],
-  "HIP  95260": [{"english": "3_H._Vul_22"}],
-  "HIP  94703": [{"english": "1_H._Vul_23"}],
-  "HIP  95560": [{"english": "4_H._Vul_24"}],
-  "HIP  96275": [{"english": "6_H._Vul_25"}],
-  "HIP  98920": [{"english": "13_H._Vul_26"}],
-  "HIP  94827": [{"english": "2_H._Vul_27"}]
+    "(HIP 32349)": [{"native": "Sirius", "english": "西里厄斯 Sirius", "byname": "希腊：灼热者", "references": [1,2,6,11,12,13,23,37]},
+                  {"native": "Canicula", "english": "卡尼库拉 Canicula", "byname": "罗马：小犬", "references": [37]},
+                  {"native": "Aschere", "english": "阿舍尔 Aschere", "byname": "阿拉伯：首领", "references": [37]}],
+    "(HIP 30438)": [{"native": "Canopus", "english": "卡诺普斯 Canopus", "byname": "阿拉伯：平原", "references": [1,6,11,12,23]},
+                  {"native": "Suhel", "english": "苏赫尔 Suhel", "byname": "希腊：传说中的船长名 或 古埃及：港口名，意为金色土地"}],
+    "HIP 32349": [{"native": "Sirius", "english": "西里厄斯 Sirius", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 30438": [{"native": "Canopus", "english": "卡诺普斯 Canopus", "references": [1,6,11,12,23]}],
+    "HIP 71683": [{"native": "Rigil Kentaurus", "english": "里吉尔·肯陶鲁斯 Rigil Kentaurus", "references": [1,2,11,12]}],
+    "HIP 71681": [{"native": "Toliman", "english": "托利曼 Toliman", "references": [12]}],
+    "HIP 70890": [{"native": "Proxima Centauri", "english": "普罗克西马·肯陶里 Proxima Centauri", "byname": "The closest of the Centaur", "references": [23]}],
+    "HIP 69673": [{"native": "Arcturus", "english": "阿克图鲁斯 Arcturus", "references": [1,2,6,11,12,23]}],
+    "HIP 91262": [{"native": "Vega", "english": "维加 Vega", "references": [1,2,6,11,12,13,18,23,37]}],
+    "HIP 24608": [{"native": "Capella", "english": "卡佩拉 Capella", "references": [1,2,6,11,12,13,22,23,37]}],
+    "HIP 24436": [{"native": "Rigel", "english": "里杰尔 Rigel", "references": [1,2,6,11,12,13,18,23]}],
+    "HIP 37279": [{"native": "Procyon", "english": "普罗西翁 Procyon", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 7588": [{"native": "Achernar", "english": "阿克尔纳尔 Achernar", "references": [1,2,6,11,12,18,23]}],
+    "HIP 27989": [{"native": "Betelgeuse", "english": "贝特尔吉乌斯 Betelgeuse", "references": [1,2,6,11,12,13,18,22,23,37]}],
+    "HIP 68702": [{"native": "Hadar", "english": "哈达尔 Hadar", "references": [1,2,6,11,12,37]}],
+    "HIP 97649": [{"native": "Altair", "english": "阿尔泰尔 Altair", "references": [1,2,6,11,12,23,37]}],
+    "HIP 60718": [{"native": "Acrux", "english": "阿克鲁克斯 Acrux", "references": [1,2,6,11,12,23,37]}],
+    "HIP 21421": [{"native": "Aldebaran", "english": "阿尔德巴兰 Aldebaran", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 80763": [{"native": "Antares", "english": "安塔雷斯 Antares", "references": [1,2,6,11,12,13,18,23,37]}],
+    "HIP 65474": [{"native": "Spica", "english": "斯皮卡 Spica", "references": [1,2,6,11,12,18,23,37]}],
+    "HIP 37826": [{"native": "Pollux", "english": "波吕克斯 Pollux", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 113368": [{"native": "Fomalhaut", "english": "福马豪特 Fomalhaut", "references": [1,2,6,11,12,13,18,23]}],
+    "HIP 102098": [{"native": "Deneb", "english": "德内布 Deneb", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 62434": [{"native": "Mimosa", "english": "米莫萨 Mimosa", "references": [1,6,11,12,13]}],
+    "HIP 49669": [{"native": "Regulus", "english": "雷古勒斯 Regulus", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 33579": [{"native": "Adhara", "english": "阿达拉 Adhara", "references": [1,2,6,11,12,37]}],
+    "HIP 36850": [{"native": "Castor", "english": "卡斯托尔 Castor", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 85927": [{"native": "Shaula", "english": "夏乌拉 Shaula", "references": [1,2,6,11,12,18,23]}],
+    "HIP 61084": [{"native": "Gacrux", "english": "加克鲁克斯 Gacrux", "references": [1,6,11,12,37]}],
+    "HIP 25336": [{"native": "Bellatrix", "english": "贝拉特里克斯 Bellatrix", "references": [1,2,6,11,12,18,22,23,37]}],
+    "HIP 25428": [{"native": "Elnath", "english": "埃尔纳斯 Elnath", "references": [1,2,3,6,11,12]}],
+    "HIP 45238": [{"native": "Miaplacidus", "english": "米亚普拉西杜斯 Miaplacidus", "references": [1,6,11,12,23]}],
+    "HIP 26311": [{"native": "Alnilam", "english": "阿尔尼拉姆 Alnilam", "references": [1,2,6,11,12,18,23,37]}],
+    "HIP 68002": [{"native": "Alnair", "english": "阿尔奈尔 Alnair", "references": [1,11]}],
+    "HIP 26727": [{"native": "Alnitak", "english": "阿尔尼塔克 Alnitak", "references": [1,2,6,11,12,18,23,37]}],
+    "HIP 62956": [{"native": "Alioth", "english": "阿利奥斯 Alioth", "references": [1,2,6,11,12,18,23,37]}],
+    "HIP 54061": [{"native": "Dubhe", "english": "杜布赫 Dubhe", "references": [1,2,6,11,12,13,18,23,37]}],
+    "HIP 15863": [{"native": "Mirfak", "english": "米尔法克 Mirfak", "references": [1,2,6,11,12,18,23,37]}],
+    "HIP 34444": [{"native": "Wezen", "english": "韦曾 Wezen", "references": [1,2,6,11,12,13,23,37]}],
+    "HIP 39953": [{"native": "Regor", "english": "雷戈尔 Regor", "references": [1,11,13,37]}],
+    "HIP 86228": [{"native": "Sargas", "english": "萨尔加斯 Sargas", "references": [1,6,11,12,18]}],
+    "HIP 90185": [{"native": "Kaus Australis", "english": "考斯·奥斯特拉里斯 Kaus Australis", "references": [1,2,5,6,11,12,18,23]}],
+    "HIP 41037": [{"native": "Avior", "english": "阿维奥尔 Avior", "references": [1,6,11,12]}],
+    "HIP 67301": [{"native": "Alkaid", "english": "阿尔凯德 Alkaid", "references": [1,2,6,11,12,18]}],
+    "HIP 28360": [{"native": "Menkalinan", "english": "门卡利南 Menkalinan", "references": [1,2,6,11,12,23,37]}],
+    "HIP 82273": [{"native": "Atria", "english": "阿特里亚 Atria", "references": [1,6,11,12,18]}],
+    "HIP 31681": [{"native": "Alhena", "english": "阿尔赫纳 Alhena", "references": [1,2,6,11,12,23,37]}],
+    "HIP 100751": [{"native": "Peacock", "english": "皮科克(孔雀) Peacock", "references": [1,6,11,12,23]}],
+    "HIP 42913": [{"native": "Alsephina", "english": "阿尔塞菲纳 Alsephina", "references": [12]}],
+    "HIP 30324": [{"native": "Mirzam", "english": "米尔扎姆 Mirzam", "references": [1,2,6,11,12,23,37]}],
+    "HIP 11767": [{"native": "Polaris", "english": "波拉里斯 Polaris", "references": [1,2,6,11,12,13,18,23,37]}],
+    "HIP 46390": [{"native": "Alphard", "english": "阿尔法德 Alphard", "references": [1,2,6,11,12,13,37]}],
+    "HIP 9884": [{"native": "Hamal", "english": "哈马尔 Hamal", "references": [1,2,6,11,12,23]}],
+    "HIP 3419": [{"native": "Diphda", "english": "迪夫达 Diphda", "references": [1,2,5,6,11,12]}],
+
+    "NAME Venus": [{"native": "Venus", "english": "维纳斯 Venus"},
+                   {"native": "Vesper", "english": "昏星 Vesper", "visible": "evening"},
+                   {"native": "Lucifer", "english": "辰星 Lucifer", "visible": "morning"}],
+    "NAME Jupiter": [{"native": "Jupiter", "english": "朱庇特 Jupiter"}],
+    "NAME Mercury": [{"native": "Mercury", "english": "墨丘利 Mercury"}],
+    "NAME Mars": [{"native": "Mars", "english": "玛尔斯 Mars"}],
+    "NAME Saturn": [{"native": "Saturn", "english": "萨图恩 Saturn"}]
   }
 }
