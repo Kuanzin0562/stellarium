@@ -1,0 +1,61 @@
+{
+  "id": "oroqen",
+  "region": "Eastern Asia",
+  "classification": ["ethnographic"],
+  "fallback_to_international_names": false,
+  "constellations": [
+    {
+      "id": "CON oroqen Auran",
+      "lines": [[59774, 54061, 53910, 58001, 59774, 62956, 65378, 67301]],
+      "common_name": {"english": "Storehouse", "native": "Auran Aushokta / əwuluːn burkaːn", "IPA": "əwuluːn burkaːn"}
+    },
+    {
+      "id": "CON oroqen Shelkan-mori",
+      "lines": [[72607, 72607]],
+      "common_name": {"english": "Yellow Horse", "native": "Shelkan-mori Aushokta"}
+    },
+    {
+      "id": "CON oroqen Kollgo",
+      "lines": [[11767, 85822, 82080, 77055, 72607]],
+      "common_name": {"english": "Rein", "native": "Kollgo Aushokta"}
+    },
+    {
+      "id": "CON oroqen Altangatan",
+      "lines": [[11767, 11767]],
+      "common_name": {"english": "Heavenly Axis", "native": "Altangatan"}
+    },
+    {
+      "id": "CON oroqen Nadanuni",
+      "lines": [[17702, 17573, 17531, 17489, 17499, 17608, 17702, 17847]],
+      "common_name": {"english": "Seven Maidens", "native": "Nadanuni Aushokta"}
+    },
+    {
+      "id": "CON oroqen Anchunaida",
+      "lines": [[21421, 20894, 20205, 20455, 20648, 20889, 21421]],
+      "common_name": {"english": "Wild Boar", "native": "Anchunaida Aushokta"}
+    },
+    {
+      "id": "CON oroqen Borkka",
+      "lines": [[22797, 22549, 22449, 22509, 22845, 22957, 23607, 24010, 23879, 23123, 22797]],
+      "common_name": {"english": "Bow", "native": "Borkka Aushokta"}
+    },
+    {
+      "id": "CON oroqen Niyd",
+      "lines": [[21589, 23879]],
+      "common_name": {"english": "Arrow", "native": "Niyd Aushokta"}
+    },
+    {
+      "id": "CON oroqen Mangin",
+      "lines": [[26727, 26311, 25930, 25336, 26207, 27989, 26727, 27366, 24436, 25930], [26237, 26221, 26241]],
+      "common_name": {"english": "Monster", "native": "Mangin Aushokta"}
+    }
+  ],
+  "common_names": {
+    "HIP 11767": [{"english": "Heavenly Axis Star", "native": "Altangatan", "references": [1]}],
+    "HIP 72607": [{"english": "Yellow Horse Star", "native": "Shelkan-mori Aushokta", "references": [1]}],
+    "NAME Sun": [{"english": "Siwun", "native": "ɕiwun", "IPA": "ɕiwun", "references": [2]},
+                 {"english": "Dilqaa", "native": "dilt͡ʃaː", "IPA": "dilt͡ʃaː", "references": [2]}],
+    "NAME Moon": [{"english": "Beya", "native": "beja", "IPA": "beja", "references": [2]}],
+    "NAME Venus": [{"english": "Qolpoon", "native": "t͡ʃɔlpɔːn", "IPA": "t͡ʃɔlpɔːn", "references": [2]}]
+  }
+}
