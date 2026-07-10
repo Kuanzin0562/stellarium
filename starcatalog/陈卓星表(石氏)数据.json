@@ -195,5 +195,9 @@
             {"name": "*附耳", "mansion": "毕", "x": 9, "y": 72, "ecliptic_io": "外"},
             {"name": "北河中央星", "mansion": "井", "x": 17, "y": 55, "ecliptic_io": "内"}
         ]
+    },
+    {
+        "epoch": "J-102.0",
+        "use_epoch": true
     }
 ]
