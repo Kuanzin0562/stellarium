@@ -21,6 +21,7 @@
 #define VIEWDIALOG_HPP
 
 #include "StelDialog.hpp"
+#include "StelHips.hpp"
 
 #include <QObject>
 #include <QTimer>
@@ -114,8 +115,12 @@ private slots:
 	void clearHips();
 	void updateHips();
 	void updateHipsText();
+	void updateHipsControls();
 	void filterSurveys();
 	void hipsListItemChanged(QTreeWidgetItem* item);
+	void hipsDisplaySettingsChanged();
+	void resetSelectedHipsDisplaySettings();
+	void resetAllHipsDisplaySettings();
 	void populateHipsGroups();
 	void toggleHipsDialog();
 
@@ -127,6 +132,7 @@ private slots:
 	void onSkyCultureAnchorClicked(const QUrl& url);
 
 private:
+	HipsSurveyP currentSkyHips() const;
 	void updateSurveyFilteredState(QTreeWidgetItem& item, const QString& filterPattern) const;
 	void connectGroupBox(class QGroupBox* groupBox, const QString& actionId);
 	void updateSkyCultureText();
