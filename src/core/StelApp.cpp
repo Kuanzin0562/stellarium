@@ -518,8 +518,8 @@ void StelApp::init(QSettings* conf)
 
 	qInfo().noquote() << "Cache directory:" << QDir::toNativeSeparators(cachePath);
 	cache->setCacheDirectory(cachePath);
-	networkAccessManager->setCache(cache);	
-	connect(networkAccessManager, SIGNAL(finished(QNetworkReply*)), this, SLOT(reportFileDownloadFinished(QNetworkReply*)));
+	networkAccessManager->setCache(cache);
+	connect(networkAccessManager, &QNetworkAccessManager::finished, this, &StelApp::reportFileDownloadFinished);
 
 	// Proxy Initialisation
 	SplashScreen::showMessage(q_("Initializing network proxy..."));
@@ -555,12 +555,6 @@ void StelApp::init(QSettings* conf)
 	ssystem->init();
 	getModuleMgr().registerModule(ssystem);
 
-	// Init the nomenclature for Solar system bodies
-	SplashScreen::showMessage(q_("Initializing planetary nomenclature..."));
-	NomenclatureMgr* nomenclature = new NomenclatureMgr();
-	nomenclature->init();
-	getModuleMgr().registerModule(nomenclature);
-
 	// Load stars & their names
 	SplashScreen::showMessage(q_("Initializing stars..."));
 	StarMgr* hip_stars = new StarMgr();
@@ -569,6 +563,12 @@ void StelApp::init(QSettings* conf)
 
 	SplashScreen::showMessage(q_("Initializing core..."));
 	core->init();
+
+	// Init the nomenclature for Solar system bodies
+	SplashScreen::showMessage(q_("Initializing planetary nomenclature..."));
+	NomenclatureMgr* nomenclature = new NomenclatureMgr();
+	nomenclature->init();
+	getModuleMgr().registerModule(nomenclature);
 
 	// Init nebulas
 	SplashScreen::showMessage(q_("Initializing deep-sky objects..."));

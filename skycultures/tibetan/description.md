@@ -326,9 +326,9 @@ We have supplemented the Tibetan names with native script (Dung dkar Blo bzang '
 
 We would welcome input from native Tibetan speakers regarding the meanings of the Tibetan lunar mansion names. So far, we have been able to determine the semantics of only a few, for example མགོ (mgo, go) meaning "head." The Tibetan lunar stations are closely related to both the Indian Nakṣatras and the Chinese lunar mansion traditions, and they share some semantic parallels with both—yet they are not entirely identical to either, each displaying distinctive cultural characteristics. At present, the mansions are identified by their numerical designations; we hope to replace these with their actual semantic names in the future.
 
-Alternative identifications can be found in the old configuration files. We would welcome verification and corrections from experts in Tibetan astronomy, covering both the identification of the lunar mansions and the review of Tibetan script, transliteration, and IPA.
+Alternative figures can be found in the old configuration files. We would welcome verification and corrections from experts in Tibetan astronomy, covering both the identification of the lunar mansions and the review of Tibetan script, transliteration, and IPA.
 
-The *zodiac* and *gyukar* bands have been taken over from Indian tradition. The number of gyukars is given as 28. However, as noted above, the 27-mansion count is equally valid, provided Drozhin and Jizhin are merged. The link "Spica=180°" is also set here for both circles, but should be confirmed. 
+The *zodiac* and *gyukar* bands have been taken over from Indian tradition. The number of gyukars is given as 27. However, as noted above, the 28-mansion count is equally valid, provided Drozhin and Jizhin are separated. The link "Spica=180°" is also set here for both circles, but should be confirmed.
 
 #### Further reading
 
@@ -350,7 +350,7 @@ Editura Universit&#x103;&#x163;ii de Vest din Timi&#x15F;oara} (pages 123-136). 
 
 Georg Zotti on May 21, 2019, reworked July-October 2023. *Zodiac* and *Gyukars* added in V25.2. 
 
-Lyu Haocheng [lvhc2016@126.com](mailto:lvhc2016@126.com) supplemented the Tibetan names of the twelve zodiacal signs and the 28 lunar mansions with native script, transliteration, and IPA. Specialist review is still requested.
+Lyu Haocheng [lvhc2016@126.com](mailto:lvhc2016@126.com) supplemented the Tibetan names of the twelve zodiacal signs and the 28 (27) lunar mansions with native script, transliteration, and IPA. Specialist review is still requested.
 
 ## License
 
