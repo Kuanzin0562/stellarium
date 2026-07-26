@@ -24217,7 +24217,7 @@ msgstr "067"
 #. Korean constellation, native: 돈완(頓頑), pronounce: Donwan
 #. Modern (Chinese) asterism
 msgid "Trials"
-msgstr "Ensayos"
+msgstr "Juicios"
 
 #. Pronounce entry for Chinese constellation, native: 顿顽, English: Trials
 #. Chinese Manchu asterism, native: 顿顽, English: Trials
@@ -52170,7 +52170,7 @@ msgstr "Zīxī"
 #. Needs confirmation, then remove edges (edges_type=none)
 msgctxt "chinese lunar mansion"
 msgid "Eastern Well"
-msgstr "Pozo oriental"
+msgstr "Pozo Oriental"
 
 #. Pronounce entry for a zodiac sign or a lunar mansion in Chinese Chenzhuo
 #. Sky (3rd Century) sky culture, native: 東井, English: Eastern Well
