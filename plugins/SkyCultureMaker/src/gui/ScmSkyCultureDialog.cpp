@@ -148,6 +148,7 @@ void ScmSkyCultureDialog::createDialogContent()
 	connect(ui->ExportSkyCultureBtn, &QPushButton::clicked, this, &ScmSkyCultureDialog::saveSkyCulture);
 	connect(ui->AddConstellationBtn, &QPushButton::clicked, this, [this]() { openConstellationDialog(false); });
 	connect(ui->AddDarkConstellationBtn, &QPushButton::clicked, this, [this]() { openConstellationDialog(true); });
+	connect(ui->AddBoundaryBtn, &QPushButton::clicked, this, &ScmSkyCultureDialog::openBoundaryDialog);
 
 	connect(ui->EditConstellationBtn, &QPushButton::clicked, this, &ScmSkyCultureDialog::editSelectedConstellation);
 	connect(ui->constellationsList, &QListWidget::itemSelectionChanged, this,
@@ -469,6 +470,12 @@ void ScmSkyCultureDialog::openConstellationDialog(bool isDarkConstellation)
 	updateAddConstellationButtons(false);
 }
 
+void ScmSkyCultureDialog::openBoundaryDialog()
+{
+	maker->setDialogVisibility(scm::DialogID::BoundaryDialog, true);
+	updateAddConstellationButtons(false);
+}
+
 void ScmSkyCultureDialog::openConstellationDialog(const QString &constellationId)
 {
 	scm::ScmSkyCulture *skyCulture = maker->getCurrentSkyCulture();
@@ -504,6 +511,7 @@ void ScmSkyCultureDialog::updateAddConstellationButtons(bool enabled)
 	{
 		ui->AddConstellationBtn->setEnabled(enabled);
 		ui->AddDarkConstellationBtn->setEnabled(enabled);
+		ui->AddBoundaryBtn->setEnabled(enabled);
 	}
 }
 

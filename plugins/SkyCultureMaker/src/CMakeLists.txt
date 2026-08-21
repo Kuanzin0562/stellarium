@@ -16,6 +16,10 @@ SET( SkyCultureMaker_SRCS
      ScmConstellationArtwork.cpp
      ScmDraw.hpp
      ScmDraw.cpp
+     ScmBoundary.hpp
+     ScmBoundary.cpp
+     ScmBoundaryDraw.hpp
+     ScmBoundaryDraw.cpp
      ScmSkyCulture.hpp
      ScmSkyCulture.cpp
      SkyCultureMaker.hpp
@@ -35,6 +39,8 @@ SET( SkyCultureMaker_SRCS
      gui/ScmSkyCultureExportDialog.cpp
      gui/ScmStartDialog.hpp
      gui/ScmStartDialog.cpp
+     gui/ScmBoundaryDialog.hpp
+     gui/ScmBoundaryDialog.cpp
      gui/ScmGeoLocGraphicsView.hpp
      gui/ScmGeoLocGraphicsView.cpp
      gui/ScmPreviewPathItem.hpp
@@ -67,6 +73,7 @@ SET( SCM_UIS
      gui/scmSkyCultureDialog.ui
      gui/scmSkyCultureExportDialog.ui
      gui/scmStartDialog.ui
+     gui/ScmBoundaryDialogClass.ui
 )
 
 if(SCM_CONVERTER_ENABLED)

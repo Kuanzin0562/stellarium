@@ -170,6 +170,19 @@
               </property>
              </widget>
             </item>
+            <item row="2" column="0" colspan="2">
+             <widget class="QPushButton" name="AddBoundaryBtn">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Add Constellation Boundary</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item>

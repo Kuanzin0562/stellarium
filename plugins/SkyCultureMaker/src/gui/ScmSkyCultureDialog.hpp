@@ -88,6 +88,7 @@ private:
 private slots:
 	void saveSkyCulture();
 	void openConstellationDialog(bool isDarkConstellation);
+	void openBoundaryDialog();
 	void editSelectedConstellation();
 	void removeSelectedConstellation();
 	void updateEditConstellationButton();

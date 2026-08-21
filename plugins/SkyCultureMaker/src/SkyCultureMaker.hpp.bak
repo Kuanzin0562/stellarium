@@ -47,8 +47,6 @@ class ScmConstellationDialog;
 class ScmStartDialog;
 class ScmSkyCultureExportDialog;
 class ScmHideOrAbortMakerDialog;
-class ScmBoundaryDialog;
-namespace scm { class ScmBoundaryDraw; }
 
 class SkyCultureMaker : public StelModule
 {
@@ -249,9 +247,6 @@ public:
 	 * @param message The message to be displayed.
 	 */
 	void showUserErrorMessage(QWidget *parent, const QString &dialogName, const QString &message);
-
-	ScmBoundaryDialog *getBoundaryDialog() const;
-	scm::ScmBoundaryDraw *getBoundaryDraw() const;
 
 signals:
 	void eventIsScmEnabled(bool b);

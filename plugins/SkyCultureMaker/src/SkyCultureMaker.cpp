@@ -34,8 +34,10 @@
 #include "gui/ScmSkyCultureDialog.hpp"
 #include "gui/ScmSkyCultureExportDialog.hpp"
 #include "gui/ScmStartDialog.hpp"
+#include "gui/ScmBoundaryDialog.hpp"
 
 #include "ScmDraw.hpp"
+#include "ScmBoundaryDraw.hpp"
 #include <stdexcept>
 #include <QApplication>
 #include <QDebug>
@@ -79,7 +81,8 @@ SkyCultureMaker::SkyCultureMaker()
 		  {scm::DialogID::SkyCultureDialog,       new ScmSkyCultureDialog(this)      },
 		  {scm::DialogID::ConstellationDialog,    new ScmConstellationDialog(this)   },
 		  {scm::DialogID::SkyCultureExportDialog, new ScmSkyCultureExportDialog(this)},
-		  {scm::DialogID::HideOrAbortMakerDialog, new ScmHideOrAbortMakerDialog(this)}
+		  {scm::DialogID::HideOrAbortMakerDialog, new ScmHideOrAbortMakerDialog(this)},
+		  {scm::DialogID::BoundaryDialog,         new ScmBoundaryDialog(this)        }
 })
 {
 	qDebug() << "SkyCultureMaker constructed";
@@ -272,6 +275,18 @@ void SkyCultureMaker::stopScm()
 
 void SkyCultureMaker::draw(StelCore *core)
 {
+	// 绘制星座边界
+	ScmBoundaryDialog *boundaryDialog = getBoundaryDialog();
+	if (boundaryDialog && dialogMap.value(scm::DialogID::BoundaryDialog) && 
+	    dialogMap.value(scm::DialogID::BoundaryDialog)->visible())
+	{
+		scm::ScmBoundaryDraw *boundaryDraw = boundaryDialog->getBoundaryDraw();
+		if (boundaryDraw)
+		{
+			boundaryDraw->drawBoundary(core);
+		}
+	}
+
 	if (isLineDrawEnabled && drawObj != nullptr)
 	{
 		drawObj->drawLines(core);
@@ -290,6 +305,19 @@ void SkyCultureMaker::draw(StelCore *core)
 
 bool SkyCultureMaker::handleMouseMoves(int x, int y, Qt::MouseButtons b)
 {
+	// 处理星座边界绘制
+	ScmBoundaryDialog *boundaryDialog = getBoundaryDialog();
+	if (boundaryDialog && dialogMap.value(scm::DialogID::BoundaryDialog) && 
+	    dialogMap.value(scm::DialogID::BoundaryDialog)->visible())
+	{
+		scm::ScmBoundaryDraw *boundaryDraw = boundaryDialog->getBoundaryDraw();
+		if (boundaryDraw && boundaryDraw->handleMouseMoves(x, y, b))
+		{
+			return true;
+		}
+	}
+
+	// 处理星座线绘制
 	if (isLineDrawEnabled)
 	{
 		if (drawObj->handleMouseMoves(x, y, b))
@@ -303,6 +331,23 @@ bool SkyCultureMaker::handleMouseMoves(int x, int y, Qt::MouseButtons b)
 
 void SkyCultureMaker::handleMouseClicks(QMouseEvent *event)
 {
+	// 处理星座边界绘制
+	ScmBoundaryDialog *boundaryDialog = getBoundaryDialog();
+	if (boundaryDialog && dialogMap.value(scm::DialogID::BoundaryDialog) && 
+	    dialogMap.value(scm::DialogID::BoundaryDialog)->visible())
+	{
+		scm::ScmBoundaryDraw *boundaryDraw = boundaryDialog->getBoundaryDraw();
+		if (boundaryDraw)
+		{
+			boundaryDraw->handleMouseClicks(event);
+			if (event->isAccepted())
+			{
+				return;
+			}
+		}
+	}
+
+	// 处理星座线绘制
 	if (isLineDrawEnabled)
 	{
 		drawObj->handleMouseClicks(event);
@@ -540,4 +585,15 @@ void SkyCultureMaker::loadDialogFromConstellation(scm::ScmConstellation *constel
 		static_cast<ScmConstellationDialog *>(dialogMap[scm::DialogID::ConstellationDialog])
 			->loadFromConstellation(constellation);
 	}
+}
+
+ScmBoundaryDialog *SkyCultureMaker::getBoundaryDialog() const
+{
+    return qobject_cast<ScmBoundaryDialog*>(dialogMap.value(scm::DialogID::BoundaryDialog));
+}
+
+scm::ScmBoundaryDraw *SkyCultureMaker::getBoundaryDraw() const
+{
+    ScmBoundaryDialog *dialog = getBoundaryDialog();
+    return dialog ? dialog->getBoundaryDraw() : nullptr;
 }

@@ -33,7 +33,8 @@ enum class DialogID
 	SkyCultureDialog,
 	SkyCultureExportDialog,
 	HideOrAbortMakerDialog,
-	ConstellationDialog
+	ConstellationDialog,
+	BoundaryDialog
 };
 } // namespace scm
 
