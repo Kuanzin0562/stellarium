@@ -1942,7 +1942,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Full Bridge
 
-[**盈桥**](constellation:D09)8星，在[**化津**](constellation:D13)旁，银河岸，会舞合节氏近南极星。<br>
+[**盈桥**](constellation:D09)6星，在[**化津**](constellation:D13)旁，银河岸，会舞合节氏近南极星。<br>
 八星如桥，为渡海前最后一道桥梁，过桥即入[**绝南**](constellation:D40)之境。
 
 ##### Ferry Assistant
@@ -2048,7 +2048,7 @@ Basket for Mulberry Leaves (Chinese: 扶筐, Pinyin: Fú Kuāng) consists of 7 s
 
 ##### Sinking River
 
-[**沉河**](constellation:D30)10星，会舞合节氏近南极星。<br>
+[**沉河**](constellation:D30)9星，会舞合节氏近南极星。<br>
 十星曲流如九曲，为众水沉潜之河，通向归墟。
 
 ##### Stone Reef

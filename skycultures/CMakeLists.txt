@@ -56,6 +56,7 @@ ADD_SUBDIRECTORY( modern_journey_to_the_west )
 # Exclude from standard package
 # ADD_SUBDIRECTORY( modern_sternenkarten )
 ADD_SUBDIRECTORY( mongolian )
+ADD_SUBDIRECTORY( nakhi )
 ADD_SUBDIRECTORY( navajo )
 ADD_SUBDIRECTORY( norse )
 ADD_SUBDIRECTORY( norse_edda )

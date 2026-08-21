@@ -28,6 +28,18 @@
       "common_name": {"english": "Zaofu", "native": "造父", "pronounce": ""}
     },
     {
+      "id": "CON chinese_mdn 06C",
+      "lines1": [[85792, 86092, 87846, 89112, 88714, 85792]],
+      "lines": [[86486, 86092, 87846, 89112, 88714, 86486]],
+      "common_name": {"english": "Tortoise", "native": "龟", "pronounce": "Guī", "IPA": "kweɪ˥"}
+    },
+    {
+      "id": "CON chinese_mdn 08D",
+      "lines1": [[92953, 92608, 92226, 91989, 91875, 91901, 91918, 92989, 93174, 93825, 94114, 94160, 94005, 93542, 92953]],
+      "lines": [[94114, 93825, 93174, 92989, 91875, 90968, 90887, 90982, 91494, 92308, 92953, 93542, 94005, 94160, 94114]],
+      "common_name": {"english": "River Turtle", "native": "鳖", "pronounce": "Biē", "IPA": "pjɛ˥"}
+    },
+    {
       "id": "CON chinese_mdn 10E",
       "lines": [[100453, 97165, 99675, 102098, 103413, 104887, 105138, 104732, 102488, 100453]],
       "common_name": {"english": "Celestial Ford (bridge of magpies)", "native": "天津", "pronounce": "Tiān Jīn", "IPA": "tʰjɛn˥.t͡ɕin˥"}
@@ -41,6 +53,16 @@
       "id": "CON chinese_mdn 002",
       "lines": [[97278, 97649, 98036]],
       "common_name": {"english": "Cowherd", "native": "牛郎", "pronounce": "Tiān Jīn", "IPA": "tʰjɛn˥.t͡ɕin˥"}
+    },
+    {
+      "id": "CON chinese_mdn 08F",
+      "lines": [[87706, 88116, 89153, 89980, 89678, 88839, 88012, 87836, 87706]],
+      "common_name": {"english": "Celestial Keyhole", "native": "天籥", "pronounce": "Tiān Yuè", "IPA": "tʰjɛn˥.ɥɛ˥˩"}
+    },
+    {
+      "id": "CON chinese_mdn 08H",
+      "lines": [[97290, 96465, 95477, 95564, 97290]],
+      "common_name": {"english": "Territory of Dog", "native": "狗国", "pronounce": "Gǒu Guó", "IPA": "koʊ˨˩˩.kwo˧˥", "byname": "Northeastern Barbarian Tribes"}
     },
     {
       "id": "CON chinese_mdn 15A",

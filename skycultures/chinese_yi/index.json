@@ -309,6 +309,10 @@
     }
   ],
   "common_names": {
-    "NAME Sun": [{"english": "Sun", "native": "ꈧꌺ", "pronounce": "ggex sse"}]
+    "NAME Sun": [{"native": "ꈧ", "pronounce": "ggex"},
+                 {"native": "ꈧꌺ", "pronounce": "ggex sse"}],
+    "NAME Moon": [{"native": "ꆪ", "pronounce": "hlep"},
+                  {"native": "ꆪꌺ", "pronounce": "hlep sse"},
+                  {"native": "ꆧꁨ", "pronounce": "hlop bbop"}]
   }
 }
