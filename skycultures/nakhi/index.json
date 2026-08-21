@@ -1,0 +1,110 @@
+{
+  "id": "nakhi",
+  "region": "Eastern Asia",
+  "classification": ["ethnographic"],
+  "fallback_to_international_names": false,
+  "constellations": [
+    {
+      "id": "CON nakhi Kagu",
+      "lines": [[11767, 11767]],
+      "common_name": {"english": "Emperor", "IPA": "kʰɑ˧˩.kɯ˧˩"}
+    },
+    {
+      "id": "CON nakhi Sharho",
+      "lines": [[59774, 54061, 53910, 58001, 59774, 62956, 65378, 67301]],
+      "common_name": {"english": "Sharho", "IPA": "ʂʌr˧˧.ho˥˥ / ʂʌr˧˧.ho˥˥.kɯ˧˩.mɛ˧˧.hɛ˧˩ / ʂʌr˧˧.ho˥˥.kɯ˧˩.mæ˧˧.pʰur˧˩", "byname": "Sharho Seven Sisters / Seven Stars White Tail"}
+    },
+    {
+      "id": "CON nakhi Chwaca",
+      "lines": [[17608, 17573, 17531, 17499, 17608, 17702, 17847]],
+      "common_name": {"english": "Sixty", "IPA": "t͡ʂʰwa˥˥.t͡sʰʌ˧˩ / t͡ʂʰwa˥˥.t͡sʰʌ˧˩.kɯ˧˩.bv̩˧˩.zɯ˧˧", "byname": "Six Stars Brothers"}
+    },
+    {
+      "id": "CON nakhi Miahü",
+      "lines": [[21421, 21421]],
+      "common_name": {"english": "Red Eye", "IPA": "miʌ˧˩.hy˧˩"}
+    },
+    {
+      "id": "CON nakhi Suto",
+      "lines": [[25930, 26311, 26727]],
+      "common_name": {"english": "Three Stars", "IPA": "sɯ˧˧.tʰo˧˩ / sɯ˧˧.tʰo˧˩.kwɑ˧˧ / sɯ˧˧.tʰo˧˩.ŋgɑ˧˧.kɯ˧˩", "byname": "Horn of the Three Stars / Victory Stars"}
+    },
+    {
+      "id": "CON nakhi Sutola",
+      "lines": [[26237, 26221, 26241]],
+      "common_name": {"english": "Hand of the Three Stars", "IPA": "sɯ˧˧.tʰo˧˩.lɑ˧˩ / sɯ˧˧.tʰo˧˩.gv̩˧˧", "byname": "Body of the Three Stars"}
+    },
+    {
+      "id": "CON nakhi Gupurjjagv",
+      "lines": [[32349, 32349]],
+      "common_name": {"english": "White Star", "IPA": "kɯ˧˩.pʰur˧˩.d͡ʑʌ˧˩.kʰv̩˧˧"}
+    },
+    {
+      "id": "CON nakhi Gupurjjamae",
+      "lines": [[37279, 37279]],
+      "common_name": {"english": "Gupurjamae", "IPA": "kɯ˧˩.pʰur˧˩.d͡ʑʌ˧˩.mæ˧˧"}
+    },
+    {
+      "id": "CON nakhi Chvko",
+      "lines": [["DSO:M44", "DSO:M44"]],
+      "common_name": {"english": "Chvko", "IPA": "t͡ʂʰv̩˧˩.kʰo˧˧"}
+    },
+    {
+      "id": "CON nakhi Bboko",
+      "lines": [[49669, 49669]],
+      "common_name": {"english": "Boko", "IPA": "bo˧˩.kʰo˧˧"}
+    },
+    {
+      "id": "CON nakhi Bboma",
+      "lines": [[54872, 54879]],
+      "common_name": {"english": "Boma", "IPA": "bo˧˩.mɑ˥˥"}
+    },
+    {
+      "id": "CON nakhi Shwakwa",
+      "lines": [[57632, 57632]],
+      "common_name": {"english": "Shwakwa", "IPA": "ʂwɑ˧˩.kʰwɑ˧˩"}
+    },
+    {
+      "id": "CON nakhi Zzüddv",
+      "lines": [[80112, 80763, 81266]],
+      "common_name": {"english": "Liver of the Zü Stars", "IPA": "zy˧˩.dv̩˧˩"}
+    },
+    {
+      "id": "CON nakhi Bübbo",
+      "lines": [[97649, 97649]],
+      "common_name": {"english": "Bübo", "IPA": "py˧˧.bo˧˩"}
+    },
+    {
+      "id": "CON nakhi Ywamozegu",
+      "lines": [[101769, 101958, 102532, 102281, 101769]],
+      "common_name": {"english": "Ywamozegu (Horse)", "IPA": "ʐwɑ˧˧.mo˧˧.t͡sɛ˥˥.kɯ˧˩"}
+    },
+    {
+      "id": "CON nakhi Bako",
+      "lines": [[113963, 113881]],
+      "common_name": {"english": "Bako (Frog)", "IPA": "pɑ˧˧.kʰo˧˧"}
+    },
+    {
+      "id": "CON nakhi Babbü",
+      "lines": [[1067, 677]],
+      "common_name": {"english": "Babü (Frog)", "IPA": "pɑ˧˧.by˧˧"}
+    },
+    {
+      "id": "CON nakhi Nanggv",
+      "lines": [[8832, 8903, 9884]],
+      "common_name": {"english": "Poking a Black Dot with a Spear", "IPA": "nɑ˧˩.ŋgv̩˧˩"}
+    },
+    {
+      "id": "CON nakhi Tagu",
+      "lines": [[12719, 13061, 13209]],
+      "common_name": {"english": "Star Tail", "IPA": "tʰɑ˥˥.kɯ˧˩"}
+    }
+  ],
+  "common_names": {
+    "HIP 11767": [{"english": "Emperor", "IPA": "kʰɑ˧˩.kɯ˧˩"}],
+    "NAME Sun": [{"english": "Sun", "IPA": "ȵi˧˧.mɛ˧˧ / bi˧˧ / ȵi˧˧"}],
+    "NAME Moon": [{"english": "Moon", "IPA": "hɛ˧˧.mɛ˧˧ / lɛ˧˩"}],
+    "NAME Venus": [{"english": "Morning Star", "IPA": "so˧˧.kɯ˧˩", "visible": "morning"},
+                   {"english": "Evening Star", "IPA": "kʰv̩˥˥.kɯ˧˩", "visible": "evening"}]
+  }
+}
