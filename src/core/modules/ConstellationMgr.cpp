@@ -1978,14 +1978,23 @@ QString ConstellationMgr::getChineseLunarMansionCoordinate(Vec3d eqNow) const
 	QString eclMansionName = scMgr->createCulturalLabel(names.at(eclMansion), scMgr->getScreenLabelStyle(), QString());
 
 	// Format: "宿名 入宿度分数, 去极度分数, (宿名 十进制入宿度, 十进制去极度), 黄道入宿度 XX.XX°(宿名)"
-	return QString("%1 %2, %3, (%1 %4°, %5°), 黄道入宿度 %6°(%7), 黄纬 %8°").arg(mansionName,
+	// return QString("%1 %2, %3, (%1 %4°, %5°), 黄道入宿度 %6°(%7), 黄纬 %8°").arg(
+	// 	mansionName,
+	// 	entryDegreeFraction,
+	// 	polarDistanceFraction,
+	// 	QString::number(entryDegreeChinese, 'f', 2),
+	// 	QString::number(polarDistanceChinese, 'f', 2),
+	// 	QString::number(eclEntryDegree, 'f', 2),
+	// 	eclMansionName,
+	// 	QString::number(betaDeg, 'f', 2)
+	// );
+	return QString("%1 %2, %3, (%1 %4°, %5°)").arg(
+		mansionName,
 		entryDegreeFraction,
 		polarDistanceFraction,
 		QString::number(entryDegreeChinese, 'f', 2),
-		QString::number(polarDistanceChinese, 'f', 2),
-		QString::number(eclEntryDegree, 'f', 2),
-		eclMansionName,
-		QString::number(betaDeg, 'f', 2));
+		QString::number(polarDistanceChinese, 'f', 2)
+	);
 }
 
 StelObjectP ConstellationMgr::searchByNameI18n(const QString& nameI18n) const
